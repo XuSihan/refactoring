@@ -1,0 +1,46 @@
+public method: onCreate
+private method: createCellSignalTable
+public method: onCreate
+private method: createOpenCellIDTable
+public method: onCreate
+private method: createDefaultMCCTable
+public method: onCreate
+private method: createLocationTable
+public method: onCreate
+private method: createSilentSmsTable
+public method: onCreate
+private method: createCellTable
+public method: onCreate
+private method: createEventLogTable
+public method: loadKeys
+private method: convertPemKeyPair
+protected method: formBuffer
+protected method: resolveFormEncoding
+private method: showStatus
+private method: showStatus
+protected method: getLivenessProbe
+protected method: getProbe
+public method: onSubscribe
+protected method: failedSubscribe
+protected method: wrapMenuBar
+protected method: setMaxHeight
+public method: fetch
+private method: fetch
+line 32 has no before hash!
+public method: AnnotationMetadataSourceProcessorImpl
+private method: categorizeAnnotatedClass
+protected method: doXContent
+protected method: buildFQuery
+line 44 has no before hash!
+private method: processIDENT
+private method: processField
+public method: values
+public method: values
+public method: addPredicatedHandler
+public method: addPredicatedHandler
+private method: updateInstanceRemoteStatus
+protected method: onRemoteStatusChanged
+There are 2 repos that have no before hash!
+There are 7 cases that have no before hash!
+There are 16 repos at all
+There are 20 cases at all

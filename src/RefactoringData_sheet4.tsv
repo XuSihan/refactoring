@@ -1,0 +1,361 @@
+Git Repo	Before Hash	After Hash	Extracted From Method Name	Extracted To Method Name	FQ Class Name
+https://github.com/crate/crate.git		d5f10a4958f5e870680be906689d92d1efb42480			
+			public add(column String, type DataType, path List&lt;String&gt;, columnPolicy ColumnPolicy, indexType IndexType, partitionBy boolean) : Builder	public add(info ReferenceInfo, partitionBy boolean) : Builder	io.crate.metadata.table.TestingTableInfo.Builder
+					
+https://github.com/google/truth.git	61fbc31cc4e8d4efe8fc836ec21897796b9d6074	200f1577d238a6d3fbcf99cb2a2585b2071214a6			
+			public isPartiallyOrdered(comparator Comparator&lt;? super T&gt;) : void	public isOrdered(comparator Comparator&lt;? super T&gt;) : void	com.google.common.truth.IterableSubject
+			public isPartiallyOrdered() : void	public isOrdered() : void	com.google.common.truth.IterableSubject
+					
+https://github.com/wildfly/wildfly.git		c0f8a7f2b4341601df63c5470f41f157dbd83781			
+			public main(args String[]) : void	private standaloneCollect(cli CLI, protocol String, host String, port int) : void	org.jboss.as.jdr.CommandLineMain
+					
+https://github.com/CyanogenMod/android_frameworks_base.git		4587c32ab8a1c8e2169e4f93491a8c927216a6ab			
+			public start() : void	private startAsync() : void	com.android.systemui.usb.StorageNotification
+					
+https://github.com/apache/drill.git	0a27a033a349ba164e29d818a6ae73c41c0cd4bb	b2bbd9941be6b132a83d27c0ae02c935e1dec5dd			
+			public allocateNew(valueCount int) : void	private allocateBytes(size long) : void	public allocateNewSafe() : boolean
+			public allocateNew(valueCount int) : void	private allocateBytes(size long) : void	public allocateNewSafe() : boolean
+					
+https://github.com/google/j2objc.git	106fede36fce8d4f121448d5e67027f9d80594d3	fa3e6fa02dadc675f0d487a15cd842b3ac4a0c11			
+			private rewriteBoxedPrefixOrPostfix(node TreeNode, operand Expression, funcName String) : void	private getOperatorFunctionModifier(expr Expression) : String	com.google.devtools.j2objc.translate.Autoboxer
+					
+https://github.com/spring-projects/spring-framework.git	3c2efeece40951f0775252a640165a51d71b47e6	ef0eb01f93d6c485cf37692fd193833a6821272a			
+			protected checkAndPrepare(request HttpServletRequest, response HttpServletResponse, cacheControl CacheControl) : void	protected checkRequest(request HttpServletRequest) : void	org.springframework.web.servlet.support.WebContentGenerator
+					
+https://github.com/apache/hive.git		b8d2140fe4faccadcf1a6343ec8cd0cc58c315f9			
+			private joinFinalLeftData() : void	private doFirstFetchIfNeeded() : void	public process(row Object, tag int) : void
+					
+https://github.com/nutzam/nutz.git	82bd112bbebcc6f3333747cbfcc3248bba0dc38a	de7efe40dad0f4bb900c4fffa80ed377745532b3			
+			public migration(dao Dao, klass Class&lt;?&gt;, add boolean, del boolean) : void	public migration(dao Dao, klass Class&lt;?&gt;, add boolean, del boolean, tableName Object) : void	org.nutz.dao.util.Daos
+					
+https://github.com/amplab/tachyon.git	ac647aa2dce36ea65c546cd4e661e2bb3ba7dc2e	b0938501f1014cf663e33b44ed5bb9b24d19a358			
+			public disableLocalWriteTest() : void	private getBlockOutStream(filename String, isLocalWrite boolean) : BlockOutStream	public enableLocalWriteTest() : void
+					
+https://github.com/orfjackal/retrolambda.git	6f49e176cdd98e3e372219a5a659590fff0048a0	46b0d84de9c309bca48a99e572e6611693ed5236			
+			public save(bytecode byte[]) : void	public saveResource(relativePath Path, content byte[]) : void	net.orfjackal.retrolambda.files.ClassSaver
+					
+https://github.com/JetBrains/MPS.git	0a3533a7d3c45e3f76688679411c8196011fb05c	7b5622d41537315710b6fd57b2739a3a64698375			
+			private stringToPath(pathString String) : TreePath	private getTreePath(components List&lt;String&gt;, escapePathSep boolean) : TreePath	jetbrains.mps.ide.ui.tree.MPSTree
+					
+https://github.com/facebook/facebook-android-sdk.git	dcb746a7b2785bc91ed1ad703762dd0e53579eb1	19d1936c3b07d97d88646aeae30de747715e3248			
+			private handleResultOk(request Request, data Intent) : Result	private getErrorMessage(extras Bundle) : String	com.facebook.login.KatanaProxyLoginMethodHandler
+			public sdkInitialize(applicationContext Context, callbackRequestCodeOffset int) : void	public sdkInitialize(applicationContext Context, callbackRequestCodeOffset int, callback InitializeCallback) : void	com.facebook.FacebookSdk
+			public sdkInitialize(applicationContext Context) : void	public sdkInitialize(applicationContext Context, callback InitializeCallback) : void	com.facebook.FacebookSdk
+			private handleResultOk(request Request, data Intent) : Result	private getError(extras Bundle) : String	com.facebook.login.KatanaProxyLoginMethodHandler
+					
+https://github.com/WhisperSystems/TextSecure.git	69e1252f7fe8a77955b142303ef40433a6738db3	f0b2cc559026871c1b4d8e008666afb590553004			
+			public getMarkAsReadIntent(context Context, masterSecret MasterSecret) : PendingIntent	private craftIntent(context Context, intentAction String, extras Bundle) : PendingIntent	org.thoughtcrime.securesms.notifications.NotificationState
+					
+https://github.com/bitcoinj/bitcoinj.git	748f7a53e04ac21e126940b8a022dbb024c32d0f	95bfa40630e34f6f369e0055d9f37f49bca60247			
+			public getUTXOs(outPoints List&lt;TransactionOutPoint&gt;) : ListenableFuture&lt;UTXOsMessage&gt;	public getUTXOs(outPoints List&lt;TransactionOutPoint&gt;, includeMempool boolean) : ListenableFuture&lt;UTXOsMessage&gt;	org.bitcoinj.core.Peer
+					
+https://github.com/WhisperSystems/TextSecure.git	13eed3baa72ed601edf60b276c376051c3193456	c4a37e38aba926c2bef27e4fc00e3a4848ce46bd			
+			public setMedia(slide Slide) : void	public setMedia(slide Slide, masterSecret MasterSecret) : void	org.thoughtcrime.securesms.mms.AttachmentManager
+					
+https://github.com/apache/hive.git	fcc45db48ba0ad22a520ce5ec75e615d40a8c277	f664789737d516ac664462732664121acc111a1e			
+			private dumpEnvironent() : String	private dumpConfig(conf Configuration, sb StringBuilder) : void	org.apache.hive.hcatalog.templeton.AppConfig
+					
+https://github.com/amplab/tachyon.git	eb3fc26c9f79edd6398f544e7736ea7b4d8b5185	9aeefcd8120bb3b89cdb437d8c32d2ed84b8a825			
+			public allocateBlock(userId long, blockId long, blockSize long, location BlockStoreLocation) : TempBlockMeta	private getCandidateDirInTier(tier StorageTier, blockSize long) : StorageDir	tachyon.worker.block.allocator.MaxFreeAllocator
+					
+https://github.com/crate/crate.git		563d281b61e9f8748858e911eaa810e981f1e953			
+			private getRoutingCol() : ColumnIdent	private getCustomRoutingCol() : ColumnIdent	io.crate.metadata.doc.DocIndexMetaData
+					
+https://github.com/siacs/Conversations.git		bdc9f9a44f337ab595a3570833dc6a0558df904c			
+			private getIdentityKeyCursor(account Account, name String, own boolean) : Cursor	private getIdentityKeyCursor(account Account, name String, own boolean, fingerprint String) : Cursor	eu.siacs.conversations.persistance.DatabaseBackend
+					
+https://github.com/openhab/openhab.git	32f4a9840d921a3a2a75548c8306b8bcff393432	cf1efb6d27a4037cdbe5a780afa6053859a60d4a			
+			private initializeSciptGlobals() : void	private initializeGeneralGlobals() : void	org.openhab.core.jsr223.internal.engine.scriptmanager.Script
+			private initializeSciptGlobals() : void	private initializeNashornGlobals() : void	org.openhab.core.jsr223.internal.engine.scriptmanager.Script
+					
+https://github.com/spotify/helios.git		da39bfeb9c370abe2d86e6e327fade252434090d			
+			package run(options Namespace, client HeliosClient, out PrintStream, json boolean, stdin BufferedReader) : int	package run0(client HeliosClient, out PrintStream, json boolean, name String, full boolean) : int	com.spotify.helios.cli.command.DeploymentGroupStatusCommand
+					
+https://github.com/CyanogenMod/android_frameworks_base.git		910397f2390d6821a006991ed6035c76cbc74897			
+			private queryProperty(id int) : long	private queryProperty(id int, fromDock boolean) : long	android.os.BatteryManager
+			private loadBoltPoints(res Resources) : float[]	protected getBoltPointsArrayResource() : int	com.android.systemui.BatteryMeterView.NormalBatteryMeterDrawable
+			public storeStatsHistoryInFile(fname String) : void	public internalStoreStatsHistoryInFile(stats BatteryStats, fname String) : void	com.android.internal.os.BatteryStatsHelper
+					
+https://github.com/thymeleaf/thymeleaf.git	dd0f7a9afb120039574cadb8224124a1fb7ef571	aed371dac5e1248880e869930c636994c3d0f8dc			
+			public read(cbuf char[], off int, len int) : int	private fillUpOverflow() : void	org.thymeleaf.templateparser.markup.ThymeleafMarkupTemplateReader
+			public read(cbuf char[], off int, len int) : int	private processReadBuffer(buffer char[], off int, len int) : int	org.thymeleaf.templateparser.markup.ThymeleafMarkupTemplateReader
+					
+https://github.com/HubSpot/Singularity.git	9d9dc5d6acb24be184ab65fb23f35194aca2c789	944aea445051891280a8ab7fbbd514c19646f1ab			
+			protected launchTask(request SingularityRequest, deploy SingularityDeploy, launchTime long, instanceNo int, initialTaskState TaskState) : SingularityTask	protected launchTask(request SingularityRequest, deploy SingularityDeploy, launchTime long, updateTime long, instanceNo int, initialTaskState TaskState) : SingularityTask	com.hubspot.singularity.SingularitySchedulerTestBase
+					
+https://github.com/google/auto.git		8fc60d81fe0e46e7e5c96e71d4a93fcadc6bde4f			
+			public process(annotations Set&lt;? extends TypeElement&gt;, roundEnv RoundEnvironment) : boolean	private deferredElements() : ImmutableMap&lt;String,Optional&lt;? extends Element&gt;&gt;	com.google.auto.common.BasicAnnotationProcessor
+			public process(annotations Set&lt;? extends TypeElement&gt;, roundEnv RoundEnvironment) : boolean	private validElements(deferredElements ImmutableMap&lt;String,Optional&lt;? extends Element&gt;&gt;, roundEnv RoundEnvironment) : ImmutableSetMultimap&lt;Class&lt;? extends Annotation&gt;,Element&gt;	com.google.auto.common.BasicAnnotationProcessor
+			public process(annotations Set&lt;? extends TypeElement&gt;, roundEnv RoundEnvironment) : boolean	private process(validElements ImmutableSetMultimap&lt;Class&lt;? extends Annotation&gt;,Element&gt;) : void	com.google.auto.common.BasicAnnotationProcessor
+					
+https://github.com/google/auto.git		8967e7c33c59e1336e1e3b4671293ced5697fca6			
+			public testMissingClass() : void	private doTestMissingClass(tempDir File) : void	com.google.auto.value.processor.AutoAnnotationCompilationTest
+					
+https://github.com/thymeleaf/thymeleaf.git	aed371dac5e1248880e869930c636994c3d0f8dc	378ba37750a9cb1b19a6db434dfa59308f721ea6			
+			public read(cbuf char[], off int, len int) : int	private matchOverflow(structure char[]) : boolean	org.thymeleaf.templateparser.reader.BlockAwareReader
+					
+https://github.com/apache/camel.git		cb0935e3af05b333b5c85a4fb3b1846836218f11			
+			private createAndInitScheduler() : void	private storeCamelContextInQuartzContext() : SchedulerContext	org.apache.camel.component.quartz2.QuartzComponent
+					
+https://github.com/spotify/helios.git		dd8753cfb0f67db4dde6c5254e2df3104b635dae			
+			public getDeploymentGroup(name String) : DeploymentGroup	private getDeploymentGroup(client ZooKeeperClient, name String) : DeploymentGroup	com.spotify.helios.master.ZooKeeperMasterModel
+					
+https://github.com/CyanogenMod/android_frameworks_base.git		76331570e68446c17e4ff5287f5b7b2b6b472895			
+			public clearFailedUnlockAttempts() : void	public clearFailedUnlockAttempts(clearFingers boolean) : void	com.android.keyguard.KeyguardUpdateMonitor
+					
+https://github.com/github/android.git	0eadf8f3d17c931915ead3516474714a2e3237ce	a7401e5091c06c68fae499ea1972b40143c66fa9			
+			protected onNewIntent(intent Intent) : void	private onUserLoggedIn(uri Uri) : void	com.github.mobile.accounts.LoginActivity
+					
+https://github.com/hazelcast/hazelcast.git	3654f17a7c6409b885d445a5affc15c99380d3c8	679d38d4316c16ccba4982d7f3ba13c147a451cb			
+			protected getInternal(key K, expiryPolicy ExpiryPolicy, async boolean) : Object	protected getFromNearCache(keyData Data, async boolean) : Object	com.hazelcast.client.cache.impl.AbstractClientCacheProxy
+					
+https://github.com/SimonVT/schematic.git	47e53bd7fb23a6cc0b3b7a18773009b319080124	c1a9dd63aca8bf488f9a671aa6281538540397f8			
+			public write(filer Filer) : void	private printNotifyInsert(writer JavaWriter, uri UriContract) : void	net.simonvt.schematic.compiler.ContentProviderWriter
+					
+https://github.com/neo4j/neo4j.git	d4ad22691694abf9b4105fd43f9c9993b7c2909b	5fa74fbb4a307571e3807c1201b8b05d3d60a99b			
+			public shouldCreateEmptyCountsTrackerStoreWhenCreatingDatabase() : void	private createCountsTracker(pageCache PageCache) : CountsTracker	org.neo4j.kernel.impl.store.counts.CountsRotationTest
+			public shouldCreateACountStoreWhenDBContainsDenseNodes() : void	private createCountsTracker() : CountsTracker	org.neo4j.kernel.impl.store.counts.CountsComputerTest
+					
+https://github.com/jline/jline2.git	6857f48be15d2256986ec05e4a9b9ac799fd0af3	80d3ffb5aafa90992385c17e8338c2cc5def3cec			
+			public readCharacter() : int	public readCharacter(checkForAltKeyCombo boolean) : int	jline.console.ConsoleReader
+			public readCharacter(allowed char[]) : int	public readCharacter(checkForAltKeyCombo boolean, allowed char[]) : int	jline.console.ConsoleReader
+					
+https://github.com/BroadleafCommerce/BroadleafCommerce.git	32e65da670994983fccb5d642a9e2df45e195b28	9687048f76519fc89b4151cbe2841bbba61a401d			
+			protected getBlankDynamicFieldTemplateForm(info DynamicEntityFormInfo, dynamicFormOverride EntityForm) : EntityForm	protected getEntityForm(info DynamicEntityFormInfo, dynamicFormOverride EntityForm) : EntityForm	org.broadleafcommerce.openadmin.web.controller.AdminAbstractController
+					
+https://github.com/Netflix/feign.git		b2b4085348de32f10903970dded99fdf0376a43c			
+			public parseAndValidatateMetadata(method Method) : MethodMetadata	protected parseAndValidateMetadata(targetType Class&lt;?&gt;, method Method) : MethodMetadata	feign.Contract.BaseContract
+			public parseAndValidatateMetadata(method Method) : MethodMetadata	private headersFromAnnotation(targetType Class&lt;?&gt;, data MethodMetadata) : void	feign.Contract.Default
+			public configKey(method Method) : String	public configKey(targetType Class, method Method) : String	feign.Feign
+					
+https://github.com/structr/structr.git	c4d9d3ed64d28ab0656937d96f2d1d538eceb9c7	15afd616cba5fb3d432d11a6de0d4f7805b202db			
+			public execute(query String, parameters Map&lt;String,Object&gt;, includeHiddenAndDeleted boolean, publicOnly boolean) : List&lt;GraphObject&gt;	package handleObject(nodeFactory NodeFactory, relFactory RelationshipFactory, key String, value Object, includeHiddenAndDeleted boolean, publicOnly boolean, level int) : Object	org.structr.core.graph.CypherQueryCommand
+					
+https://github.com/hazelcast/hazelcast.git	6bc75d057a6d285457f2b038c2269127212721ea	76d7f5e3fe4eb41b383c1d884bc1217b9fa7192e			
+			private createAddresses(count int) : Address[]	protected createAddress(host String, port int) : Address	com.hazelcast.test.TestHazelcastInstanceFactory
+			public start() : void	protected startSelectors() : void	com.hazelcast.client.connection.nio.ClientConnectionManagerImpl
+			public ClientConnectionManagerImpl(client HazelcastClientInstanceImpl, addressTranslator AddressTranslator)	protected initializeSelectors(client HazelcastClientInstanceImpl) : void	com.hazelcast.client.connection.nio.ClientConnectionManagerImpl
+			public shutdown() : void	protected shutdownSelectors() : void	com.hazelcast.client.connection.nio.ClientConnectionManagerImpl
+					
+https://github.com/geometer/FBReaderJ.git		42e0649f82779ecd48bff6448924fc7dc2534554			
+			public topLevelNodes() : List&lt;MenuNode&gt;	private allTopLevelNodes() : List&lt;MenuNode&gt;	org.geometerplus.android.fbreader.MenuData
+					
+https://github.com/spring-projects/spring-security.git	3db01bd9d652dfc2580e1a29f311c9311d0f3e13	64938ebcfc2fc8cd9ccd6cf31dbcd8cdd0660aca			
+			public createExpressionMessageMetadataSource(matcherToExpression LinkedHashMap&lt;MessageMatcher&lt;?&gt;,String&gt;) : MessageSecurityMetadataSource	public createExpressionMessageMetadataSource(matcherToExpression LinkedHashMap&lt;MessageMatcher&lt;?&gt;,String&gt;, handler SecurityExpressionHandler&lt;Message&lt;Object&gt;&gt;) : MessageSecurityMetadataSource	org.springframework.security.messaging.access.expression.ExpressionBasedMessageSecurityMetadataSourceFactory
+					
+https://github.com/plutext/docx4j.git	4b4b0babb11891427a8123771350d46417bb5dd4	e29924b33ec0c0298ba4fc3f7a8c218c8e6cfa0c			
+			public save(outStream OutputStream, flags int) : void	public save(outStream OutputStream, flags int, password String) : void	org.docx4j.openpackaging.packages.OpcPackage
+			public save(outFile File, flags int) : void	public save(outFile File, flags int, password String) : void	public save(outStream OutputStream, flags int) : void
+					
+https://github.com/wordpress-mobile/WordPress-Android.git	d399bdbc99fd88ae40c5349d37b638ea87aef384	1b21ba4bcea986988d4bbd578e3bb9a20ec69606			
+			public onPreferenceChange(preference Preference, newValue Object) : boolean	private privacyStringForValue(value int) : String	org.wordpress.android.ui.prefs.SiteSettingsFragment
+					
+https://github.com/robovm/robovm.git	75a8f88492cc4ce9099baf0fa499a31df28e0484	7837d0baf1aef45340eec699516a8c3a22aeb553			
+			protected prepareLaunch(appDir File) : void	private signFrameworks(appDir File, getTaskAllow boolean) : void	org.robovm.compiler.target.ios.IOSTarget
+					
+https://github.com/droolsjbpm/drools.git	869a002cae63a4e8ab52ec7f2d15d5a2cfbe0c02	7ffc62aa554f5884064b81ee80078e35e3833006			
+			public addInterceptor(interceptor Interceptor) : void	protected addInterceptor(interceptor Interceptor, store boolean) : void	org.drools.persistence.SingleSessionCommandService
+					
+https://github.com/Activiti/Activiti.git	f4dcc5ed3996e029ace1826bd6308c84668255eb	a70ca1d9ad2ea07b19c5e1f9540c809d7a12d3fb			
+			protected flushInserts() : void	protected flushPersistentObjects(persistentObjectClass Class&lt;? extends PersistentObject&gt;, persistentObjectsToInsert List&lt;PersistentObject&gt;) : void	org.activiti.engine.impl.db.DbSqlSession
+					
+https://github.com/facebook/buck.git	51857b8af723b153da75c55aafacf834b909371c	8184a32a019b2ed956e8f24c18cb49a266af47bf			
+			private generateCopyFilesBuildPhases(target PBXNativeTarget, copiedNodes Iterable&lt;TargetNode&lt;?&gt;&gt;) : void	private generateSingleCopyFilesBuildPhase(target PBXNativeTarget, destinationSpec CopyFilePhaseDestinationSpec, targetNodes Iterable&lt;TargetNode&lt;?&gt;&gt;) : void	com.facebook.buck.apple.ProjectGenerator
+					
+https://github.com/apache/hive.git	90a2cf9e87b22d9f568701dc53c8f8ffbe520fdb	999e0e3616525d77cf46c5865f9981b5a6b5609a			
+			private hepPlan(basePlan RelNode, followPlanChanges boolean, mdProvider RelMetadataProvider, rules RelOptRule[]) : RelNode	private hepPlan(basePlan RelNode, followPlanChanges boolean, mdProvider RelMetadataProvider, order HepMatchOrder, rules RelOptRule[]) : RelNode	org.apache.hadoop.hive.ql.parse.CalcitePlanner.CalcitePlannerAction
+					
+https://github.com/AdoptOpenJDK/jitwatch.git	43be46f47d3c47e8086f08e706139485dc61e61c	3b1f4e56fea289860b31ef83ccfe96a3a003cc8b			
+			public visitTag(tag Tag, parseDictionary IParseDictionary) : void	private visitTagParse(tag Tag, parseDictionary IParseDictionary) : void	org.adoptopenjdk.jitwatch.model.bytecode.BytecodeAnnotationBuilder
+			public visitTag(tag Tag, parseDictionary IParseDictionary) : void	private visitTagEliminateAllocation(tag Tag, parseDictionary IParseDictionary) : void	org.adoptopenjdk.jitwatch.model.bytecode.BytecodeAnnotationBuilder
+					
+https://github.com/facebook/buck.git	f302ef7a02e7d853d29508feb1a00c35c45901ec	52cfd39ecba349c4d8e2c46eac76ed4d75b7ebae			
+			private createSymLinkIosSdks(root Path, version String) : void	private createSymLinkSdks(sdks Iterable&lt;String&gt;, root Path, version String) : void	com.facebook.buck.apple.AppleSdkDiscoveryTest
+					
+https://github.com/vaadin/vaadin.git	3b05685493d17e89404025e3cdd81d47e511b0ce	0f9d0b0bf1cd5fb58f47f22bd6d52a9fac31c530			
+			private updateFrozenColumns() : void	private getVisibleFrozenColumnCount() : int	com.vaadin.client.widgets.Grid
+			protected setup(request VaadinRequest) : void	protected createGrid(container PersonContainer) : Grid	com.vaadin.tests.components.grid.GridEditorUI
+					
+https://github.com/jMonkeyEngine/jmonkeyengine.git	e33d2539edbac1adebe0bf34b318f2d1bde2ae4c	5989711f7315abe4c3da0f1516a3eb3a81da6716			
+			public mouseDragged(e MouseEvent) : void	protected movePanel(xoffset int, yoffset int) : void	com.jme3.gde.materialdefinition.editor.DraggablePanel
+			public mousePressed(e MouseEvent) : void	protected saveLocation() : void	com.jme3.gde.materialdefinition.editor.DraggablePanel
+					
+https://github.com/facebook/presto.git	8aec1e05c72d4775e83e24c5817b58c38ab8c472	8b1f5ce432bd6f579c646705d79ff0c4690495ae			
+			public readBlockAndCheckIndex(array Slice, index long) : Block	public checkArrayIndex(index long) : void	com.facebook.presto.operator.scalar.ArraySubscriptOperator
+					
+https://github.com/hazelcast/hazelcast.git	806a0e14fdf0c60ee9407fdbd7c8eb5e462211a0	30c4ae09745d6062077925a54f27205b7401d8df			
+			public toString() : String	private renderConnection() : void	com.hazelcast.internal.monitors.HealthMonitor.HealthMetrics
+			public toString() : String	private renderThread() : void	com.hazelcast.internal.monitors.HealthMonitor.HealthMetrics
+			public toString() : String	private renderOperationService() : void	com.hazelcast.internal.monitors.HealthMonitor.HealthMetrics
+			public toString() : String	private renderEvents() : void	com.hazelcast.internal.monitors.HealthMonitor.HealthMetrics
+			public toString() : String	private renderNativeMemory() : void	com.hazelcast.internal.monitors.HealthMonitor.HealthMetrics
+			public toString() : String	private renderHeap() : void	com.hazelcast.internal.monitors.HealthMonitor.HealthMetrics
+			public toString() : String	private renderClient() : void	com.hazelcast.internal.monitors.HealthMonitor.HealthMetrics
+			public toString() : String	private renderPhysicalMemory() : void	com.hazelcast.internal.monitors.HealthMonitor.HealthMetrics
+			public toString() : String	private renderProcessors() : void	com.hazelcast.internal.monitors.HealthMonitor.HealthMetrics
+			public close(t Throwable) : void	package getConnectionAddress() : Object	com.hazelcast.nio.tcp.TcpIpConnection
+			public toString() : String	private renderSwap() : void	com.hazelcast.internal.monitors.HealthMonitor.HealthMetrics
+			public toString() : String	private renderCluster() : void	com.hazelcast.internal.monitors.HealthMonitor.HealthMetrics
+			public toString() : String	private renderExecutors() : void	com.hazelcast.internal.monitors.HealthMonitor.HealthMetrics
+			public toString() : String	private renderProxy() : void	com.hazelcast.internal.monitors.HealthMonitor.HealthMetrics
+			public toString() : String	private renderGc() : void	com.hazelcast.internal.monitors.HealthMonitor.HealthMetrics
+					
+https://github.com/jersey/jersey.git	246dd20713a3bcb6337adea9c743dfc143ef311c	d57b1401f874f96a53f1ec1c0f8a6089ae66a4ce			
+			public testParamValidatedResourceNoParam() : void	public _testParamValidatedResourceNoParam(target WebTarget) : void	org.glassfish.jersey.tests.cdi.bv.BaseValidationTest
+			public testParamValidatedResourceParamProvided() : void	public _testParamValidatedResourceParamProvided(target WebTarget) : void	org.glassfish.jersey.tests.cdi.bv.BaseValidationTest
+			public testPropertyValidatedResourceParamProvided() : void	public _testPropertyValidatedResourceParamProvided(target WebTarget) : void	org.glassfish.jersey.tests.cdi.bv.BaseValidationTest
+			public testOldFashionedResourceNoParam() : void	public _testOldFashionedResourceNoParam(target WebTarget) : void	org.glassfish.jersey.tests.cdi.bv.BaseValidationTest
+			public testPropertyValidatedResourceNoParam() : void	public _testPropertyValidatedResourceNoParam(target WebTarget) : void	org.glassfish.jersey.tests.cdi.bv.BaseValidationTest
+			public testFieldValidatedResourceNoParam() : void	public _testFieldValidatedResourceNoParam(target WebTarget) : void	org.glassfish.jersey.tests.cdi.bv.BaseValidationTest
+			public testOldFashionedResourceParamProvided() : void	public _testOldFashionedResourceParamProvided(target WebTarget) : void	org.glassfish.jersey.tests.cdi.bv.BaseValidationTest
+			public testFieldValidatedResourceParamProvided() : void	public _testFieldValidatedResourceParamProvided(target WebTarget) : void	org.glassfish.jersey.tests.cdi.bv.BaseValidationTest
+					
+https://github.com/Graylog2/graylog2-server.git	ff8e537040cd113cc69ac185355f3cd0021cc7ef	2d98ae165ea43e9a1ac6a905d6094f077abb2e55			
+			private processMessage(raw RawMessage) : Message	private postProcessMessage(raw RawMessage, codec Codec, inputIdOnCurrentNode String, baseMetricName String, message Message, decodeTime long) : Message	org.graylog2.shared.buffers.processors.DecodingProcessor
+			public onEvent(event MessageEvent) : void	private dispatchMessage(msg Message) : void	org.graylog2.shared.buffers.processors.ProcessBufferProcessor
+					
+https://github.com/cgeo/cgeo.git	96dd88caab8c6797026596245cbd6ac10b0342dc	c142b8ca3e9f9467931987ee16805cf53e6bc5d2			
+			public testCanHandle() : void	private getWaymarkingConnector() : IConnector	public testGetGeocodeFromUrl() : void
+					
+https://github.com/netty/netty.git		9f422ed0f44516bea8116ed7730203e4eb316252			
+			public windowUpdateAndFlushShouldTriggerWrite() : void	private resetCtx() : void	io.netty.handler.codec.http2.DefaultHttp2RemoteFlowControllerTest
+			public setup() : void	private initConnectionAndController() : void	io.netty.handler.codec.http2.DefaultHttp2RemoteFlowControllerTest
+					
+https://github.com/liferay/liferay-plugins.git		d99695841fa675ea9150602b1132f037093e867d			
+			protected remoteRender(renderRequest RenderRequest, renderResponse RenderResponse) : void	protected getGetOAuthRequest(portletRequest PortletRequest, portletResponse PortletResponse) : OAuthRequest	com.liferay.marketplace.store.portlet.RemoteMVCPortlet
+					
+https://github.com/plutext/docx4j.git	af07c4061cd3bd0e6c9d579b4d4303441a3a4d07	59b8e89e61432d1d8f25cb003b62b3ac004d1b6f			
+			public setEnforcementEditValue(editValue STDocProtect, password String, hashAlgo HashAlgorithm) : void	private setProtectionPassword(password String, hashAlgo HashAlgorithm) : void	org.docx4j.openpackaging.parts.WordprocessingML.DocumentSettingsPart
+					
+https://github.com/datastax/java-driver.git		14abb6919a99a0d6d500198dd2e30c83b1bb6709			
+			public prepare(manager MappingManager, ps PreparedStatement) : void	private validateParameters() : void	com.datastax.driver.mapping.MethodMapper
+					
+https://github.com/BuildCraft/BuildCraft.git	4234e28cb543e2829e61302993cc1260875d6b32	a5cdd8c4b10a738cb44819d7cc2fee5f5965d4a0			
+			private getOrderFromRequestingStation(station DockingStation, take boolean) : StackRequest	private getAvailableRequests(station DockingStation) : Collection&lt;StackRequest&gt;	buildcraft.robotics.ai.AIRobotSearchStackRequest
+					
+https://github.com/apache/camel.git	65f9a3ab349c4b1b0545da33b3ccbee523f93880	ab1d1dd78fe53edb50c4ede447e4ac5a55ee2ac9			
+			public createExchange(message Message, endpoint Endpoint) : Exchange	public createExchange(message Message, endpoint Endpoint, keyFormatStrategy KeyFormatStrategy) : Exchange	org.apache.camel.component.sjms.jms.JmsMessageHelper
+					
+https://github.com/xetorthio/jedis.git		d4b4aecbc69bbd04ba87c4e32a52cff3d129906a			
+			public getNumActive() : int	private poolInactive() : boolean	redis.clients.util.Pool
+					
+https://github.com/neo4j/neo4j.git	4f1a76b776d4a218bcdbc4a78c2d0a0d1736ed72	dc199688d69416da58b370ca2aa728e935fc8e0d			
+			private getIndexUpdatesForPrefix(descriptor IndexDescriptor, prefix String) : ReadableDiffSets&lt;Long&gt;	private getSortedIndexUpdates(descriptor IndexDescriptor) : TreeMap&lt;DefinedProperty,DiffSets&lt;Long&gt;&gt;	org.neo4j.kernel.impl.api.state.TxState
+					
+https://github.com/apache/camel.git	7aa3b59dd7718a47c0f5e4417419b28772ba067b	14a7dd79148f9306dcd2f748b56fd6550e9406ab			
+			public prepareDataFormat(log Log, project MavenProject, projectHelper MavenProjectHelper, dataFormatOutDir File, schemaOutDir File, buildContext BuildContext) : void	private readClassFromCamelResource(file File, buffer StringBuilder, buildContext BuildContext) : String	org.apache.camel.maven.packaging.PackageDataFormatMojo
+			public prepareLanguage(log Log, project MavenProject, projectHelper MavenProjectHelper, languageOutDir File, schemaOutDir File, buildContext BuildContext) : void	private readClassFromCamelResource(file File, buffer StringBuilder, buildContext BuildContext) : String	org.apache.camel.maven.packaging.PackageLanguageMojo
+					
+https://github.com/siacs/Conversations.git	504ef0b72ebd951e3f3f493435fb96713a2b4efe	e6cb12dfe414497b4317820497985c110cb81864			
+			public getItemViewType(position int) : int	public getItemViewType(message Message) : int	eu.siacs.conversations.ui.adapter.MessageAdapter
+					
+https://github.com/spotify/helios.git		3ffd70929c08be5cf14f156189e8050969caa87e			
+			private rollingUpdateAwaitRunning(deploymentGroup DeploymentGroup, host String) : RollingUpdateTaskResult	private isRolloutTimedOut(deploymentGroup DeploymentGroup, client ZooKeeperClient) : boolean	com.spotify.helios.master.ZooKeeperMasterModel
+					
+https://github.com/apache/cassandra.git	ece5cfc66dfd4a0591b735e85190d18b35d6d37b	b70f7ea0ce27b5defa0a7773d448732364e7aee0			
+			public getSnapshotDetails() : Map&lt;String,Pair&lt;Long,Long&gt;&gt;	private listSnapshots() : List&lt;File&gt;	org.apache.cassandra.db.Directories
+					
+https://github.com/apache/hive.git	2240dbd6dfddf3f14fb1538bb765833b3fdea898	c53c6f45988db869d56abe3b1d831ff775f4fa73			
+			package deserializeStatsForOneColumn(partitionColumnStats ColumnStatistics, bytes byte[]) : ColumnStatisticsObj	private statsForOneColumnFromProtoBuf(partitionColumnStats ColumnStatistics, proto ColumnStats) : ColumnStatisticsObj	org.apache.hadoop.hive.metastore.hbase.HBaseUtils
+			package serializeStatsForOneColumn(partitionColumnStats ColumnStatistics, colStats ColumnStatisticsObj) : byte[]	private protoBufStatsForOneColumn(partitionColumnStats ColumnStatistics, colStats ColumnStatisticsObj) : ColumnStats	org.apache.hadoop.hive.metastore.hbase.HBaseUtils
+					
+https://github.com/apache/cassandra.git	019471a567ca7f42930a952fa279fc96bb0b01a0	2b0a8f6bdac621badabcb9921c077260f2470c26			
+			public deleteRow(metadata CFMetaData, timestamp long, key Object, clusteringValues Object[]) : Mutation	public deleteRowAt(metadata CFMetaData, timestamp long, localDeletionTime int, key Object, clusteringValues Object[]) : Mutation	org.apache.cassandra.db.RowUpdateBuilder
+					
+https://github.com/dropwizard/metrics.git		4c6ab3d77cc67c7a91155d884077520dcf1509c6			
+			public report(gauges SortedMap&lt;String,Gauge&gt;, counters SortedMap&lt;String,Counter&gt;, histograms SortedMap&lt;String,Histogram&gt;, meters SortedMap&lt;String,Meter&gt;, timers SortedMap&lt;String,Timer&gt;) : void	private closeGraphiteConnection() : void	com.codahale.metrics.graphite.GraphiteReporter
+					
+https://github.com/gradle/gradle.git	0c23263b8ad04af82ea1c367a268a6ee81256e5d	681dc6346ce3cf5be5c5985faad120a18949cee0			
+			public select(targetPlatform NativePlatformInternal) : PlatformToolProvider	private createPlatformToolProvider(targetPlatform NativePlatformInternal) : PlatformToolProvider	org.gradle.nativeplatform.toolchain.internal.gcc.AbstractGccCompatibleToolChain
+					
+https://github.com/apache/cassandra.git	48fc0b8d0d8b371a9e88cab3f62389c613c2cffd	5790b4a44ba85e7e8ece64613d9e6a1b737a6cde			
+			protected compose(protocolVersion int, argIndex int, value ByteBuffer) : Object	protected compose(argDataTypes DataType[], protocolVersion int, argIndex int, value ByteBuffer) : Object	org.apache.cassandra.cql3.functions.UDFunction
+			protected decompose(protocolVersion int, value Object) : ByteBuffer	protected decompose(dataType DataType, protocolVersion int, value Object) : ByteBuffer	org.apache.cassandra.cql3.functions.UDFunction
+					
+https://github.com/facebook/buck.git	12ad69599ff382b0ce37bd4df6e976727d24468c	a1525ac9a0bb8f727167a8be94c81a3415128ef4			
+			private getAllPaths(workingDir Optional&lt;Path&gt;) : ImmutableBiMap&lt;Path,Path&gt;	private getAllPathsWork(workingDir Path) : ImmutableBiMap&lt;Path,Path&gt;	com.facebook.buck.cxx.DebugPathSanitizer
+					
+https://github.com/facebook/buck.git	9a858bacb49fd8ff2ad5efeb0360d9f38832fcab	db024f5ec3e9611ddf8103bdc4c3817c704f7b27			
+			public runWithoutHelp(params CommandRunnerParams) : int	public getTargetsAndDependencies(params CommandRunnerParams, argumentsFormattedAsBuildTargets List&lt;String&gt;, showTransitive boolean, showTests boolean, enableProfiling boolean) : Multimap&lt;BuildTarget,BuildTarget&gt;	com.facebook.buck.cli.AuditDependenciesCommand
+					
+https://github.com/JetBrains/intellij-plugins.git	f00ae0b3227b20f33abe87c19cc049c351551b49	0df7cb00757fe0d4fac8d8b0d5fc46af95feb238			
+			private getElementForNavigationTarget(project Project, target PluginNavigationTarget) : PsiElement	public findPsiFile(project Project, path String) : PsiFile	com.jetbrains.lang.dart.resolve.DartResolver
+					
+https://github.com/google/guava.git	26342f6fe1f8b629a2ce1bdb3ef872f84a7e960a	31fc19200207ccadc45328037d8a2a62b617c029			
+			public tryParse(string String) : Long	public tryParse(string String, radix int) : Long	com.google.common.primitives.Longs
+					
+https://github.com/apache/hive.git	5acf458c449bd2464076c243150760797ae57092	92e98858e742bbb669ccbf790a71a618c581df21			
+			public use(ctx Use_stmtContext) : Integer	public use(ctx ParserRuleContext, sql String) : Integer	org.apache.hive.hplsql.Stmt
+					
+https://github.com/apache/cassandra.git	b09e60f72bb2f37235d9e9190c25db36371b3c18	573a1d115b86abbe3fb53ff930464d7d8fd95600			
+			public incrementDroppedMessages(verb Verb) : void	public incrementDroppedMessages(verb Verb, isCrossNodeTimeout boolean) : void	org.apache.cassandra.net.MessagingService
+			private logDroppedMessages() : void	package getDroppedMessagesLogs() : List&lt;String&gt;	org.apache.cassandra.net.MessagingService
+					
+https://github.com/checkstyle/checkstyle.git	eb6de977b5ae1d23f975ea4739f4c67d5f70b786	2f7481ee4e20ae785298c31ec2f979752dd7eb03			
+			public visitToken(ast DetailAST) : void	private checkInterfaceModifiers(ast DetailAST) : void	com.puppycrawl.tools.checkstyle.checks.modifier.RedundantModifierCheck
+					
+https://github.com/neo4j/neo4j.git	5d73d6f87a7e5df53447a26c515ca5632466d374	021d17c8234904dcb1d54596662352395927fe7b			
+			private deleteNode1(node long, prop1 DefinedProperty, prop2 DefinedProperty, prop3 DefinedProperty) : void	private assertHasRelationships(node long) : void	private deleteNode2(node long, prop1 DefinedProperty, prop2 DefinedProperty, prop3 DefinedProperty) : void
+					
+https://github.com/skylot/jadx.git	f549a0691e6c7e74d23e376b80075128f4b0c32a	2d8d4164830631d3125575f055b417c5addaa22f			
+			public getDefinitionPosition(line int, offset int) : CodePosition	public getJavaNodeAtPosition(line int, offset int) : JavaNode	jadx.api.JavaClass
+			public getDefinitionPosition(line int, offset int) : CodePosition	public getDefinitionPosition(javaNode JavaNode) : CodePosition	jadx.api.JavaClass
+					
+https://github.com/wildfly/wildfly.git	3d00d06eec1d1a63686113850f62b1e783bb12e9	d7675fb0b19d3d22978e79954f441eeefd74a3b2			
+			protected handleDeploymentDescriptor(deploymentUnit DeploymentUnit, deploymentReflectionIndex DeploymentReflectionIndex, componentClass Class&lt;?&gt;, componentDescription EJBComponentDescription) : void	private handleExcludeMethods(componentDescription EJBComponentDescription, excludeList ExcludeListMetaData) : void	org.jboss.as.ejb3.deployment.processors.merging.MethodPermissionsMergingProcessor
+			protected handleDeploymentDescriptor(deploymentUnit DeploymentUnit, deploymentReflectionIndex DeploymentReflectionIndex, componentClass Class&lt;?&gt;, componentDescription EJBComponentDescription) : void	private handleMethodPermissions(componentDescription EJBComponentDescription, methodPermissions MethodPermissionsMetaData) : void	org.jboss.as.ejb3.deployment.processors.merging.MethodPermissionsMergingProcessor
+					
+https://github.com/openhab/openhab.git	a15c67c630f6357d661020e643c257154c1accdd	f25fa3ae35e4a60a2b7f79a88f14d46ce6cebf55			
+			public parameters() : Collection&lt;Object[]	private initTimeMap() : Map&lt;String,Integer&gt;	org.openhab.core.library.types.DateTimeTypeTest
+					
+https://github.com/selendroid/selendroid.git	065bb47b6cbbfcc3f267ae3c1997db8c58c276e3	e4a309c160285708f917ea23238573da3b677f7f			
+			public takeScreenshot() : byte[]	protected toByteArray(image BufferedImage) : byte[]	io.selendroid.standalone.android.impl.AbstractDevice
+					
+https://github.com/jOOQ/jOOQ.git	d8c44c7f579fbc393cb88acf7ea18a6ac52d66ed	227254cf769f3e821ed1b2ef2d88c4ec6b20adea			
+			public formatCSV(stream OutputStream) : void	public formatCSV(stream OutputStream, header boolean) : void	org.jooq.impl.ResultImpl
+			public formatCSV(writer Writer) : void	public formatCSV(writer Writer, header boolean) : void	org.jooq.impl.ResultImpl
+			public formatCSV() : String	public formatCSV(header boolean) : String	org.jooq.impl.ResultImpl
+			public formatCSV(delimiter char, nullString String) : String	public formatCSV(header boolean, delimiter char, nullString String) : String	org.jooq.impl.ResultImpl
+			public formatCSV(delimiter char) : String	public formatCSV(header boolean, delimiter char) : String	org.jooq.impl.ResultImpl
+			public formatCSV(writer Writer, delimiter char) : void	public formatCSV(writer Writer, header boolean, delimiter char) : void	org.jooq.impl.ResultImpl
+			public formatCSV(stream OutputStream, delimiter char, nullString String) : void	public formatCSV(stream OutputStream, header boolean, delimiter char, nullString String) : void	org.jooq.impl.ResultImpl
+			public formatCSV(writer Writer, delimiter char, nullString String) : void	public formatCSV(writer Writer, header boolean, delimiter char, nullString String) : void	org.jooq.impl.ResultImpl
+					
+https://github.com/apache/hive.git		4ccc0c37aabbd90ecaa36fcc491e2270e7e9bea6			
+			package setTableInfo(thatTableInfo HCatTableInfo) : void	private restoreLocalInfoFromTableInfo() : void	private writeObject(oos ObjectOutputStream) : void
+			private writeObject(oos ObjectOutputStream) : void	private dedupWithTableInfo() : void	org.apache.hive.hcatalog.mapreduce.PartInfo
+					
+https://github.com/VoltDB/voltdb.git		c1359c843bd03a694f846c8140e24ed646bbb913			
+			public testBasicCreateIndex() : void	private createSchema(config Configuration, ddl String, sitesPerHost int, hostCount int, replication int) : void	public testCreateDropIndexonView() : void
+					
+https://github.com/google/closure-compiler.git	fda7ab0b014acca69c4b921ae31fe32c2d3f89a2	545a7d027b4c55c116dc52d9cd8121fbb09777f0			
+			public isSubtype(that JSType) : boolean	protected isSubtype(that JSType, implicitImplCache ImplCache) : boolean	com.google.javascript.rhino.jstype.NoResolvedType
+			public isSubtype(that JSType) : boolean	protected isSubtype(that JSType, implicitImplCache ImplCache) : boolean	com.google.javascript.rhino.jstype.UnionType
+			public isSubtype(that JSType) : boolean	protected isSubtype(that JSType, implicitImplCache ImplCache) : boolean	com.google.javascript.rhino.jstype.RecordType
+			public isSubtype(that JSType) : boolean	protected isSubtype(that JSType, implicitImplCache ImplCache) : boolean	com.google.javascript.rhino.jstype.TemplatizedType
+			public isSubtype(that JSType) : boolean	protected isSubtype(that JSType, implicitImplCache ImplCache) : boolean	com.google.javascript.rhino.jstype.PrototypeObjectType
+			public isSubtype(that JSType) : boolean	protected isSubtype(that JSType, implicitImplCache ImplCache) : boolean	com.google.javascript.rhino.jstype.FunctionType
+			public isSubtype(that JSType) : boolean	protected isSubtype(that JSType, implicitImplCache ImplCache) : boolean	com.google.javascript.rhino.jstype.ProxyObjectType
+			public isSubtype(that JSType) : boolean	protected isSubtype(that JSType, implicitImplCache ImplCache) : boolean	com.google.javascript.rhino.jstype.EnumElementType
+			public isSubtype(that JSType) : boolean	protected isSubtype(that JSType, implicitImplCache ImplCache) : boolean	com.google.javascript.rhino.jstype.NoType
+			public isSubtype(that JSType) : boolean	protected isSubtype(that JSType, implicitImplCache ImplCache) : boolean	com.google.javascript.rhino.jstype.NoObjectType
+			public isSubtype(that JSType) : boolean	protected isSubtype(that JSType, implicitImplCache ImplCache) : boolean	com.google.javascript.rhino.jstype.UnknownType
+			package isSubtype(typeA ObjectType, typeB RecordType) : boolean	package isSubtype(typeA ObjectType, typeB RecordType, implicitImplCache ImplCache) : boolean	com.google.javascript.rhino.jstype.RecordType
+			public isSubtype(that JSType) : boolean	protected isSubtype(that JSType, implicitImplCache ImplCache) : boolean	com.google.javascript.rhino.jstype.EnumType
+			public isSubtype(other JSType) : boolean	protected isSubtype(other JSType, implicitImplCache ImplCache) : boolean	com.google.javascript.rhino.jstype.ArrowType
+					
+https://github.com/hazelcast/hazelcast.git	bef95d303c1a0eb13a4eef30ebe1511724c1d4b2	204bf49cba03fe5d581a35ff82dd22587a681f46			
+			private testWaitNotifyService_whenNodeSplitFromCluster(action SplitAction) : void	private createConfig() : Config	private testWaitingInvocations_whenNodeSplitFromCluster(splitAction SplitAction) : void
+					
+https://github.com/hazelcast/hazelcast.git	e7806dd017f3c56b4970f86c06b8ef5f90f3fd50	e84e96ff5c2bdc48cea7f75fd794506159c4e1f7			
+			public generateCodec(methodElement ExecutableElement, lang Lang) : void	private createCodecModel(methodElement ExecutableElement, lang Lang) : CodecModel	com.hazelcast.client.protocol.generator.CodecCodeGenerator
+					
+https://github.com/bitcoinj/bitcoinj.git	16a5e1d64b604930d25490504bcc2a60218816c2	12602650ce99f34cb530fc24266c23e39733b0bb			
+			private makeMessage(command String, length int, payloadBytes byte[], hash byte[], checksum byte[]) : Message	public makeInventoryMessage(payloadBytes byte[], length int) : InventoryMessage	org.bitcoinj.core.BitcoinSerializer
+			private makeMessage(command String, length int, payloadBytes byte[], hash byte[], checksum byte[]) : Message	public makeAddressMessage(payloadBytes byte[], length int) : AddressMessage	org.bitcoinj.core.BitcoinSerializer
+			protected parseTransactions() : void	protected parseTransactions(transactionsOffset int) : void	org.bitcoinj.core.Block
+			private makeMessage(command String, length int, payloadBytes byte[], hash byte[], checksum byte[]) : Message	public makeTransaction(payloadBytes byte[], offset int, length int, hash byte[]) : Transaction	org.bitcoinj.core.BitcoinSerializer
+			private makeMessage(command String, length int, payloadBytes byte[], hash byte[], checksum byte[]) : Message	public makeBlock(payloadBytes byte[], length int) : Block	org.bitcoinj.core.BitcoinSerializer
+					
+https://github.com/alibaba/druid.git	29d0889d86932436934343677840c6f7fd7f053a	87f3f8144b7a6cb57b6e21cd3753d09ecde0d88f			
+			public visit(x SQLJoinTableSource) : boolean	protected printJoinType(joinType JoinType) : void	com.alibaba.druid.sql.visitor.SQLASTOutputVisitor

@@ -1,0 +1,130 @@
+Git Repo	Before Hash	After Hash	Extracted From Method Name	Extracted To Method Name	FQ Class Name
+https://github.com/clojure/clojure.git	838302612551ef6a50a8adbdb9708cb1362b0898	309c03055b06525c275b278542c881019424760e			
+			public InvokeExpr(source String, line int, column int, tag Symbol, fexpr Expr, args IPersistentVector, tailPosition boolean)	package sigTag(argcount int, v Var) : Object	clojure.lang.Compiler.InvokeExpr
+					
+https://github.com/osmandapp/Osmand.git	c4fe5ab88a60d28b2d8375aaff3ea1e969fc703d	e95aa8ab32a0334b9c941799060fd601297d05e4			
+			public onListItemClick(l ListView, v View, position int, id long) : void	public showItemPopupOptionsMenu(point FavouritePoint, activity Activity, view View) : void	net.osmand.plus.activities.FavoritesListFragment
+			public onChildClick(parent ExpandableListView, v View, groupPosition int, childPosition int, id long) : boolean	public showItemPopupOptionsMenu(point FavouritePoint, view View) : void	net.osmand.plus.activities.FavoritesTreeFragment
+					
+https://github.com/facebook/buck.git	70d676bfd901f71458646670b57ecacf67a4ab0c	ecd0ad5ab99b8d14f28881cf4f49ec01f2221776			
+			public createPreprocessBuildRule(resolver BuildRuleResolver, name String, source CxxSource, pic PicType) : CxxPreprocessAndCompile	private computeRuleFlags(source CxxSource) : ImmutableList&lt;String&gt;	com.facebook.buck.cxx.CxxSourceRuleFactory
+			public createPreprocessAndCompileBuildRule(resolver BuildRuleResolver, name String, source CxxSource, pic PicType, strategy CxxPreprocessMode) : CxxPreprocessAndCompile	private computePlatformCompilerFlags(pic PicType, source CxxSource) : ImmutableList&lt;String&gt;	com.facebook.buck.cxx.CxxSourceRuleFactory
+			public createPreprocessBuildRule(resolver BuildRuleResolver, name String, source CxxSource, pic PicType) : CxxPreprocessAndCompile	private computePlatformFlags(pic PicType, source CxxSource) : ImmutableList&lt;String&gt;	com.facebook.buck.cxx.CxxSourceRuleFactory
+			public createPreprocessAndCompileBuildRule(resolver BuildRuleResolver, name String, source CxxSource, pic PicType, strategy CxxPreprocessMode) : CxxPreprocessAndCompile	private computeRuleCompilerFlags(source CxxSource) : ImmutableList&lt;String&gt;	com.facebook.buck.cxx.CxxSourceRuleFactory
+					
+https://github.com/ReactiveX/RxJava.git	2423a17b5c3e5917a1960ffea8f5ecb11ac373a6	8ad226067434cd39ce493b336bd0659778625959			
+			private blockForSingle(observable Observable&lt;? extends T&gt;) : T	private awaitForComplete(latch CountDownLatch, subscription Subscription) : void	public forEach(onNext Action1&lt;? super T&gt;) : void
+					
+https://github.com/apache/cassandra.git	38ff10d3dc1dd991f7c483cd58e391b6a70ed081	3bdcaa336a6e6a9727c333b433bb9f5d3afc0fb1			
+			public truncateBlocking() : void	public dumpMemtable() : void	org.apache.cassandra.db.ColumnFamilyStore
+					
+https://github.com/netty/netty.git		9d347ffb91f34933edb7b1124f6b70c3fc52e220			
+			public append(c char) : AppendableCharSequence	private expand() : void	io.netty.util.internal.AppendableCharSequence
+					
+https://github.com/restlet/restlet-framework-java.git		7ffe37983e2f09637b0c84d526a2f824de652de4			
+			private fillRepresentations(swagger Swagger, contract Contract) : void	private fillRepresentation(model Model, name String, contract Contract) : void	org.restlet.ext.apispark.internal.conversion.swagger.v2_0.Swagger2Reader
+					
+https://github.com/JetBrains/MPS.git	53b3837ca462ad4895dfa46e577b2e6a34a63d12	ce4b0e22659c16ae83d421f9621fd3e922750764			
+			public rename(newName String) : void	protected renameModels(oldName String, newName String) : void	jetbrains.mps.project.AbstractModule
+					
+https://github.com/VoltDB/voltdb.git		deb8e5ca64fcf633edbd89523af472da813b6772			
+			private fillTable(client Client, tbl String) : void	private getNormalValue(r Random, magnitude double, min long, max long) : long	org.voltdb.regressionsuites.TestApproxCountDistinctSuite
+					
+https://github.com/brettwooldridge/HikariCP.git	a4d1156d08dd89f4ea14d258b3b15b84b5880dac	e19c6874431dc2c3046436c2ac249a0ab2ef3457			
+			public close() : void	private closeOpenStatements() : void	com.zaxxer.hikari.proxy.ConnectionProxy
+					
+https://github.com/jOOQ/jOOQ.git	a2fdbe0714bbd55ea03b556ff682f407d3416658	58a4e74d28073e7c6f15d1f225ac1c2fd9aa4357			
+			public from(from Object) : U	private millis(temporal Temporal) : long	org.jooq.tools.Convert.ConvertAll
+					
+https://github.com/facebook/buck.git	b23999fd32b13ddb93620863b4674388c7f15d16	6c93f15f502f39dff99ecb01b56dcad7dddb0f0d			
+			public addIntResourceIfNotPresent(rType RType, name String) : void	package getEnumerator(rType RType) : ResourceIdEnumerator	com.facebook.buck.android.aapt.AaptResourceCollector
+					
+https://github.com/apache/hive.git	724b31930718eea606dfe6d95eda7385209caa5f	0fa45e4a562fc2586b1ef06a88e9c186a0835316			
+			public doImport() : void	private setupObjectStore(rdbms RawStore, roles String[], dbNames String[], tokenIds String[], tokens String[], masterKeys String[], now int) : void	org.apache.hadoop.hive.metastore.hbase.TestHBaseImport
+			private copyFunctions() : void	private copyOneFunction(dbName String, funcName String) : void	org.apache.hadoop.hive.metastore.hbase.HBaseImport
+					
+https://github.com/JetBrains/intellij-plugins.git	5c424f1ca02ac0693fd19f56a87a325ffa6e12a8	83b3092c1ee11b70489732f9e69b8e01c2a966f0			
+			private logError(methodName String, filePath String, error RequestError) : void	private getShortErrorMessage(methodName String, filePath String, error RequestError) : String	com.jetbrains.lang.dart.analyzer.DartAnalysisServerService
+					
+https://github.com/gwtproject/gwt.git	631b34975a124dd1f5536de3894299c466936f87	892d1760c8e4c76c369cd5ec1eaed215d3a22c8a			
+			public startRow() : TableRowBuilder	public startRow(rowValue T) : TableRowBuilder	com.google.gwt.user.cellview.client.AbstractCellTableBuilder
+					
+https://github.com/VoltDB/voltdb.git		d47e58f9bbce9a816378e8a7930c1de67a864c29			
+			public callProcedure(ic ImportContext, proc String, fieldList Object) : boolean	public callProcedure(ic ImportContext, procCallback ProcedureCallback, proc String, fieldList Object) : boolean	org.voltdb.ImportHandler
+					
+https://github.com/raphw/byte-buddy.git	ee127167a55559cc10965984b16fe03496fd4dea	fd000ca2e78fce2f8aa11e6a81e4f23c2f1348e6			
+			public invokeSuper(methodToken Token) : SpecialMethodInvocation	private invokeMethod(methodToken Token) : SpecialMethodInvocation	net.bytebuddy.dynamic.scaffold.subclass.SubclassImplementationTarget
+					
+https://github.com/processing/processing.git	3e6fdf7bdec7488e42c6b1c53b7a5bc54bdb79df	f36b736cf1206dd1af794d6fb4cee967a3553b1f			
+			private createFBOLayer() : void	private createDepthAndStencilBuffer(multisample boolean, depthBits int, stencilBits int, packed boolean) : void	processing.opengl.PGL
+					
+https://github.com/infinispan/infinispan.git	02671cb5a351dcd9f78007418cb9f44f3953124d	043030723632627b0908dca6b24dae91d3dfd938			
+			package remoteIterator() : Iterator&lt;R&gt;	private rehashAwareIteration(complete AtomicBoolean, consumer Consumer&lt;R&gt;, supplier IteratorSupplier&lt;R&gt;, iteratorParallelDistribute boolean) : void	org.infinispan.stream.impl.DistributedCacheStream
+			package remoteIterator() : Iterator&lt;R&gt;	private ignoreRehashIteration(consumer Consumer&lt;R&gt;, supplier IteratorSupplier&lt;R&gt;, iteratorParallelDistribute boolean) : void	org.infinispan.stream.impl.DistributedCacheStream
+					
+https://github.com/MovingBlocks/Terasology.git	d35882aef96da148b56ab42ef6a4d8f8ac45f305	8f63cc5c8edb8e740026447bc4827f8e8e6c34b1			
+			public onClosed() : void	private ensurePreviewUnloaded() : boolean	org.terasology.rendering.nui.layers.mainMenu.PreviewWorldScreen
+					
+https://github.com/dropwizard/metrics.git		2331fe19ea88a22de32f15375de8118226eaa1e6			
+			public onEvent(event ApplicationEvent) : void	private registerMetricsForModel(resourceModel ResourceModel) : void	io.dropwizard.metrics.jersey2.InstrumentedResourceMethodApplicationListener
+					
+https://github.com/JoanZapata/android-iconify.git	e24abeae85a00017603dfa75c1dd1bd8c34538a6	eb500cca282e39d01a9882e1d0a83186da6d1a26			
+			package resourceToFile(context Context, resourceName String) : File	private copy(inputStream InputStream, outputFile File) : void	com.joanzapata.android.iconify.Utils
+					
+https://github.com/apache/cassandra.git	fcece2dc2b57ddc456af848293b9fd3cdb34710c	e37d577b6cfc2d3e11252cef87ab9ebba72e1d52			
+			public create(name FunctionName, argNames List&lt;ColumnIdentifier&gt;, argTypes List&lt;AbstractType&lt;?&gt;&gt;, returnType AbstractType&lt;?&gt;, calledOnNullInput boolean, language String, body String) : UDFunction	public assertUdfsEnabled(language String) : void	org.apache.cassandra.cql3.functions.UDFunction
+					
+https://github.com/apache/pig.git	efe1dc1c1091d543e9a1487834ffef91b6bff4af	92dce401344a28ff966ad4cf3dd969a676852315			
+			public depthFirstSearchForFile(statusArray FileStatus[], fileSystem FileSystem) : Path	public depthFirstSearchForFile(statusArray FileStatus[], fileSystem FileSystem, filter PathFilter) : Path	org.apache.pig.impl.util.Utils
+					
+https://github.com/apache/cassandra.git	9acf58801382cf1d3b4223c6191d729b58440564	1a2c1bcdc7267abec9b19d77726aedbb045d79a8			
+			public testTriggerMinorCompaction() : void	public minorWasTriggered(keyspace String, cf String) : boolean	org.apache.cassandra.db.compaction.CompactionsCQLTest
+					
+https://github.com/spring-projects/spring-hateoas.git	ab613f85acdc7e548dfb183f1ace968593aab187	8bdc57ba8975d851fe91edc908761aacea624766			
+			public canWriteTypeIfAssignableToConfiguredType() : void	private assertCanWrite(converter GenericHttpMessageConverter&lt;Object&gt;, type Class&lt;?&gt;, expected boolean) : void	org.springframework.hateoas.mvc.TypeConstrainedMappingJackson2HttpMessageConverterUnitTest
+			public canReadTypeIfAssignableToConfiguredType() : void	private assertCanRead(converter GenericHttpMessageConverter&lt;Object&gt;, type Class&lt;?&gt;, expected boolean) : void	org.springframework.hateoas.mvc.TypeConstrainedMappingJackson2HttpMessageConverterUnitTest
+					
+https://github.com/addthis/hydra.git		664923815b5aeeba2025bfe1dc5a0cd1a02a80e2			
+			public updateChildData(state DataTreeNodeUpdater, path TreeDataParent) : void	public updateHits(state DataTreeNodeUpdater, path TreeDataParent) : boolean	com.addthis.hydra.data.tree.concurrent.ConcurrentTreeNode
+					
+https://github.com/HdrHistogram/HdrHistogram.git	d27b4192a98e5f7692a42fc250daa3bec5067dcf	0e65ac4da70c6ca5c67bb8418e67db914218042f			
+			public run() : void	private getIntervalHistogram() : EncodableHistogram	org.HdrHistogram.HistogramLogProcessor
+					
+https://github.com/neo4j/neo4j.git	87d9e037d9ccd518fbb59c53ef0aebab1cdd93be	e0072aac53b3b88de787e7ca653c7e17f9499018			
+			public unpackBytes() : byte[]	private unpackBytesHeader() : int	org.neo4j.packstream.PackStream.Unpacker
+					
+https://github.com/CyanogenMod/android_frameworks_base.git		153611deab149accd8aeaf03fd102c0b069bd322			
+			public of(row int, column int, size byte) : Cell	public of(cells Cell[][], row int, column int, size byte) : Cell	com.android.internal.widget.LockPatternView.Cell
+			public stringToPattern(string String) : List&lt;LockPatternView.Cell&gt;	public stringToPattern(string String, size byte) : List&lt;LockPatternView.Cell&gt;	com.android.internal.widget.LockPatternUtils
+					
+https://github.com/JetBrains/MPS.git	b09b397c786be9cd0fd835686a296a0d75e1ccf5	61b5decd4a4e5e6bbdea99eb76f136ca10915b73			
+			public insertNewChild(editorContext EditorContext, anchorCell EditorCell, insertBefore boolean) : void	public startInsertMode(editorContext EditorContext, anchorCell EditorCell, insertBefore boolean) : void	jetbrains.mps.nodeEditor.cellProviders.AbstractCellListHandler
+					
+https://github.com/ignatov/intellij-erlang.git	21a58e4f0ecce89c53a1da17d52b3be974a31eb8	e3b84c8753a21b1b15cfc9aa90b5e0c56d290f41			
+			private addErlangModules(module Module, onlyTestModules boolean, erlangModules Collection&lt;ErlangFile&gt;) : Collection&lt;ErlangFile&gt;	private collectFiles(module Module, onlyTestModules boolean, filesCollector Processor&lt;VirtualFile&gt;) : void	org.intellij.erlang.utils.ErlangModulesUtil
+			private addSourceRoot(module Module, sourceRootName String, isTestSourceRoot boolean) : VirtualFile	private addSourceRoot(module Module, sourceRootName String, rootType JpsModuleSourceRootType&lt;?&gt;) : VirtualFile	org.intellij.erlang.compilation.ErlangCompilationTestBase
+					
+https://github.com/apache/hive.git	f69d20f52a663c8f770074e35d840bfceb919bdb	8398fbf3dd0937a0a4a3d540977a95f97425f566			
+			public close() : void	public closeSparkSession() : void	org.apache.hadoop.hive.ql.session.SessionState
+					
+https://github.com/spotify/helios.git	c1336870d80c45baf7397d875ce175e1d401f1a7	cc02c00b8a92ef34d1a8bcdf44a45fb01a8dea6c			
+			protected createJob(job Job) : JobId	protected createJobRawOutput(job Job) : String	com.spotify.helios.system.SystemTestBase
+					
+https://github.com/CyanogenMod/android_frameworks_base.git		f1b8ae1c44e6ba46118c2f66eae1725259acdccc			
+			public of(row int, column int, size byte) : Cell	public of(cells Cell[][], row int, column int, size byte) : Cell	com.android.internal.widget.LockPatternView.Cell
+			public stringToPattern(string String) : List&lt;LockPatternView.Cell&gt;	public stringToPattern(string String, size byte) : List&lt;LockPatternView.Cell&gt;	com.android.internal.widget.LockPatternUtils
+					
+https://github.com/spring-projects/spring-framework.git	48b965ad333da1b4b8fb67dd5a08ad985b5ad135	fffdd1e9e9dc887c3e8973147904d47d9fffbb47			
+			public exists(content String) : void	private assertExistsAndReturn(content String) : Object	org.springframework.test.util.JsonPathExpectationsHelper
+					
+https://github.com/liferay/liferay-plugins.git		720b0d2064ecc4403809e794075e9fe8cfa857f1			
+			protected validate(titleMap Map&lt;Locale,String&gt;, startTimeJCalendar Calendar, endTimeJCalendar Calendar) : void	protected validate(titleMap Map&lt;Locale,String&gt;, startTimeJCalendar Calendar, endTimeJCalendar Calendar, untilJCalendar Calendar) : void	com.liferay.calendar.service.impl.CalendarBookingLocalServiceImpl
+					
+https://github.com/facebook/buck.git	6117d2dadc8ec1b606d9eb633fe6ea8011e495b5	8d14e557e01cc607dd2db66c29d106ef01aa81f7			
+			public get(buildTarget BuildTarget) : TargetNode&lt;?&gt;	public get(buildTarget BuildTarget, eventBus Optional&lt;BuckEventBus&gt;) : TargetNode&lt;?&gt;	com.facebook.buck.parser.Parser.CachedState
+					
+https://github.com/facebook/buck.git	47be784bcb3c0c44a6a062c14c2d12ddeed6d420	89973a5e4f188040c5fcf87fb5a3e9167329d175			
+			private installAppleBundle(params CommandRunnerParams, appleBundle AppleBundle, projectFilesystem ProjectFilesystem, processExecutor ProcessExecutor) : InstallResult	private installAppleBundleForSimulator(params CommandRunnerParams, appleBundle AppleBundle, projectFilesystem ProjectFilesystem, processExecutor ProcessExecutor) : InstallResult	com.facebook.buck.cli.InstallCommand
+					
+https://github.com/VoltDB/voltdb.git		cfc54e8afa7ee7d5376525a84559e90b21487ccf			
+			public getLastOffset(whichTime long) : long	private resetLeader() : void	public run() : void
