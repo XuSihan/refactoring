@@ -110,7 +110,8 @@ void readLine() {
         repo_name = "";
         //打开文件
         ifstream in;
-        in.open("RefactoringData.tsv");    //以逗号隔开
+        in.open("RefactoringData_sheet4.tsv");    //以逗号隔开
+        int same = 0;
         int line_number = 0;
         int no_before = 0;
         int no_before_case = 0;//没有before hash的case数量
@@ -206,21 +207,24 @@ void readLine() {
                             case 6:
                             {
                                 if (is_url == false && has_before == true && field.length()>1) {
+                                    if (src_name == new_name) {
+                                        same++;
+                                    }
                                     getFilePath(field, first_path, second_path);
                                     case_number++;
                                     outfile<<"cd /home/sihan/refactoring/extract_method/"<<repo_name<<"_before"<<endl;
-                                    outfile<<"file_path=$(find -print | grep \""<<convert(field)<<"\")"<<endl;
-                                    outfile<<"result=$(echo $file_path | grep \""<<convert(field)<<"\")"<<endl;
+                                    outfile<<"file_path=$(find -print | grep \""<<convert(field)<<".java\")"<<endl;
+                                    outfile<<"result=$(echo $file_path | grep \""<<convert(field)<<".java\")"<<endl;
                                     outfile<<"if [ \"$result\" != \"\" ]"<<endl;
                                     outfile<<"then"<<endl;
                                     outfile<<"    echo \"True\""<<endl;
                                     outfile<<"else"<<endl;
                                     outfile<<"    echo \"False\""<<endl;
-                                    outfile<<"    file_path=$(find -print | grep "<<first_path<<")"<<endl;
+                                    outfile<<"    file_path=$(find -print | grep \""<<first_path<<".java\")"<<endl;
                                     outfile<<"fi"<<endl;
                                     outfile<<"file_path=$(echo $file_path|cut -c 3-)"<<endl;
                                     outfile<<"cd .."<<endl;
-                                    outfile<<"java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator '/home/sihan/refactoring/extract_method/" + repo_name + "_before/'$file_path" + " '/home/sihan/refactoring/extract_method/" + repo_name + "_after/'$file_path" + " " + new_name <<endl;
+                                    outfile<<"java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator '/home/sihan/refactoring/extract_method/" + repo_name + "_before/'$file_path" + " '/home/sihan/refactoring/extract_method/" + repo_name + "_after/'$file_path" + " " + new_name + " " + src_name <<endl;
                                 } else if (is_url == false && has_before == false && field.length()>1) {
                                     no_before_case++;
                                 }
@@ -236,6 +240,7 @@ void readLine() {
             cout<<"There are "<<no_before_case<<" cases that have no before hash!"<<endl;
             cout<<"There are "<<repo_number<<" repos at all"<<endl;
             cout<<"There are "<<case_number<<" cases at all"<<endl;
+            cout<<"There are "<<same<<" cases with the same src and extracted name!"<<endl;
             outfile.close(); 
         }
         else
