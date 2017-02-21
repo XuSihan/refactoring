@@ -1,28 +1,32 @@
 ------------------Extracted method---------------------
 
-private java.lang.Thread createNewThread(org.neo4j.kernel.impl.util.Group group, java.lang.Runnable job, java.util.Map<java.lang.String, java.lang.String> metadata) {
-    java.lang.Thread thread = new java.lang.Thread(null, job, group.threadName(metadata));
-    thread.setDaemon(true);
-    return thread;
+protected <A> A getFromOffset(org.mapdb.Serializer<A> serializer, long[] offsets) {
+    if (offsets == null) {
+        return null;
+    } else if ((offsets.length) == 0) {
+        return deserialize(serializer, 0, new DataInputByteArray(new byte[0]));
+    } else if ((offsets.length) == 1) {
+        int size = ((int) ((offsets[0]) >>> 48));
+        long offset = (offsets[0]) & (org.mapdb.StoreDirect.MOFFSET);
+        java.io.DataInput in = vol.getDataInput(offset, size);
+        return deserialize(serializer, size, in);
+    } else {
+        int totalSize = offsetsTotalSize(offsets);
+        byte[] b = getLoadLinkedRecord(offsets, totalSize);
+        java.io.DataInput in = new DataInputByteArray(b);
+        return deserialize(serializer, totalSize, in);
+    }
 }
 
 -------------------Methods who call it--------------------
 
 @java.lang.Override
-public org.neo4j.kernel.impl.util.JobHandle schedule(org.neo4j.kernel.impl.util.Group group, java.lang.Runnable job, java.util.Map<java.lang.String, java.lang.String> metadata) {
-    if ((globalPool) == null)
-        throw new java.util.concurrent.RejectedExecutionException("Scheduler is not started");
+protected <A> A get2(long recid, org.mapdb.Serializer<A> serializer) {
+    if (CC.ASSERT)
+        assertReadLocked(recid);
     
-    switch (group.strategy()) {
-        case POOLED :
-            return new org.neo4j.kernel.impl.util.Neo4jJobScheduler.PooledJobHandle(org.neo4j.kernel.impl.util.Neo4jJobScheduler.this.globalPool.submit(job));
-        case NEW_THREAD :
-            java.lang.Thread thread = createNewThread(group, job, metadata);
-            thread.start();
-            return new org.neo4j.kernel.impl.util.Neo4jJobScheduler.SingleThreadHandle(thread);
-        default :
-            throw new java.lang.IllegalArgumentException(("Unsupported strategy for scheduling job: " + (group.strategy())));
-    }
+    long[] offsets = offsetsGet(indexValGet(recid));
+    return getFromOffset(serializer, offsets);
 }
 
 --------------------------end------------------------------
