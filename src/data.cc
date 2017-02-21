@@ -51,6 +51,7 @@ string getMethodName(string field) {
             
         } else {
             string access_(access_type.begin(), access_type.end());
+            /*
             if (access_ == "public") {
                 cout<<"public method: ";
             } else if (access_ == "private") {
@@ -59,12 +60,12 @@ string getMethodName(string field) {
                 cout<<"protected method: ";
             } else {
                 cout<<"Wrong access type: "<<access_<<endl;
-            }
+            }*/
             flag = true;
         }
     }
     string method_name(temp_name.begin(), temp_name.end());
-    cout<<method_name<<endl;
+    //cout<<method_name<<endl;
     delete [] cstr;
     return method_name;
 }
@@ -99,14 +100,15 @@ string convert(string field) {
     return result;
 }
 
-void readLine() {
+void readLine(char* homepath) {
     ofstream outfile;
-    outfile.open("/home/sihan/refactoring/extract_method/run.sh"); //run.sh是要写的脚本
+    string home_path(homepath);
+    outfile.open("run.sh"); //run.sh是要写的脚本
     if(outfile.is_open())
     {
         outfile<<"#!bash"<<endl;    //message是程序中处理的数据
         string line, field;    //line为每行内容，field为每个字段
-        string repo_url, repo_name, src_name, new_name, first_path, second_path;
+        string repo_url, repo_name, src_name, new_name, first_path, second_path, before_hash, after_hash;
         repo_name = "";
         //打开文件
         ifstream in;
@@ -116,10 +118,13 @@ void readLine() {
         int t2 = 0;//没有url但是有after hash
         int line_number = 0;
         int no_before = 0;
+        int no_after = 0;
         int no_before_case = 0;//没有before hash的case数量
+        int no_after_case = 0;
         int repo_number, case_number, field_count;
         bool is_url = true; //读取的是repository还是extract case
         bool has_before = true; // 当前repository是否存在before hash
+        bool has_after = true;
         repo_number = 0;
         case_number = 0;
         //处理文件内容
@@ -144,18 +149,13 @@ void readLine() {
                             {
                                 if (!field.empty()) {
                                     if (repo_name != "") {
-                                        if (has_before == true) {
+                                        if (has_before == true && has_after == true) {
                                             outfile<<"rm -rf "<<repo_name<<"_before"<<endl;
                                             outfile<<"rm -rf "<<repo_name<<"_after"<<endl;
-                                        } else {
-                                            outfile<<"rm -rf "<<repo_name<<endl;
                                         }
                                     }
                                     is_url = true;//读repository
-                                    repo_number++;
                                     repo_url = field; 
-                                    outfile<<"git clone "<<repo_url<<endl;
-                                    repo_name = getRepoName(repo_url);
                                 } else {
                                     is_url = false;//读extract case
                                 }
@@ -171,13 +171,10 @@ void readLine() {
                                     }
                                     else {
                                         has_before = true;
-                                        outfile<<"mv "<<repo_name<<" "<<repo_name<<"_before"<<endl;
-                                        outfile<<"cp -R "<<repo_name<<"_before "<<repo_name<<"_after"<<endl;
-                                        outfile<<"cd "<<repo_name<<"_before"<<endl;
-                                        outfile<<"git checkout "<<field<<endl;
-                                        outfile<<"cd .."<<endl;
+                                        before_hash = field;
                                     }
                                 } else if (!field.empty()) {
+                                    cout<<"line "<<line_number<<" has before hash but no git url!"<<endl;
                                     has_before = false;
                                     t++;
                                 }
@@ -185,56 +182,71 @@ void readLine() {
                             }
                             case 3:
                             {
-                                if (is_url == true) {
-                                    if (has_before == true) {
-                                        outfile<<"cd "<<repo_name<<"_after"<<endl;
-                                        outfile<<"git checkout "<<field<<endl;
+                                if (is_url == true && has_before == true) {
+                                    if(!field.empty()) {
+                                        has_after = true;
+                                        after_hash = field;
+                                        repo_number++;
+                                        outfile<<"git clone "<<repo_url<<endl;
+                                        repo_name = getRepoName(repo_url);
+                                        outfile<<"mv "<<repo_name<<" "<<repo_name<<"_before"<<endl;
+                                        outfile<<"cp -R "<<repo_name<<"_before "<<repo_name<<"_after"<<endl;
+                                        outfile<<"cd "<<repo_name<<"_before"<<endl;
+                                        outfile<<"git checkout "<<before_hash<<endl;
                                         outfile<<"cd .."<<endl;
-                                     }
-                                } else if (!field.empty()) {
-                                    has_before = false;
+                                        outfile<<"cd "<<repo_name<<"_after"<<endl;
+                                        outfile<<"git checkout "<<after_hash<<endl;
+                                        outfile<<"cd .."<<endl;
+                                    } else {
+                                        has_after = false;
+                                        cout<<"line "<<line_number<<" has no after hash!"<<endl;
+                                        no_after++;
+                                    }
+                                } else if (is_url == false && has_before == false && !field.empty()) {
+                                    has_after = false;
                                     t2++;
+                                    cout<<"line "<<line_number<<" has after hash but no git url!"<<endl;
                                 }
                                 break;
                             }
                             case 4:
                             {   
-                                if (has_before == true && field.length()>1) {
+                                if (has_before == true && has_after == true && field.length()>1) {
                                         src_name = getMethodName(field);
                                 }
                                 break;
                             }
                             case 5:
                             {
-                                if (has_before == true && field.length()>1) {
+                                if (has_before == true && has_after == true && field.length()>1) {
                                     new_name = getMethodName(field);
                                 }
                                 break;
                             }
                             case 6:
                             {
-                                if (has_before == true && field.length()>1 && src_name != new_name) {
+                                if (has_before == true && has_after == true && field.length()>1 && src_name != new_name) {
                                     getFilePath(field, first_path, second_path);
                                     case_number++;
-                                    //outfile<<"cd /home/sihan/refactoring/extract_method/"<<repo_name<<"_before"<<endl;
                                     outfile<<"cd "<<repo_name<<"_before"<<endl;
-                                    outfile<<"file_path=$(find -print | grep \""<<convert(field)<<".java\")"<<endl;
+                                    outfile<<"file_path=$(find "<<home_path<<repo_name<<"_before -print | grep \""<<convert(field)<<".java\")"<<endl;
                                     outfile<<"result=$(echo $file_path | grep \""<<convert(field)<<".java\")"<<endl;
                                     outfile<<"if [ \"$result\" != \"\" ]"<<endl;
                                     outfile<<"then"<<endl;
                                     outfile<<"    echo \"True\""<<endl;
+                                    outfile<<"file_path_before= $(find "<<home_path<<repo_name<<"_before -print | grep \""<<convert(field)<<".java\")"<<endl;
+                                    outfile<<"file_path_after= $(find "<<home_path<<repo_name<<"_after -print | grep \""<<convert(field)<<".java\")"<<endl;
                                     outfile<<"else"<<endl;
                                     outfile<<"    echo \"False\""<<endl;
-                                    outfile<<"    file_path=$(find -print | grep \""<<first_path<<".java\")"<<endl;
+                                    outfile<<"    file_path_before=$(find "<<home_path<<repo_name<<"_before -print | grep \""<<first_path<<".java\")"<<endl;
+                                    outfile<<"    file_path_after=$(find "<<home_path<<repo_name<<"_after -print | grep \""<<first_path<<".java\")"<<endl;
                                     outfile<<"fi"<<endl;
-                                    outfile<<"file_path=$(echo $file_path|cut -c 3-)"<<endl;
                                     outfile<<"cd .."<<endl;
-                                    
-                                    //outfile<<"java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator '/home/sihan/refactoring/extract_method/" + repo_name + "_before/'$file_path" + " //'/home/sihan/refactoring/extract_method/" + repo_name + "_after/'$file_path" + " " + new_name + " " + src_name <<endl;
-                                    
-                                    outfile<<"java -cp gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator '" + repo_name + "_before/'$file_path" + " '" + repo_name + "_after/'$file_path" + " " + new_name + " " + src_name <<endl;
+                                    outfile<<"java -cp "<<home_path<<"gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator " <<"$file_path_before" << " $file_path_after " + new_name + " " + src_name <<endl;
                                 } else if (has_before == false && field.length()>1) {
                                     no_before_case++;
+                                } else if (has_after == false && field.length()>1) {
+                                    no_after_case++;
                                 }
                                 if (has_before == true && field.length()>1 && src_name == new_name) {
                                     same++;
@@ -247,13 +259,15 @@ void readLine() {
                     }
                 } 
             }
-            cout<<"There are "<<no_before<<" repos that have no before hash!"<<endl;
-            cout<<"There are "<<no_before_case<<" cases that have no before hash!"<<endl;
-            cout<<"There are "<<repo_number<<" repos at all"<<endl;
-            cout<<"There are "<<case_number<<" cases at all"<<endl;
-            cout<<"There are "<<same<<" cases with the same src and extracted name!"<<endl;
-            cout<<"There are "<<t<<" no url but before hash!"<<endl;
-            cout<<"There are "<<t2<<" no url but after hash!"<<endl;
+            cout<<no_before<<" repos that have no before hash!"<<endl;
+            cout<<no_before_case<<" cases that have no before hash!"<<endl;
+            cout<<no_after<<" repos that have no after hash!"<<endl;
+            cout<<no_after_case<<" cases that have no after hash!"<<endl;
+            cout<<repo_number<<" repos at all"<<endl;
+            cout<<case_number<<" cases at all"<<endl;
+            cout<<same<<" cases with the same src and extracted name!"<<endl;
+            cout<<t<<" no url but before hash!"<<endl;
+            cout<<t2<<" no url but after hash!"<<endl;
             outfile.close(); 
         }
         else
@@ -267,8 +281,13 @@ void readLine() {
     cout<<"写出文件失败!"<<endl;
     }
 }
-int main(void) {
-    //printHead();
-    readLine();
+int main(int argc, char** argv) {
+    //cout<<"hello"<<endl;
+    //cout<<argc<<endl;
+    if (argc != 2) {
+        cout<<"Wrong parameters！"<<endl;
+    } 
+    else
+       readLine(argv[1]);
     return 0;
 }
