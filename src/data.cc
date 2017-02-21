@@ -110,8 +110,10 @@ void readLine() {
         repo_name = "";
         //打开文件
         ifstream in;
-        in.open("RefactoringData_sheet4.tsv");    //以逗号隔开
+        in.open("RefactoringData_sheet_all.tsv");    //以逗号隔开
         int same = 0;
+        int t = 0;//没有url但是有before hash
+        int t2 = 0;//没有url但是有after hash
         int line_number = 0;
         int no_before = 0;
         int no_before_case = 0;//没有before hash的case数量
@@ -169,12 +171,15 @@ void readLine() {
                                     }
                                     else {
                                         has_before = true;
-                                        outfile<<"cd "<<repo_name<<endl;
+                                        outfile<<"mv "<<repo_name<<" "<<repo_name<<"_before"<<endl;
+                                        outfile<<"cp -R "<<repo_name<<"_before "<<repo_name<<"_after"<<endl;
+                                        outfile<<"cd "<<repo_name<<"_before"<<endl;
                                         outfile<<"git checkout "<<field<<endl;
                                         outfile<<"cd .."<<endl;
-                                        outfile<<"mv "<<repo_name<<" "<<repo_name<<"_before"<<endl;
-                                        outfile<<"git clone "<<repo_url<<endl;
                                     }
+                                } else if (!field.empty()) {
+                                    has_before = false;
+                                    t++;
                                 }
                                break; 
                             }
@@ -182,37 +187,37 @@ void readLine() {
                             {
                                 if (is_url == true) {
                                     if (has_before == true) {
-                                        outfile<<"cd "<<repo_name<<endl;
+                                        outfile<<"cd "<<repo_name<<"_after"<<endl;
                                         outfile<<"git checkout "<<field<<endl;
                                         outfile<<"cd .."<<endl;
-                                        outfile<<"mv "<<repo_name<<" "<<repo_name<<"_after"<<endl;
                                      }
+                                } else if (!field.empty()) {
+                                    has_before = false;
+                                    t2++;
                                 }
                                 break;
                             }
                             case 4:
                             {   
-                                if (is_url == false && has_before == true && field.length()>1) {
+                                if (has_before == true && field.length()>1) {
                                         src_name = getMethodName(field);
                                 }
                                 break;
                             }
                             case 5:
                             {
-                                if (is_url == false && has_before == true && field.length()>1) {
+                                if (has_before == true && field.length()>1) {
                                     new_name = getMethodName(field);
                                 }
                                 break;
                             }
                             case 6:
                             {
-                                if (is_url == false && has_before == true && field.length()>1) {
-                                    if (src_name == new_name) {
-                                        same++;
-                                    }
+                                if (has_before == true && field.length()>1 && src_name != new_name) {
                                     getFilePath(field, first_path, second_path);
                                     case_number++;
-                                    outfile<<"cd /home/sihan/refactoring/extract_method/"<<repo_name<<"_before"<<endl;
+                                    //outfile<<"cd /home/sihan/refactoring/extract_method/"<<repo_name<<"_before"<<endl;
+                                    outfile<<"cd "<<repo_name<<"_before"<<endl;
                                     outfile<<"file_path=$(find -print | grep \""<<convert(field)<<".java\")"<<endl;
                                     outfile<<"result=$(echo $file_path | grep \""<<convert(field)<<".java\")"<<endl;
                                     outfile<<"if [ \"$result\" != \"\" ]"<<endl;
@@ -224,9 +229,15 @@ void readLine() {
                                     outfile<<"fi"<<endl;
                                     outfile<<"file_path=$(echo $file_path|cut -c 3-)"<<endl;
                                     outfile<<"cd .."<<endl;
-                                    outfile<<"java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator '/home/sihan/refactoring/extract_method/" + repo_name + "_before/'$file_path" + " '/home/sihan/refactoring/extract_method/" + repo_name + "_after/'$file_path" + " " + new_name + " " + src_name <<endl;
-                                } else if (is_url == false && has_before == false && field.length()>1) {
+                                    
+                                    //outfile<<"java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator '/home/sihan/refactoring/extract_method/" + repo_name + "_before/'$file_path" + " //'/home/sihan/refactoring/extract_method/" + repo_name + "_after/'$file_path" + " " + new_name + " " + src_name <<endl;
+                                    
+                                    outfile<<"java -cp gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator '" + repo_name + "_before/'$file_path" + " '" + repo_name + "_after/'$file_path" + " " + new_name + " " + src_name <<endl;
+                                } else if (has_before == false && field.length()>1) {
                                     no_before_case++;
+                                }
+                                if (has_before == true && field.length()>1 && src_name == new_name) {
+                                    same++;
                                 }
                                 break;
                             }
@@ -241,6 +252,8 @@ void readLine() {
             cout<<"There are "<<repo_number<<" repos at all"<<endl;
             cout<<"There are "<<case_number<<" cases at all"<<endl;
             cout<<"There are "<<same<<" cases with the same src and extracted name!"<<endl;
+            cout<<"There are "<<t<<" no url but before hash!"<<endl;
+            cout<<"There are "<<t2<<" no url but after hash!"<<endl;
             outfile.close(); 
         }
         else

@@ -29,7 +29,7 @@ https://github.com/rstudio/rstudio.git	42c7560174f6f64cc933d42151bb45f9b773ced1	
 https://github.com/Athou/commafeed.git	dfbd556bb809d9af61abd577628d0fb12e10035c	18a7bd1fd1a83b3b8d1b245e32f78c0b4443b7a7			
 			public fetch(feed Feed) : byte[]	private fetch(url String) : byte[]	com.commafeed.backend.favicon.DefaultFaviconFetcher
 					
-https://github.com/datastax/java-driver.git		1edac0e92080e7c5e971b2d56c8753bf44ea8a6c			
+https://github.com/datastax/java-driver.git	1edac0e92080e7c5e971b2d56c8753bf44ea8a6c				
 			public setMaxSimultaneousRequestsPerHostThreshold(distance HostDistance, newMaxRequests int) : PoolingOptions	public setMaxRequestsPerConnection(distance HostDistance, newMaxRequests int) : PoolingOptions	com.datastax.driver.core.PoolingOptions
 			public getMaxSimultaneousRequestsPerHostThreshold(distance HostDistance) : int	public getMaxRequestsPerConnection(distance HostDistance) : int	com.datastax.driver.core.PoolingOptions
 			public getMaxSimultaneousRequestsPerConnectionThreshold(distance HostDistance) : int	public getNewConnectionThreshold(distance HostDistance) : int	com.datastax.driver.core.PoolingOptions
@@ -41,7 +41,7 @@ https://github.com/hibernate/hibernate-orm.git	d0b429dc3254fe9881d1001f9239428e2
 https://github.com/elastic/elasticsearch.git	ac7ce2b899567460663c05b677bffea4bdcc76c5	ff9041dc486adf0a8dec41f80bbfbdd49f97016a			
 			protected doXContent(builder XContentBuilder, params Params) : void	protected buildFQuery(builder XContentBuilder, params Params) : void	org.elasticsearch.index.query.QueryFilterBuilder
 					
-https://github.com/CyanogenMod/android_frameworks_base.git		96a2c3410f3c71d3ab20857036422f1d64c3a6d3			
+https://github.com/CyanogenMod/android_frameworks_base.git	96a2c3410f3c71d3ab20857036422f1d64c3a6d3				
 			private cleanupProximity() : void	private cleanupProximityLocked() : void	com.android.server.power.PowerManagerService
 					
 https://github.com/checkstyle/checkstyle.git	096100222d830beeab6674c1d468b7cd9e942e70	5a9b7249e3d092a78ac8e7d48aeeb62bf1c44e20			
@@ -65,10 +65,10 @@ https://github.com/droolsjbpm/drools.git	8540848f984ce6dea3a073fd4b6a84ef829bd69
 			public AgendaGroupQueueImpl(name String, kBase InternalKnowledgeBase)	protected initPriorityQueue(kBase InternalKnowledgeBase) : BinaryHeapQueue	org.drools.core.common.AgendaGroupQueueImpl
 			public addEntry(entry PropagationEntry) : void	private internalAddEntry(entry PropagationEntry) : void	org.drools.core.phreak.SynchronizedPropagationList
 					
-https://github.com/spring-projects/spring-data-rest.git		b7cba6a700d8c5e456cdeffe9c5bf54563eab7d3			
+https://github.com/spring-projects/spring-data-rest.git	b7cba6a700d8c5e456cdeffe9c5bf54563eab7d3				
 			public setUp() : void	protected setupMockMvc() : void	org.springframework.data.rest.webmvc.AbstractWebIntegrationTests
 					
-https://github.com/datastax/java-driver.git		d5134b15fe6545ec8ab5c2256006cd6fe19eac92			
+https://github.com/datastax/java-driver.git	d5134b15fe6545ec8ab5c2256006cd6fe19eac92				
 			package getPreparedQuery(type QueryType, options Option[]) : PreparedStatement	package getPreparedQuery(type QueryType, columns Set&lt;ColumnMapper&lt;?&gt;&gt;, options Option[]) : PreparedStatement	com.datastax.driver.mapping.Mapper
 					
 https://github.com/VoltDB/voltdb.git	d30022412d70a2231fdb1c7957aa2f2d9c552dac	669e0722324965e3c99f29685517ac24d4ff2848			
@@ -78,7 +78,7 @@ https://github.com/VoltDB/voltdb.git	d30022412d70a2231fdb1c7957aa2f2d9c552dac	66
 			public mockStatementBatch(replySiteId long, sql String, extractedValues Object[], paramTypes VoltType[], userParams Object[], partitionParamIndex int, catalogHash byte[]) : AdHocPlannedStmtBatch	public mockStatementBatch(replySiteId long, sql String, extractedValues Object[], paramTypes VoltType[], userParams Object[], partitionParamIndex int, catalogHash byte[], readOnly boolean, isAdmin boolean) : AdHocPlannedStmtBatch	org.voltdb.compiler.AdHocPlannedStmtBatch
 			public getListenerAddress(hostId int) : String	private getListenerAddress(hostId int, useAdmin boolean) : String	org.voltdb.regressionsuites.LocalCluster
 					
-https://github.com/VoltDB/voltdb.git		e9efc045fbc6fa893c66a03b72b7eedb388cf96c			
+https://github.com/VoltDB/voltdb.git	e9efc045fbc6fa893c66a03b72b7eedb388cf96c				
 			public setMpDRGateway(mpGateway PartitionDRGateway) : void	public setMpUniqueIdListener(listener DurableMpUniqueIdListener) : void	org.voltdb.iv2.SpScheduler
 					
 https://github.com/brianfrankcooper/YCSB.git	42b39f591a9fcd72af864e73206973969893b9df	0b024834549c53512ef18bce89f60ef9225d4819			
@@ -91,10 +91,10 @@ https://github.com/spring-projects/spring-boot.git	7e5b08e0cdd066640d9654f991a98
 https://github.com/spring-projects/spring-boot.git	8b9c38085afd4a32d0cd0c6bcf0b9a1998681cb2	cb98ee25ff52bf97faebe3f45cdef0ced9b4416e			
 			public overrideDateFormat() : void	private load(config Class&lt;?&gt;, environment String[]) : void	org.springframework.boot.autoconfigure.web.WebMvcAutoConfigurationTests
 					
-https://github.com/CyanogenMod/android_frameworks_base.git		15fd4f9caea01e53725086e290d3b35ec4bd4cd9			
+https://github.com/CyanogenMod/android_frameworks_base.git	15fd4f9caea01e53725086e290d3b35ec4bd4cd9				
 			public reset() : void	protected reset(animateTransition boolean) : void	com.android.keyguard.KeyguardAbsKeyInputView
 					
-https://github.com/Netflix/eureka.git		5103ace802b2819438318dd53b5b07512aae0d25			
+https://github.com/Netflix/eureka.git	5103ace802b2819438318dd53b5b07512aae0d25				
 			public fillUpRegistry(count int, instanceTemplate InstanceInfo) : void	public fillUpRegistryOfServer(serverIdx int, count int, instanceTemplate InstanceInfo) : void	com.netflix.eureka2.integration.EurekaDeploymentClients
 					
 https://github.com/AsyncHttpClient/async-http-client.git	8ee46adc83cdab73f402807adde5ac2cff05f94b	f01d8610b9ceebc1de59d42f569b8af3efbe0a0f			
@@ -111,7 +111,7 @@ https://github.com/open-keychain/open-keychain.git	f978aca8e587e4b9cd0574cac6f4b
 			private handleActions(savedInstanceState Bundle, intent Intent) : void	public displayInputFragment(showOpenDialog boolean) : void	org.sufficientlysecure.keychain.ui.DecryptFilesActivity
 			protected cryptoOperation(cryptoInput CryptoInputParcel) : void	protected cryptoOperation(cryptoInput CryptoInputParcel, showProgress boolean) : void	org.sufficientlysecure.keychain.ui.base.CryptoOperationFragment
 					
-https://github.com/apache/pig.git		7a1659c12d76b510809dea1dea1f5100bcf4cd60			
+https://github.com/apache/pig.git	7a1659c12d76b510809dea1dea1f5100bcf4cd60				
 			public launchPig(physicalPlan PhysicalPlan, grpName String, pigContext PigContext) : PigStats	private initialize() : void	org.apache.pig.backend.hadoop.executionengine.spark.SparkLauncher
 					
 https://github.com/infinispan/infinispan.git	c1bb69785d507241688b225f434d838590f9ba0c	ce4f6292d6350a2c6b82d995352fdf6d07042c9c			
@@ -135,7 +135,7 @@ https://github.com/jfinal/jfinal.git	1f06ed84f88225fd3d5689f2db36ba311cc19ea9	88
 https://github.com/SonarSource/sonarqube.git	d370049974502061b852e73f25700c0d3bf218e6	021bf45623b748e70f20d956e86d595191241786			
 			public start() : void	package getPluginMetrics() : List&lt;Metric&gt;	org.sonar.server.startup.RegisterMetrics
 					
-https://github.com/wordpress-mobile/WordPress-Android.git		f8d5cf01f123a1d0a65857aa2db0571fe9cd1911			
+https://github.com/wordpress-mobile/WordPress-Android.git	f8d5cf01f123a1d0a65857aa2db0571fe9cd1911				
 			public getIconImageURL(size int) : String	private getIconImageURL(size int, iconUrl String, blogUrl String) : String	org.wordpress.android.models.Blog
 					
 https://github.com/neo4j/neo4j.git	a8e4ff0d2589ebe9372244d644efd371a3776192	b83e6a535cbca21d5ea764b0c49bfca8a9ff9db4			
@@ -151,10 +151,10 @@ https://github.com/wordpress-mobile/WordPress-Android.git	566935d3a3c1ba1901f88a
 https://github.com/jberkel/sms-backup-plus.git	59ee505b7fd5a5b17b823fa22bbb7da4e5248aa3	c265bde2ace252bc1e1c65c6af93520e5994edd2			
 			public toString() : String	public getTokenForLogging() : String	com.zegoggles.smssync.auth.OAuth2Token
 					
-https://github.com/amplab/tachyon.git		ed966510ccf8441115614e2258aea61df0ea55f5			
+https://github.com/amplab/tachyon.git	ed966510ccf8441115614e2258aea61df0ea55f5				
 			public addBlockMeta(block BlockMeta) : Optional&lt;BlockMeta&gt;	private reserveSpace(size long) : void	tachyon.worker.block.meta.StorageDir
 					
-https://github.com/k9mail/k-9.git		23c49d834d3859fc76a604da32d1789d2e863303			
+https://github.com/k9mail/k-9.git	23c49d834d3859fc76a604da32d1789d2e863303				
 			private notifyAccountWithDataLocked(context Context, account Account, message LocalMessage, data NotificationData) : void	private setNotificationContent(context Context, message Message, sender CharSequence, subject CharSequence, builder Builder, accountDescr String) : Builder	com.fsck.k9.controller.MessagingController
 			private notifyAccountWithDataLocked(context Context, account Account, message LocalMessage, data NotificationData) : void	private buildNotificationNavigationStack(context Context, account Account, message LocalMessage, newMessages int, unreadCount int, allRefs ArrayList&lt;MessageReference&gt;) : TaskStackBuilder	com.fsck.k9.controller.MessagingController
 					
@@ -166,7 +166,7 @@ https://github.com/spring-projects/spring-framework.git	1e39a188190f73be6715a43c
 			public synthesizeAnnotationFromMapWithMissingAttributeValue() : void	private assertMissingTextAttribute(attributes Map&lt;String,Object&gt;) : void	org.springframework.core.annotation.AnnotationUtilsTests
 			public synthesizeAnnotationFromMapWithNullAttributeValue() : void	private assertMissingTextAttribute(attributes Map&lt;String,Object&gt;) : void	org.springframework.core.annotation.AnnotationUtilsTests
 					
-https://github.com/infinispan/infinispan.git		03573a655bcbb77f7a76d8e22d851cc22796b4f8			
+https://github.com/infinispan/infinispan.git	03573a655bcbb77f7a76d8e22d851cc22796b4f8				
 			protected shouldInvoke(event CacheEntryEvent&lt;K,V&gt;, isLocalNodePrimaryOwner boolean) : CacheEntryEvent&lt;K,V&gt;	protected shouldInvoke(event Event&lt;K,V&gt;) : boolean	org.infinispan.notifications.cachelistener.CacheNotifierImpl.BaseCacheEntryListenerInvocation
 					
 https://github.com/JetBrains/MPS.git	47a5437307321febbf87e44b465daa0c9be22f24	797fb7fc1415ac0ebe9a8262677dfa4462ed6cb4			
@@ -181,7 +181,7 @@ https://github.com/apache/camel.git	b8d056208f12f968cc95dbb44df118ca521a2182	5e0
 https://github.com/rstudio/rstudio.git	5cb6ec27c6b88a94f6504078fc9ef60f43b160ca	4983f83d1bedb7b737fc56d409c1c06b04e34e4e			
 			public setValue(value boolean) : void	private setValue(value boolean, force boolean) : void	org.rstudio.core.client.widget.ThemedCheckBox
 					
-https://github.com/liferay/liferay-plugins.git		7c7ecf4cffda166938efd0ae34830e2979c25c73			
+https://github.com/liferay/liferay-plugins.git	7c7ecf4cffda166938efd0ae34830e2979c25c73				
 			public onAfterUpdate(resourcePermission ResourcePermission) : void	protected updateSyncDLObject(syncDLObject SyncDLObject) : void	com.liferay.sync.hook.listeners.ResourcePermissionModelListener
 					
 https://github.com/mockito/mockito.git	ea121e9102e6df9ab12da437dc95560c4977b5ba	2d036ecf1d7170b4ec7346579a1ef8904109530a			
@@ -200,17 +200,17 @@ https://github.com/ratpack/ratpack.git	475a31a3b2076ec377be4a46e6f709b8cd25ebc9	
 https://github.com/scobal/seyren.git	4d4126821400f0f0be5e184c0a3d8de8ee817e54	5fb36a321af7df470d4c845cb18da8f85be31c38			
 			public createBody(check Check, subscription Subscription, alerts List&lt;Alert&gt;) : String	private evaluateTemplate(check Check, subscription Subscription, alerts List&lt;Alert&gt;, templateContent String) : String	com.seyren.core.util.velocity.VelocityEmailHelper
 					
-https://github.com/open-keychain/open-keychain.git		de50b3becb31c367f867382ff9cd898ba1628350			
+https://github.com/open-keychain/open-keychain.git	de50b3becb31c367f867382ff9cd898ba1628350				
 			public isOrbotInRequiredState(middleButton int, middleButtonRunnable Runnable, proxyPrefs ProxyPrefs, fragmentActivity FragmentActivity) : boolean	public isOrbotInRequiredState(middleButton int, middleButtonRunnable Runnable, fragmentActivity FragmentActivity) : boolean	org.sufficientlysecure.keychain.util.orbot.OrbotHelper
 					
-https://github.com/osmandapp/Osmand.git		c45b9e6615181b7d8f4d7b5b1cc141169081c02c			
+https://github.com/osmandapp/Osmand.git	c45b9e6615181b7d8f4d7b5b1cc141169081c02c				
 			private calculateActionPoints(topLatitude double, leftLongitude double, bottomLatitude double, rightLongitude double, lastProjection Location, routeNodes List&lt;Location&gt;, cd int, it Iterator&lt;RouteDirectionInfo&gt;, zoom int) : void	private addPreviousToActionPoints(lastProjection Location, routeNodes List&lt;Location&gt;, DISTANCE_ACTION double, prevFinishPoint int, routePoint int, loc Location) : void	net.osmand.plus.views.RouteLayer
 					
 https://github.com/apache/drill.git	4c444663fa9fc9ef6104396a426f8d6fa6c4afa0	ffae1691c0cd526ed1095fbabbc0855d016790d7			
 			public getPlan(sqlNode SqlNode) : PhysicalPlan	protected validateAndConvert(sqlNode SqlNode) : ConvertedRelNode	org.apache.drill.exec.planner.sql.handlers.DefaultSqlHandler
 			protected convertToDrel(relNode RelNode, validatedRowType RelDataType) : DrillRel	protected convertToDrel(relNode RelNode) : DrillRel	org.apache.drill.exec.planner.sql.handlers.DefaultSqlHandler
 					
-https://github.com/CyanogenMod/android_frameworks_base.git		5d1a70a4d32ac4c96a32535c68c69b20288d8968			
+https://github.com/CyanogenMod/android_frameworks_base.git	5d1a70a4d32ac4c96a32535c68c69b20288d8968				
 			private crashApplication(r ProcessRecord, crashInfo CrashInfo) : void	public killProcessGroup(uid int, pid int) : void	com.android.server.am.ActivityManagerService
 					
 https://github.com/codefollower/Lealone.git	11dd351f6500cc9626dfa4f0438917de4dcb7fe3	7a2e0ae5f6172cbe34f9bc4a5cde666314ff75dd			
@@ -243,7 +243,7 @@ https://github.com/neo4j/neo4j.git	b601cb4677f7caeeffee11626e0cbb612897151f	74d2
 https://github.com/wicketstuff/core.git	c7fb3b363c3ae5900ca3a65d7996d7ffe825fce7	8ea46f48063c38473c12ca7c114106ca910b6e74			
 			public renderSimpleTab() : void	private testRenderedTab() : void	org.wicketstuff.foundation.tab.FoundationTabTest
 					
-https://github.com/mongodb/morphia.git		70a25d4afdc435e9cad4460b2a20b7aabdd21e35			
+https://github.com/mongodb/morphia.git	70a25d4afdc435e9cad4460b2a20b7aabdd21e35				
 			public testBasicMapping() : void	private performBasicMappingTest() : void	org.mongodb.morphia.TestMapping
 					
 https://github.com/spring-projects/spring-framework.git	04a7ed5f911deb6ed83ebc8bab04300ab58d9b60	31a5434ea433bdec2283797bf9415c02bb2f41c1			
@@ -255,7 +255,7 @@ https://github.com/wordpress-mobile/WordPress-Android.git	4f2c9bb1e5593e4705c70b
 https://github.com/mrniko/redisson.git	80c6e07fa617e1a3d2334071c3bd66bd51dbd98b	186357ac6c2da1a5a12c0287a08408ac5ec6683b			
 			public createClient(host String, port int) : RedisClient	public createClient(host String, port int, timeout int) : RedisClient	org.redisson.connection.MasterSlaveConnectionManager
 					
-https://github.com/VoltDB/voltdb.git		ebb1c2c364e888d4a0f47abe691cb2bad4eb4e75			
+https://github.com/VoltDB/voltdb.git	ebb1c2c364e888d4a0f47abe691cb2bad4eb4e75				
 			private findBestMatchIndexForMatviewMinOrMax(matviewinfo MaterializedViewInfo, srcTable Table, groupbyExprs List&lt;AbstractExpression&gt;, singleUniqueMinMaxAggExpr AbstractExpression) : Index	private isGroupbyMatchingIndex(matchingCase MatViewIndexMacthingGroupby, groupbyColRefs List&lt;ColumnRef&gt;, groupbyExprs List&lt;AbstractExpression&gt;, indexedColRefs List&lt;ColumnRef&gt;, indexedExprs List&lt;AbstractExpression&gt;, srcColumnArray List&lt;Column&gt;) : boolean	org.voltdb.compiler.DDLCompiler
 			private findBestMatchIndexForMatviewMinOrMax(matviewinfo MaterializedViewInfo, srcTable Table, groupbyExprs List&lt;AbstractExpression&gt;, singleUniqueMinMaxAggExpr AbstractExpression) : Index	private isIndexOptimalForMinMax(matchingCase MatViewIndexMacthingGroupby, singleUniqueMinMaxAggExpr AbstractExpression, indexedColRefs List&lt;ColumnRef&gt;, indexedExprs List&lt;AbstractExpression&gt;, srcColumnArray List&lt;Column&gt;) : boolean	org.voltdb.compiler.DDLCompiler
 					
@@ -300,7 +300,7 @@ https://github.com/apache/hive.git	724ef33836b9511de9ae1baf4e3d0a26dd377912	5f78
 https://github.com/wildfly/wildfly.git	d9c45764b06cce96a05c383a100b659484c37514	37d842bfed9779e662321a5ee43c36b058386843			
 			public executeReloadAndWaitForCompletion(client ModelControllerClient) : void	public executeReloadAndWaitForCompletion(client ModelControllerClient, timeout int) : void	org.jboss.as.test.shared.ServerReload
 					
-https://github.com/Netflix/zuul.git		b25d3f32ed2e2da86f5c746098686445c2e2a314			
+https://github.com/Netflix/zuul.git	b25d3f32ed2e2da86f5c746098686445c2e2a314				
 			public putFilter(file File) : boolean	private putFilter(sName String, filter ZuulFilter, lastModified long) : void	com.netflix.zuul.FilterLoader
 					
 https://github.com/jersey/jersey.git	f77628bf5455ce04672ddb06963448cad390ee4c	fab1516773d50bf86d9cc37e2f6db13496f0ecae			
@@ -377,7 +377,7 @@ https://github.com/deeplearning4j/deeplearning4j.git	f8c36aa0551293c2e59ccde784f
 https://github.com/AntennaPod/AntennaPod.git	5d553394ba3f204435be78f3a77262a579bd40d5	c64217e2b485f3c6b997a55b1ef910c8b72779d3			
 			public addQueueItem(context Context, itemIds long[]) : Future&lt;?&gt;	public addQueueItem(context Context, performAutoDownload boolean, itemIds long[]) : Future&lt;?&gt;	de.danoeh.antennapod.core.storage.DBWriter
 					
-https://github.com/datastax/java-driver.git		9de5f0d408f861455716b8410fd53f62b360787d			
+https://github.com/datastax/java-driver.git	9de5f0d408f861455716b8410fd53f62b360787d				
 			package sendRequest() : void	package sendRequest(reportNoMoreHosts boolean) : boolean	com.datastax.driver.core.RequestHandler.SpeculativeExecution
 			protected query() : ResultSet	protected query(session Session) : ResultSet	com.datastax.driver.core.policies.AbstractRetryPolicyIntegrationTest
 			private retry(retryCurrent boolean, newConsistencyLevel ConsistencyLevel) : void	private retry(retryCurrent boolean, newConsistencyLevel ConsistencyLevel, connection Connection, response Response) : void	com.datastax.driver.core.RequestHandler.SpeculativeExecution
@@ -385,23 +385,23 @@ https://github.com/datastax/java-driver.git		9de5f0d408f861455716b8410fd53f62b36
 https://github.com/apache/hive.git	da040ba059db9fd60b9e77094792c87f7073c8e5	7eb3567e7880511b76b8b65e8eb7d373927f2fb6			
 			private unionTester(s Schema, record Record) : ResultPair	private unionTester(ws Schema, rs Schema, record Record) : ResultPair	org.apache.hadoop.hive.serde2.avro.TestAvroDeserializer
 					
-https://github.com/VoltDB/voltdb.git		e58c9c3eef4c6e44b21a97cfbd2862bb2eb4627a			
+https://github.com/VoltDB/voltdb.git	e58c9c3eef4c6e44b21a97cfbd2862bb2eb4627a				
 			public isEmpty() : SymbolTableAssert	public hasSize(size int) : SymbolTableAssert	org.voltdb.sqlparser.symtab.SymbolTableAssert
 					
 https://github.com/koush/AndroidAsync.git	7a2bad81051ffed50bbdcfcce309e36805bdd1b9	1bc7905b07821f840068089343e6b77a8686d1ab			
 			protected report(e Exception) : void	private terminate() : void	com.koushikdutta.async.http.AsyncHttpResponseImpl
 					
-https://github.com/gradle/gradle.git		0e7345a9c10863dca9217ad902b825db50fed01f			
+https://github.com/gradle/gradle.git	0e7345a9c10863dca9217ad902b825db50fed01f				
 			package getFileCollection() : FileCollection	private getConfiguration() : Configuration	org.gradle.play.plugins.PlayPluginConfigurations.PlayConfiguration
 					
 https://github.com/apache/hive.git	db266dbc6c31b8f80ba22ead6e19a1a0cb65b06d	102b23b16bf26cbf439009b4b95542490a082710			
 			private execute(line String, call boolean, entireLineAsCommand boolean) : boolean	private executeInternal(sql String, call boolean) : boolean	org.apache.hive.beeline.Commands
 			private execute(line String, call boolean, entireLineAsCommand boolean) : boolean	public handleMultiLineCmd(line String) : String	org.apache.hive.beeline.Commands
 					
-https://github.com/gradle/gradle.git		79c66ceab11dae0b9fd1dade7bb4120028738705			
+https://github.com/gradle/gradle.git	79c66ceab11dae0b9fd1dade7bb4120028738705				
 			public getAllSources() : Set&lt;LanguageSourceSet&gt;	public getInputs() : Set&lt;LanguageSourceSet&gt;	org.gradle.platform.base.binary.BaseBinarySpec
 					
-https://github.com/spring-projects/spring-data-jpa.git		c13f3469e1d64ec97b11f0509e45f9c3fa8ff88a			
+https://github.com/spring-projects/spring-data-jpa.git	c13f3469e1d64ec97b11f0509e45f9c3fa8ff88a				
 			protected getCountQuery(spec Specification&lt;T&gt;) : TypedQuery&lt;Long&gt;	protected getCountQuery(spec Specification&lt;T&gt;, mode QueryMode) : TypedQuery&lt;Long&gt;	org.springframework.data.jpa.repository.support.SimpleJpaRepository
 					
 https://github.com/droolsjbpm/jbpm.git	4392e8398e9f5e38bb3f2292b5308cf4dd0e555a	a739d16d301f0e89ab0b9dfa56b4585bbad6b793			
@@ -427,20 +427,168 @@ https://github.com/rstudio/rstudio.git	3ee0c239ab574c1fffe6dd7de471d02a1410e3ba	
 https://github.com/neo4j/neo4j.git	beeae3f15b2b91302a4ef36d8d6aa86976d9487f	d1a6ae2a16ba1d53b1de02eea8745d67c6a1a005			
 			public actionPerformed(e ActionEvent) : void	private fileSelection() : File	org.neo4j.desktop.ui.BrowseForDatabaseActionListener
 					
-https://github.com/katzer/cordova-plugin-local-notifications.git		51f498a96b2fa1822e392027982c20e950535fd1			
+https://github.com/katzer/cordova-plugin-local-notifications.git	51f498a96b2fa1822e392027982c20e950535fd1				
 			public parse(xml XmlResourceParser) : void	public handleEndTag(xml XmlPullParser) : void	org.apache.cordova.ConfigXmlParser
 			public parse(xml XmlResourceParser) : void	public handleStartTag(xml XmlPullParser) : void	org.apache.cordova.ConfigXmlParser
-https://github.com/crate/crate.git		d5f10a4958f5e870680be906689d92d1efb42480			
+					
+https://github.com/bumptech/glide.git	e5f2fc25807dfcd41e1d65403820384e037b2d04	0d4b27952751de0caab01774048c3e0ec74824ce	private checkCurrentDimens() : void	package clearCallbacksAndListener() : void	com.bumptech.glide.request.target.ViewTarget.SizeDeterminer
+					
+https://github.com/liferay/liferay-portal.git	47ecaacee200fda183c6adf195e6891b898c9edf	59fd9e696cec5f2ed44c27422bbc426b11647321	public addDependency(project Project, configurationName String, group String, name String, version String, transitive boolean) : Dependency	public addDependency(project Project, configurationName String, group String, name String, version String, classifier String, transitive boolean) : Dependency	com.liferay.gradle.util.GradleUtil
+					
+https://github.com/belaban/JGroups.git	4f591c64c159faf10610ff511aaa241d3155888d	f1533756133dec84ce8218202585ac85904da7c9	public authenticate(token AuthToken, msg Message) : boolean	public isInMembersList(sender IpAddress) : boolean	org.jgroups.auth.FixedMembershipToken
+					
+					
+https://github.com/GoClipse/goclipse.git	956c1d8314c42cafffa170a105718e56934fc175	851ab757698304e9d8d4ae24ab75be619ddae31a	public inclusiveContains(otherOffset int) : boolean	public contains(otherOffset int) : boolean	melnorme.lang.tooling.ast.SourceRange
+			public inclusiveContains(other SourceRange) : boolean	public contains(other SourceRange) : boolean	melnorme.lang.tooling.ast.SourceRange
+					
+https://github.com/slapperwan/gh4a.git	694a0db9081ff980db6b12a0442d109438e65685	b8fffb706258db4c4d2f608d8e8dad9312e2230d	public isImage(filename String) : boolean	private isExtensionIn(filename String, extensions List&lt;String&gt;) : boolean	com.gh4a.utils.FileUtils
+					
+					
+https://github.com/square/wire.git	54f7378064d7e3c786a46ab84b7a53e1efcf034a	85a690e3cdbbb8447342eefdf690e22ad1b33e02	private defaultValue(field WireField) : CodeBlock	private fieldInitializer(type ProtoTypeName, value Object) : CodeBlock	com.squareup.wire.java.TypeWriter
+					
+https://github.com/clojure/clojure.git	838302612551ef6a50a8adbdb9708cb1362b0898	309c03055b06525c275b278542c881019424760e			
+			public InvokeExpr(source String, line int, column int, tag Symbol, fexpr Expr, args IPersistentVector, tailPosition boolean)	package sigTag(argcount int, v Var) : Object	clojure.lang.Compiler.InvokeExpr
+					
+https://github.com/osmandapp/Osmand.git	c4fe5ab88a60d28b2d8375aaff3ea1e969fc703d	e95aa8ab32a0334b9c941799060fd601297d05e4			
+			public onListItemClick(l ListView, v View, position int, id long) : void	public showItemPopupOptionsMenu(point FavouritePoint, activity Activity, view View) : void	net.osmand.plus.activities.FavoritesListFragment
+			public onChildClick(parent ExpandableListView, v View, groupPosition int, childPosition int, id long) : boolean	public showItemPopupOptionsMenu(point FavouritePoint, view View) : void	net.osmand.plus.activities.FavoritesTreeFragment
+					
+https://github.com/facebook/buck.git	70d676bfd901f71458646670b57ecacf67a4ab0c	ecd0ad5ab99b8d14f28881cf4f49ec01f2221776			
+			public createPreprocessBuildRule(resolver BuildRuleResolver, name String, source CxxSource, pic PicType) : CxxPreprocessAndCompile	private computeRuleFlags(source CxxSource) : ImmutableList&lt;String&gt;	com.facebook.buck.cxx.CxxSourceRuleFactory
+			public createPreprocessAndCompileBuildRule(resolver BuildRuleResolver, name String, source CxxSource, pic PicType, strategy CxxPreprocessMode) : CxxPreprocessAndCompile	private computePlatformCompilerFlags(pic PicType, source CxxSource) : ImmutableList&lt;String&gt;	com.facebook.buck.cxx.CxxSourceRuleFactory
+			public createPreprocessBuildRule(resolver BuildRuleResolver, name String, source CxxSource, pic PicType) : CxxPreprocessAndCompile	private computePlatformFlags(pic PicType, source CxxSource) : ImmutableList&lt;String&gt;	com.facebook.buck.cxx.CxxSourceRuleFactory
+			public createPreprocessAndCompileBuildRule(resolver BuildRuleResolver, name String, source CxxSource, pic PicType, strategy CxxPreprocessMode) : CxxPreprocessAndCompile	private computeRuleCompilerFlags(source CxxSource) : ImmutableList&lt;String&gt;	com.facebook.buck.cxx.CxxSourceRuleFactory
+					
+https://github.com/ReactiveX/RxJava.git	2423a17b5c3e5917a1960ffea8f5ecb11ac373a6	8ad226067434cd39ce493b336bd0659778625959			
+			private blockForSingle(observable Observable&lt;? extends T&gt;) : T	private awaitForComplete(latch CountDownLatch, subscription Subscription) : void	rx.observables.BlockingObservable
+			public forEach(onNext Action1&lt;? super T&gt;) : void	private awaitForComplete(latch CountDownLatch, subscription Subscription) : void	rx.observables.BlockingObservable
+					
+https://github.com/apache/cassandra.git	38ff10d3dc1dd991f7c483cd58e391b6a70ed081	3bdcaa336a6e6a9727c333b433bb9f5d3afc0fb1			
+			public truncateBlocking() : void	public dumpMemtable() : void	org.apache.cassandra.db.ColumnFamilyStore
+					
+https://github.com/netty/netty.git	9d347ffb91f34933edb7b1124f6b70c3fc52e220				
+			public append(c char) : AppendableCharSequence	private expand() : void	io.netty.util.internal.AppendableCharSequence
+					
+https://github.com/restlet/restlet-framework-java.git	7ffe37983e2f09637b0c84d526a2f824de652de4				
+			private fillRepresentations(swagger Swagger, contract Contract) : void	private fillRepresentation(model Model, name String, contract Contract) : void	org.restlet.ext.apispark.internal.conversion.swagger.v2_0.Swagger2Reader
+					
+https://github.com/JetBrains/MPS.git	53b3837ca462ad4895dfa46e577b2e6a34a63d12	ce4b0e22659c16ae83d421f9621fd3e922750764			
+			public rename(newName String) : void	protected renameModels(oldName String, newName String) : void	jetbrains.mps.project.AbstractModule
+					
+https://github.com/VoltDB/voltdb.git	deb8e5ca64fcf633edbd89523af472da813b6772				
+			private fillTable(client Client, tbl String) : void	private getNormalValue(r Random, magnitude double, min long, max long) : long	org.voltdb.regressionsuites.TestApproxCountDistinctSuite
+					
+https://github.com/brettwooldridge/HikariCP.git	a4d1156d08dd89f4ea14d258b3b15b84b5880dac	e19c6874431dc2c3046436c2ac249a0ab2ef3457			
+			public close() : void	private closeOpenStatements() : void	com.zaxxer.hikari.proxy.ConnectionProxy
+					
+https://github.com/jOOQ/jOOQ.git	a2fdbe0714bbd55ea03b556ff682f407d3416658	58a4e74d28073e7c6f15d1f225ac1c2fd9aa4357			
+			public from(from Object) : U	private millis(temporal Temporal) : long	org.jooq.tools.Convert.ConvertAll
+					
+https://github.com/facebook/buck.git	b23999fd32b13ddb93620863b4674388c7f15d16	6c93f15f502f39dff99ecb01b56dcad7dddb0f0d			
+			public addIntResourceIfNotPresent(rType RType, name String) : void	package getEnumerator(rType RType) : ResourceIdEnumerator	com.facebook.buck.android.aapt.AaptResourceCollector
+					
+https://github.com/apache/hive.git	724b31930718eea606dfe6d95eda7385209caa5f	0fa45e4a562fc2586b1ef06a88e9c186a0835316			
+			public doImport() : void	private setupObjectStore(rdbms RawStore, roles String[], dbNames String[], tokenIds String[], tokens String[], masterKeys String[], now int) : void	org.apache.hadoop.hive.metastore.hbase.TestHBaseImport
+			private copyFunctions() : void	private copyOneFunction(dbName String, funcName String) : void	org.apache.hadoop.hive.metastore.hbase.HBaseImport
+					
+https://github.com/JetBrains/intellij-plugins.git	5c424f1ca02ac0693fd19f56a87a325ffa6e12a8	83b3092c1ee11b70489732f9e69b8e01c2a966f0			
+			private logError(methodName String, filePath String, error RequestError) : void	private getShortErrorMessage(methodName String, filePath String, error RequestError) : String	com.jetbrains.lang.dart.analyzer.DartAnalysisServerService
+					
+https://github.com/gwtproject/gwt.git	631b34975a124dd1f5536de3894299c466936f87	892d1760c8e4c76c369cd5ec1eaed215d3a22c8a			
+			public startRow() : TableRowBuilder	public startRow(rowValue T) : TableRowBuilder	com.google.gwt.user.cellview.client.AbstractCellTableBuilder
+					
+https://github.com/VoltDB/voltdb.git	d47e58f9bbce9a816378e8a7930c1de67a864c29				
+			public callProcedure(ic ImportContext, proc String, fieldList Object) : boolean	public callProcedure(ic ImportContext, procCallback ProcedureCallback, proc String, fieldList Object) : boolean	org.voltdb.ImportHandler
+					
+https://github.com/raphw/byte-buddy.git	ee127167a55559cc10965984b16fe03496fd4dea	fd000ca2e78fce2f8aa11e6a81e4f23c2f1348e6			
+			public invokeSuper(methodToken Token) : SpecialMethodInvocation	private invokeMethod(methodToken Token) : SpecialMethodInvocation	net.bytebuddy.dynamic.scaffold.subclass.SubclassImplementationTarget
+					
+https://github.com/processing/processing.git	3e6fdf7bdec7488e42c6b1c53b7a5bc54bdb79df	f36b736cf1206dd1af794d6fb4cee967a3553b1f			
+			private createFBOLayer() : void	private createDepthAndStencilBuffer(multisample boolean, depthBits int, stencilBits int, packed boolean) : void	processing.opengl.PGL
+					
+https://github.com/infinispan/infinispan.git	02671cb5a351dcd9f78007418cb9f44f3953124d	043030723632627b0908dca6b24dae91d3dfd938			
+			package remoteIterator() : Iterator&lt;R&gt;	private rehashAwareIteration(complete AtomicBoolean, consumer Consumer&lt;R&gt;, supplier IteratorSupplier&lt;R&gt;, iteratorParallelDistribute boolean) : void	org.infinispan.stream.impl.DistributedCacheStream
+			package remoteIterator() : Iterator&lt;R&gt;	private ignoreRehashIteration(consumer Consumer&lt;R&gt;, supplier IteratorSupplier&lt;R&gt;, iteratorParallelDistribute boolean) : void	org.infinispan.stream.impl.DistributedCacheStream
+					
+https://github.com/MovingBlocks/Terasology.git	d35882aef96da148b56ab42ef6a4d8f8ac45f305	8f63cc5c8edb8e740026447bc4827f8e8e6c34b1			
+			public onClosed() : void	private ensurePreviewUnloaded() : boolean	org.terasology.rendering.nui.layers.mainMenu.PreviewWorldScreen
+					
+https://github.com/dropwizard/metrics.git	2331fe19ea88a22de32f15375de8118226eaa1e6				
+			public onEvent(event ApplicationEvent) : void	private registerMetricsForModel(resourceModel ResourceModel) : void	io.dropwizard.metrics.jersey2.InstrumentedResourceMethodApplicationListener
+					
+https://github.com/JoanZapata/android-iconify.git	e24abeae85a00017603dfa75c1dd1bd8c34538a6	eb500cca282e39d01a9882e1d0a83186da6d1a26			
+			package resourceToFile(context Context, resourceName String) : File	private copy(inputStream InputStream, outputFile File) : void	com.joanzapata.android.iconify.Utils
+					
+https://github.com/apache/cassandra.git	fcece2dc2b57ddc456af848293b9fd3cdb34710c	e37d577b6cfc2d3e11252cef87ab9ebba72e1d52			
+			public create(name FunctionName, argNames List&lt;ColumnIdentifier&gt;, argTypes List&lt;AbstractType&lt;?&gt;&gt;, returnType AbstractType&lt;?&gt;, calledOnNullInput boolean, language String, body String) : UDFunction	public assertUdfsEnabled(language String) : void	org.apache.cassandra.cql3.functions.UDFunction
+					
+https://github.com/apache/pig.git	efe1dc1c1091d543e9a1487834ffef91b6bff4af	92dce401344a28ff966ad4cf3dd969a676852315			
+			public depthFirstSearchForFile(statusArray FileStatus[], fileSystem FileSystem) : Path	public depthFirstSearchForFile(statusArray FileStatus[], fileSystem FileSystem, filter PathFilter) : Path	org.apache.pig.impl.util.Utils
+					
+https://github.com/apache/cassandra.git	9acf58801382cf1d3b4223c6191d729b58440564	1a2c1bcdc7267abec9b19d77726aedbb045d79a8			
+			public testTriggerMinorCompaction() : void	public minorWasTriggered(keyspace String, cf String) : boolean	org.apache.cassandra.db.compaction.CompactionsCQLTest
+					
+https://github.com/spring-projects/spring-hateoas.git	ab613f85acdc7e548dfb183f1ace968593aab187	8bdc57ba8975d851fe91edc908761aacea624766			
+			public canWriteTypeIfAssignableToConfiguredType() : void	private assertCanWrite(converter GenericHttpMessageConverter&lt;Object&gt;, type Class&lt;?&gt;, expected boolean) : void	org.springframework.hateoas.mvc.TypeConstrainedMappingJackson2HttpMessageConverterUnitTest
+			public canReadTypeIfAssignableToConfiguredType() : void	private assertCanRead(converter GenericHttpMessageConverter&lt;Object&gt;, type Class&lt;?&gt;, expected boolean) : void	org.springframework.hateoas.mvc.TypeConstrainedMappingJackson2HttpMessageConverterUnitTest
+					
+https://github.com/addthis/hydra.git	664923815b5aeeba2025bfe1dc5a0cd1a02a80e2				
+			public updateChildData(state DataTreeNodeUpdater, path TreeDataParent) : void	public updateHits(state DataTreeNodeUpdater, path TreeDataParent) : boolean	com.addthis.hydra.data.tree.concurrent.ConcurrentTreeNode
+					
+https://github.com/HdrHistogram/HdrHistogram.git	d27b4192a98e5f7692a42fc250daa3bec5067dcf	0e65ac4da70c6ca5c67bb8418e67db914218042f			
+			public run() : void	private getIntervalHistogram() : EncodableHistogram	org.HdrHistogram.HistogramLogProcessor
+					
+https://github.com/neo4j/neo4j.git	87d9e037d9ccd518fbb59c53ef0aebab1cdd93be	e0072aac53b3b88de787e7ca653c7e17f9499018			
+			public unpackBytes() : byte[]	private unpackBytesHeader() : int	org.neo4j.packstream.PackStream.Unpacker
+					
+https://github.com/CyanogenMod/android_frameworks_base.git	153611deab149accd8aeaf03fd102c0b069bd322				
+			public of(row int, column int, size byte) : Cell	public of(cells Cell[][], row int, column int, size byte) : Cell	com.android.internal.widget.LockPatternView.Cell
+			public stringToPattern(string String) : List&lt;LockPatternView.Cell&gt;	public stringToPattern(string String, size byte) : List&lt;LockPatternView.Cell&gt;	com.android.internal.widget.LockPatternUtils
+					
+https://github.com/JetBrains/MPS.git	b09b397c786be9cd0fd835686a296a0d75e1ccf5	61b5decd4a4e5e6bbdea99eb76f136ca10915b73			
+			public insertNewChild(editorContext EditorContext, anchorCell EditorCell, insertBefore boolean) : void	public startInsertMode(editorContext EditorContext, anchorCell EditorCell, insertBefore boolean) : void	jetbrains.mps.nodeEditor.cellProviders.AbstractCellListHandler
+					
+https://github.com/ignatov/intellij-erlang.git	21a58e4f0ecce89c53a1da17d52b3be974a31eb8	e3b84c8753a21b1b15cfc9aa90b5e0c56d290f41			
+			private addErlangModules(module Module, onlyTestModules boolean, erlangModules Collection&lt;ErlangFile&gt;) : Collection&lt;ErlangFile&gt;	private collectFiles(module Module, onlyTestModules boolean, filesCollector Processor&lt;VirtualFile&gt;) : void	org.intellij.erlang.utils.ErlangModulesUtil
+			private addSourceRoot(module Module, sourceRootName String, isTestSourceRoot boolean) : VirtualFile	private addSourceRoot(module Module, sourceRootName String, rootType JpsModuleSourceRootType&lt;?&gt;) : VirtualFile	org.intellij.erlang.compilation.ErlangCompilationTestBase
+					
+https://github.com/apache/hive.git	f69d20f52a663c8f770074e35d840bfceb919bdb	8398fbf3dd0937a0a4a3d540977a95f97425f566			
+			public close() : void	public closeSparkSession() : void	org.apache.hadoop.hive.ql.session.SessionState
+					
+https://github.com/spotify/helios.git	c1336870d80c45baf7397d875ce175e1d401f1a7	cc02c00b8a92ef34d1a8bcdf44a45fb01a8dea6c			
+			protected createJob(job Job) : JobId	protected createJobRawOutput(job Job) : String	com.spotify.helios.system.SystemTestBase
+					
+https://github.com/CyanogenMod/android_frameworks_base.git	f1b8ae1c44e6ba46118c2f66eae1725259acdccc				
+			public of(row int, column int, size byte) : Cell	public of(cells Cell[][], row int, column int, size byte) : Cell	com.android.internal.widget.LockPatternView.Cell
+			public stringToPattern(string String) : List&lt;LockPatternView.Cell&gt;	public stringToPattern(string String, size byte) : List&lt;LockPatternView.Cell&gt;	com.android.internal.widget.LockPatternUtils
+					
+https://github.com/spring-projects/spring-framework.git	48b965ad333da1b4b8fb67dd5a08ad985b5ad135	fffdd1e9e9dc887c3e8973147904d47d9fffbb47			
+			public exists(content String) : void	private assertExistsAndReturn(content String) : Object	org.springframework.test.util.JsonPathExpectationsHelper
+					
+https://github.com/liferay/liferay-plugins.git	720b0d2064ecc4403809e794075e9fe8cfa857f1				
+			protected validate(titleMap Map&lt;Locale,String&gt;, startTimeJCalendar Calendar, endTimeJCalendar Calendar) : void	protected validate(titleMap Map&lt;Locale,String&gt;, startTimeJCalendar Calendar, endTimeJCalendar Calendar, untilJCalendar Calendar) : void	com.liferay.calendar.service.impl.CalendarBookingLocalServiceImpl
+					
+https://github.com/facebook/buck.git	6117d2dadc8ec1b606d9eb633fe6ea8011e495b5	8d14e557e01cc607dd2db66c29d106ef01aa81f7			
+			public get(buildTarget BuildTarget) : TargetNode&lt;?&gt;	public get(buildTarget BuildTarget, eventBus Optional&lt;BuckEventBus&gt;) : TargetNode&lt;?&gt;	com.facebook.buck.parser.Parser.CachedState
+					
+https://github.com/facebook/buck.git	47be784bcb3c0c44a6a062c14c2d12ddeed6d420	89973a5e4f188040c5fcf87fb5a3e9167329d175			
+			private installAppleBundle(params CommandRunnerParams, appleBundle AppleBundle, projectFilesystem ProjectFilesystem, processExecutor ProcessExecutor) : InstallResult	private installAppleBundleForSimulator(params CommandRunnerParams, appleBundle AppleBundle, projectFilesystem ProjectFilesystem, processExecutor ProcessExecutor) : InstallResult	com.facebook.buck.cli.InstallCommand
+					
+https://github.com/VoltDB/voltdb.git	cfc54e8afa7ee7d5376525a84559e90b21487ccf				
+			public getLastOffset(whichTime long) : long	private resetLeader() : void	org.voltdb.importclient.kafka.KafkaStreamImporter.TopicPartitionFetcher
+			public run() : void	private resetLeader() : void	org.voltdb.importclient.kafka.KafkaStreamImporter.TopicPartitionFetcher
+					
+https://github.com/crate/crate.git	d5f10a4958f5e870680be906689d92d1efb42480				
 			public add(column String, type DataType, path List&lt;String&gt;, columnPolicy ColumnPolicy, indexType IndexType, partitionBy boolean) : Builder	public add(info ReferenceInfo, partitionBy boolean) : Builder	io.crate.metadata.table.TestingTableInfo.Builder
 					
 https://github.com/google/truth.git	61fbc31cc4e8d4efe8fc836ec21897796b9d6074	200f1577d238a6d3fbcf99cb2a2585b2071214a6			
 			public isPartiallyOrdered(comparator Comparator&lt;? super T&gt;) : void	public isOrdered(comparator Comparator&lt;? super T&gt;) : void	com.google.common.truth.IterableSubject
 			public isPartiallyOrdered() : void	public isOrdered() : void	com.google.common.truth.IterableSubject
 					
-https://github.com/wildfly/wildfly.git		c0f8a7f2b4341601df63c5470f41f157dbd83781			
+https://github.com/wildfly/wildfly.git	c0f8a7f2b4341601df63c5470f41f157dbd83781				
 			public main(args String[]) : void	private standaloneCollect(cli CLI, protocol String, host String, port int) : void	org.jboss.as.jdr.CommandLineMain
 					
-https://github.com/CyanogenMod/android_frameworks_base.git		4587c32ab8a1c8e2169e4f93491a8c927216a6ab			
+https://github.com/CyanogenMod/android_frameworks_base.git	4587c32ab8a1c8e2169e4f93491a8c927216a6ab				
 			public start() : void	private startAsync() : void	com.android.systemui.usb.StorageNotification
 					
 https://github.com/apache/drill.git	0a27a033a349ba164e29d818a6ae73c41c0cd4bb	b2bbd9941be6b132a83d27c0ae02c935e1dec5dd			
@@ -455,7 +603,7 @@ https://github.com/google/j2objc.git	106fede36fce8d4f121448d5e67027f9d80594d3	fa
 https://github.com/spring-projects/spring-framework.git	3c2efeece40951f0775252a640165a51d71b47e6	ef0eb01f93d6c485cf37692fd193833a6821272a			
 			protected checkAndPrepare(request HttpServletRequest, response HttpServletResponse, cacheControl CacheControl) : void	protected checkRequest(request HttpServletRequest) : void	org.springframework.web.servlet.support.WebContentGenerator
 					
-https://github.com/apache/hive.git		b8d2140fe4faccadcf1a6343ec8cd0cc58c315f9			
+https://github.com/apache/hive.git	b8d2140fe4faccadcf1a6343ec8cd0cc58c315f9				
 			private joinFinalLeftData() : void	private doFirstFetchIfNeeded() : void	org.apache.hadoop.hive.ql.exec.CommonMergeJoinOperator
 			public process(row Object, tag int) : void	private doFirstFetchIfNeeded() : void	org.apache.hadoop.hive.ql.exec.CommonMergeJoinOperator
 					
@@ -493,20 +641,20 @@ https://github.com/apache/hive.git	fcc45db48ba0ad22a520ce5ec75e615d40a8c277	f664
 https://github.com/amplab/tachyon.git	eb3fc26c9f79edd6398f544e7736ea7b4d8b5185	9aeefcd8120bb3b89cdb437d8c32d2ed84b8a825			
 			public allocateBlock(userId long, blockId long, blockSize long, location BlockStoreLocation) : TempBlockMeta	private getCandidateDirInTier(tier StorageTier, blockSize long) : StorageDir	tachyon.worker.block.allocator.MaxFreeAllocator
 					
-https://github.com/crate/crate.git		563d281b61e9f8748858e911eaa810e981f1e953			
+https://github.com/crate/crate.git	563d281b61e9f8748858e911eaa810e981f1e953				
 			private getRoutingCol() : ColumnIdent	private getCustomRoutingCol() : ColumnIdent	io.crate.metadata.doc.DocIndexMetaData
 					
-https://github.com/siacs/Conversations.git		bdc9f9a44f337ab595a3570833dc6a0558df904c			
+https://github.com/siacs/Conversations.git	bdc9f9a44f337ab595a3570833dc6a0558df904c				
 			private getIdentityKeyCursor(account Account, name String, own boolean) : Cursor	private getIdentityKeyCursor(account Account, name String, own boolean, fingerprint String) : Cursor	eu.siacs.conversations.persistance.DatabaseBackend
 					
 https://github.com/openhab/openhab.git	32f4a9840d921a3a2a75548c8306b8bcff393432	cf1efb6d27a4037cdbe5a780afa6053859a60d4a			
 			private initializeSciptGlobals() : void	private initializeGeneralGlobals() : void	org.openhab.core.jsr223.internal.engine.scriptmanager.Script
 			private initializeSciptGlobals() : void	private initializeNashornGlobals() : void	org.openhab.core.jsr223.internal.engine.scriptmanager.Script
 					
-https://github.com/spotify/helios.git		da39bfeb9c370abe2d86e6e327fade252434090d			
+https://github.com/spotify/helios.git	da39bfeb9c370abe2d86e6e327fade252434090d				
 			package run(options Namespace, client HeliosClient, out PrintStream, json boolean, stdin BufferedReader) : int	package run0(client HeliosClient, out PrintStream, json boolean, name String, full boolean) : int	com.spotify.helios.cli.command.DeploymentGroupStatusCommand
 					
-		910397f2390d6821a006991ed6035c76cbc74897			
+	910397f2390d6821a006991ed6035c76cbc74897				
 			private queryProperty(id int) : long	private queryProperty(id int, fromDock boolean) : long	android.os.BatteryManager
 			private loadBoltPoints(res Resources) : float[]	protected getBoltPointsArrayResource() : int	com.android.systemui.BatteryMeterView.NormalBatteryMeterDrawable
 			public storeStatsHistoryInFile(fname String) : void	public internalStoreStatsHistoryInFile(stats BatteryStats, fname String) : void	com.android.internal.os.BatteryStatsHelper
@@ -518,24 +666,24 @@ https://github.com/thymeleaf/thymeleaf.git	dd0f7a9afb120039574cadb8224124a1fb7ef
 https://github.com/HubSpot/Singularity.git	9d9dc5d6acb24be184ab65fb23f35194aca2c789	944aea445051891280a8ab7fbbd514c19646f1ab			
 			protected launchTask(request SingularityRequest, deploy SingularityDeploy, launchTime long, instanceNo int, initialTaskState TaskState) : SingularityTask	protected launchTask(request SingularityRequest, deploy SingularityDeploy, launchTime long, updateTime long, instanceNo int, initialTaskState TaskState) : SingularityTask	com.hubspot.singularity.SingularitySchedulerTestBase
 					
-https://github.com/google/auto.git		8fc60d81fe0e46e7e5c96e71d4a93fcadc6bde4f			
+https://github.com/google/auto.git	8fc60d81fe0e46e7e5c96e71d4a93fcadc6bde4f				
 			public process(annotations Set&lt;? extends TypeElement&gt;, roundEnv RoundEnvironment) : boolean	private deferredElements() : ImmutableMap&lt;String,Optional&lt;? extends Element&gt;&gt;	com.google.auto.common.BasicAnnotationProcessor
 			public process(annotations Set&lt;? extends TypeElement&gt;, roundEnv RoundEnvironment) : boolean	private validElements(deferredElements ImmutableMap&lt;String,Optional&lt;? extends Element&gt;&gt;, roundEnv RoundEnvironment) : ImmutableSetMultimap&lt;Class&lt;? extends Annotation&gt;,Element&gt;	com.google.auto.common.BasicAnnotationProcessor
 			public process(annotations Set&lt;? extends TypeElement&gt;, roundEnv RoundEnvironment) : boolean	private process(validElements ImmutableSetMultimap&lt;Class&lt;? extends Annotation&gt;,Element&gt;) : void	com.google.auto.common.BasicAnnotationProcessor
 					
-https://github.com/google/auto.git		8967e7c33c59e1336e1e3b4671293ced5697fca6			
+https://github.com/google/auto.git	8967e7c33c59e1336e1e3b4671293ced5697fca6				
 			public testMissingClass() : void	private doTestMissingClass(tempDir File) : void	com.google.auto.value.processor.AutoAnnotationCompilationTest
 					
 https://github.com/thymeleaf/thymeleaf.git	aed371dac5e1248880e869930c636994c3d0f8dc	378ba37750a9cb1b19a6db434dfa59308f721ea6			
 			public read(cbuf char[], off int, len int) : int	private matchOverflow(structure char[]) : boolean	org.thymeleaf.templateparser.reader.BlockAwareReader
 					
-https://github.com/apache/camel.git		cb0935e3af05b333b5c85a4fb3b1846836218f11			
+https://github.com/apache/camel.git	cb0935e3af05b333b5c85a4fb3b1846836218f11				
 			private createAndInitScheduler() : void	private storeCamelContextInQuartzContext() : SchedulerContext	org.apache.camel.component.quartz2.QuartzComponent
 					
-https://github.com/spotify/helios.git		dd8753cfb0f67db4dde6c5254e2df3104b635dae			
+https://github.com/spotify/helios.git	dd8753cfb0f67db4dde6c5254e2df3104b635dae				
 			public getDeploymentGroup(name String) : DeploymentGroup	private getDeploymentGroup(client ZooKeeperClient, name String) : DeploymentGroup	com.spotify.helios.master.ZooKeeperMasterModel
 					
-https://github.com/CyanogenMod/android_frameworks_base.git		76331570e68446c17e4ff5287f5b7b2b6b472895			
+https://github.com/CyanogenMod/android_frameworks_base.git	76331570e68446c17e4ff5287f5b7b2b6b472895				
 			public clearFailedUnlockAttempts() : void	public clearFailedUnlockAttempts(clearFingers boolean) : void	com.android.keyguard.KeyguardUpdateMonitor
 					
 https://github.com/github/android.git	0eadf8f3d17c931915ead3516474714a2e3237ce	a7401e5091c06c68fae499ea1972b40143c66fa9			
@@ -558,7 +706,7 @@ https://github.com/jline/jline2.git	6857f48be15d2256986ec05e4a9b9ac799fd0af3	80d
 https://github.com/BroadleafCommerce/BroadleafCommerce.git	32e65da670994983fccb5d642a9e2df45e195b28	9687048f76519fc89b4151cbe2841bbba61a401d			
 			protected getBlankDynamicFieldTemplateForm(info DynamicEntityFormInfo, dynamicFormOverride EntityForm) : EntityForm	protected getEntityForm(info DynamicEntityFormInfo, dynamicFormOverride EntityForm) : EntityForm	org.broadleafcommerce.openadmin.web.controller.AdminAbstractController
 					
-https://github.com/Netflix/feign.git		b2b4085348de32f10903970dded99fdf0376a43c			
+https://github.com/Netflix/feign.git	b2b4085348de32f10903970dded99fdf0376a43c				
 			public parseAndValidatateMetadata(method Method) : MethodMetadata	protected parseAndValidateMetadata(targetType Class&lt;?&gt;, method Method) : MethodMetadata	feign.Contract.BaseContract
 			public parseAndValidatateMetadata(method Method) : MethodMetadata	private headersFromAnnotation(targetType Class&lt;?&gt;, data MethodMetadata) : void	feign.Contract.Default
 			public configKey(method Method) : String	public configKey(targetType Class, method Method) : String	feign.Feign
@@ -572,7 +720,7 @@ https://github.com/hazelcast/hazelcast.git	6bc75d057a6d285457f2b038c226912721272
 			public ClientConnectionManagerImpl(client HazelcastClientInstanceImpl, addressTranslator AddressTranslator)	protected initializeSelectors(client HazelcastClientInstanceImpl) : void	com.hazelcast.client.connection.nio.ClientConnectionManagerImpl
 			public shutdown() : void	protected shutdownSelectors() : void	com.hazelcast.client.connection.nio.ClientConnectionManagerImpl
 					
-https://github.com/geometer/FBReaderJ.git		42e0649f82779ecd48bff6448924fc7dc2534554			
+https://github.com/geometer/FBReaderJ.git	42e0649f82779ecd48bff6448924fc7dc2534554				
 			public topLevelNodes() : List&lt;MenuNode&gt;	private allTopLevelNodes() : List&lt;MenuNode&gt;	org.geometerplus.android.fbreader.MenuData
 					
 https://github.com/spring-projects/spring-security.git	3db01bd9d652dfc2580e1a29f311c9311d0f3e13	64938ebcfc2fc8cd9ccd6cf31dbcd8cdd0660aca			
@@ -654,17 +802,17 @@ https://github.com/cgeo/cgeo.git	96dd88caab8c6797026596245cbd6ac10b0342dc	c142b8
 			public testCanHandle() : void	private getWaymarkingConnector() : IConnector	cgeo.geocaching.connector.WaymarkingConnectorTest
 			public testGetGeocodeFromUrl() : void	private getWaymarkingConnector() : IConnector	cgeo.geocaching.connector.WaymarkingConnectorTest
 					
-https://github.com/netty/netty.git		9f422ed0f44516bea8116ed7730203e4eb316252			
+https://github.com/netty/netty.git	9f422ed0f44516bea8116ed7730203e4eb316252				
 			public windowUpdateAndFlushShouldTriggerWrite() : void	private resetCtx() : void	io.netty.handler.codec.http2.DefaultHttp2RemoteFlowControllerTest
 			public setup() : void	private initConnectionAndController() : void	io.netty.handler.codec.http2.DefaultHttp2RemoteFlowControllerTest
 					
-https://github.com/liferay/liferay-plugins.git		d99695841fa675ea9150602b1132f037093e867d			
+https://github.com/liferay/liferay-plugins.git	d99695841fa675ea9150602b1132f037093e867d				
 			protected remoteRender(renderRequest RenderRequest, renderResponse RenderResponse) : void	protected getGetOAuthRequest(portletRequest PortletRequest, portletResponse PortletResponse) : OAuthRequest	com.liferay.marketplace.store.portlet.RemoteMVCPortlet
 					
 https://github.com/plutext/docx4j.git	af07c4061cd3bd0e6c9d579b4d4303441a3a4d07	59b8e89e61432d1d8f25cb003b62b3ac004d1b6f			
 			public setEnforcementEditValue(editValue STDocProtect, password String, hashAlgo HashAlgorithm) : void	private setProtectionPassword(password String, hashAlgo HashAlgorithm) : void	org.docx4j.openpackaging.parts.WordprocessingML.DocumentSettingsPart
 					
-https://github.com/datastax/java-driver.git		14abb6919a99a0d6d500198dd2e30c83b1bb6709			
+https://github.com/datastax/java-driver.git	14abb6919a99a0d6d500198dd2e30c83b1bb6709				
 			public prepare(manager MappingManager, ps PreparedStatement) : void	private validateParameters() : void	com.datastax.driver.mapping.MethodMapper
 					
 https://github.com/BuildCraft/BuildCraft.git	4234e28cb543e2829e61302993cc1260875d6b32	a5cdd8c4b10a738cb44819d7cc2fee5f5965d4a0			
@@ -673,7 +821,7 @@ https://github.com/BuildCraft/BuildCraft.git	4234e28cb543e2829e61302993cc1260875
 https://github.com/apache/camel.git	65f9a3ab349c4b1b0545da33b3ccbee523f93880	ab1d1dd78fe53edb50c4ede447e4ac5a55ee2ac9			
 			public createExchange(message Message, endpoint Endpoint) : Exchange	public createExchange(message Message, endpoint Endpoint, keyFormatStrategy KeyFormatStrategy) : Exchange	org.apache.camel.component.sjms.jms.JmsMessageHelper
 					
-https://github.com/xetorthio/jedis.git		d4b4aecbc69bbd04ba87c4e32a52cff3d129906a			
+https://github.com/xetorthio/jedis.git	d4b4aecbc69bbd04ba87c4e32a52cff3d129906a				
 			public getNumActive() : int	private poolInactive() : boolean	redis.clients.util.Pool
 					
 https://github.com/neo4j/neo4j.git	4f1a76b776d4a218bcdbc4a78c2d0a0d1736ed72	dc199688d69416da58b370ca2aa728e935fc8e0d			
@@ -686,7 +834,7 @@ https://github.com/apache/camel.git	7aa3b59dd7718a47c0f5e4417419b28772ba067b	14a
 https://github.com/siacs/Conversations.git	504ef0b72ebd951e3f3f493435fb96713a2b4efe	e6cb12dfe414497b4317820497985c110cb81864			
 			public getItemViewType(position int) : int	public getItemViewType(message Message) : int	eu.siacs.conversations.ui.adapter.MessageAdapter
 					
-https://github.com/spotify/helios.git		3ffd70929c08be5cf14f156189e8050969caa87e			
+https://github.com/spotify/helios.git	3ffd70929c08be5cf14f156189e8050969caa87e				
 			private rollingUpdateAwaitRunning(deploymentGroup DeploymentGroup, host String) : RollingUpdateTaskResult	private isRolloutTimedOut(deploymentGroup DeploymentGroup, client ZooKeeperClient) : boolean	com.spotify.helios.master.ZooKeeperMasterModel
 					
 https://github.com/apache/cassandra.git	ece5cfc66dfd4a0591b735e85190d18b35d6d37b	b70f7ea0ce27b5defa0a7773d448732364e7aee0			
@@ -699,7 +847,7 @@ https://github.com/apache/hive.git	2240dbd6dfddf3f14fb1538bb765833b3fdea898	c53c
 https://github.com/apache/cassandra.git	019471a567ca7f42930a952fa279fc96bb0b01a0	2b0a8f6bdac621badabcb9921c077260f2470c26			
 			public deleteRow(metadata CFMetaData, timestamp long, key Object, clusteringValues Object[]) : Mutation	public deleteRowAt(metadata CFMetaData, timestamp long, localDeletionTime int, key Object, clusteringValues Object[]) : Mutation	org.apache.cassandra.db.RowUpdateBuilder
 					
-https://github.com/dropwizard/metrics.git		4c6ab3d77cc67c7a91155d884077520dcf1509c6			
+https://github.com/dropwizard/metrics.git	4c6ab3d77cc67c7a91155d884077520dcf1509c6				
 			public report(gauges SortedMap&lt;String,Gauge&gt;, counters SortedMap&lt;String,Counter&gt;, histograms SortedMap&lt;String,Histogram&gt;, meters SortedMap&lt;String,Meter&gt;, timers SortedMap&lt;String,Timer&gt;) : void	private closeGraphiteConnection() : void	com.codahale.metrics.graphite.GraphiteReporter
 					
 https://github.com/gradle/gradle.git	0c23263b8ad04af82ea1c367a268a6ee81256e5d	681dc6346ce3cf5be5c5985faad120a18949cee0			
@@ -800,137 +948,7 @@ https://github.com/bitcoinj/bitcoinj.git	16a5e1d64b604930d25490504bcc2a60218816c
 					
 https://github.com/alibaba/druid.git	29d0889d86932436934343677840c6f7fd7f053a	87f3f8144b7a6cb57b6e21cd3753d09ecde0d88f			
 			public visit(x SQLJoinTableSource) : boolean	protected printJoinType(joinType JoinType) : void	com.alibaba.druid.sql.visitor.SQLASTOutputVisitor
-https://github.com/clojure/clojure.git	838302612551ef6a50a8adbdb9708cb1362b0898	309c03055b06525c275b278542c881019424760e			
-			public InvokeExpr(source String, line int, column int, tag Symbol, fexpr Expr, args IPersistentVector, tailPosition boolean)	package sigTag(argcount int, v Var) : Object	clojure.lang.Compiler.InvokeExpr
 					
-https://github.com/osmandapp/Osmand.git	c4fe5ab88a60d28b2d8375aaff3ea1e969fc703d	e95aa8ab32a0334b9c941799060fd601297d05e4			
-			public onListItemClick(l ListView, v View, position int, id long) : void	public showItemPopupOptionsMenu(point FavouritePoint, activity Activity, view View) : void	net.osmand.plus.activities.FavoritesListFragment
-			public onChildClick(parent ExpandableListView, v View, groupPosition int, childPosition int, id long) : boolean	public showItemPopupOptionsMenu(point FavouritePoint, view View) : void	net.osmand.plus.activities.FavoritesTreeFragment
-					
-https://github.com/facebook/buck.git	70d676bfd901f71458646670b57ecacf67a4ab0c	ecd0ad5ab99b8d14f28881cf4f49ec01f2221776			
-			public createPreprocessBuildRule(resolver BuildRuleResolver, name String, source CxxSource, pic PicType) : CxxPreprocessAndCompile	private computeRuleFlags(source CxxSource) : ImmutableList&lt;String&gt;	com.facebook.buck.cxx.CxxSourceRuleFactory
-			public createPreprocessAndCompileBuildRule(resolver BuildRuleResolver, name String, source CxxSource, pic PicType, strategy CxxPreprocessMode) : CxxPreprocessAndCompile	private computePlatformCompilerFlags(pic PicType, source CxxSource) : ImmutableList&lt;String&gt;	com.facebook.buck.cxx.CxxSourceRuleFactory
-			public createPreprocessBuildRule(resolver BuildRuleResolver, name String, source CxxSource, pic PicType) : CxxPreprocessAndCompile	private computePlatformFlags(pic PicType, source CxxSource) : ImmutableList&lt;String&gt;	com.facebook.buck.cxx.CxxSourceRuleFactory
-			public createPreprocessAndCompileBuildRule(resolver BuildRuleResolver, name String, source CxxSource, pic PicType, strategy CxxPreprocessMode) : CxxPreprocessAndCompile	private computeRuleCompilerFlags(source CxxSource) : ImmutableList&lt;String&gt;	com.facebook.buck.cxx.CxxSourceRuleFactory
-					
-https://github.com/ReactiveX/RxJava.git	2423a17b5c3e5917a1960ffea8f5ecb11ac373a6	8ad226067434cd39ce493b336bd0659778625959			
-			private blockForSingle(observable Observable&lt;? extends T&gt;) : T	private awaitForComplete(latch CountDownLatch, subscription Subscription) : void	rx.observables.BlockingObservable
-			public forEach(onNext Action1&lt;? super T&gt;) : void	private awaitForComplete(latch CountDownLatch, subscription Subscription) : void	rx.observables.BlockingObservable
-					
-https://github.com/apache/cassandra.git	38ff10d3dc1dd991f7c483cd58e391b6a70ed081	3bdcaa336a6e6a9727c333b433bb9f5d3afc0fb1			
-			public truncateBlocking() : void	public dumpMemtable() : void	org.apache.cassandra.db.ColumnFamilyStore
-					
-https://github.com/netty/netty.git		9d347ffb91f34933edb7b1124f6b70c3fc52e220			
-			public append(c char) : AppendableCharSequence	private expand() : void	io.netty.util.internal.AppendableCharSequence
-					
-https://github.com/restlet/restlet-framework-java.git		7ffe37983e2f09637b0c84d526a2f824de652de4			
-			private fillRepresentations(swagger Swagger, contract Contract) : void	private fillRepresentation(model Model, name String, contract Contract) : void	org.restlet.ext.apispark.internal.conversion.swagger.v2_0.Swagger2Reader
-					
-https://github.com/JetBrains/MPS.git	53b3837ca462ad4895dfa46e577b2e6a34a63d12	ce4b0e22659c16ae83d421f9621fd3e922750764			
-			public rename(newName String) : void	protected renameModels(oldName String, newName String) : void	jetbrains.mps.project.AbstractModule
-					
-https://github.com/VoltDB/voltdb.git		deb8e5ca64fcf633edbd89523af472da813b6772			
-			private fillTable(client Client, tbl String) : void	private getNormalValue(r Random, magnitude double, min long, max long) : long	org.voltdb.regressionsuites.TestApproxCountDistinctSuite
-					
-https://github.com/brettwooldridge/HikariCP.git	a4d1156d08dd89f4ea14d258b3b15b84b5880dac	e19c6874431dc2c3046436c2ac249a0ab2ef3457			
-			public close() : void	private closeOpenStatements() : void	com.zaxxer.hikari.proxy.ConnectionProxy
-					
-https://github.com/jOOQ/jOOQ.git	a2fdbe0714bbd55ea03b556ff682f407d3416658	58a4e74d28073e7c6f15d1f225ac1c2fd9aa4357			
-			public from(from Object) : U	private millis(temporal Temporal) : long	org.jooq.tools.Convert.ConvertAll
-					
-https://github.com/facebook/buck.git	b23999fd32b13ddb93620863b4674388c7f15d16	6c93f15f502f39dff99ecb01b56dcad7dddb0f0d			
-			public addIntResourceIfNotPresent(rType RType, name String) : void	package getEnumerator(rType RType) : ResourceIdEnumerator	com.facebook.buck.android.aapt.AaptResourceCollector
-					
-https://github.com/apache/hive.git	724b31930718eea606dfe6d95eda7385209caa5f	0fa45e4a562fc2586b1ef06a88e9c186a0835316			
-			public doImport() : void	private setupObjectStore(rdbms RawStore, roles String[], dbNames String[], tokenIds String[], tokens String[], masterKeys String[], now int) : void	org.apache.hadoop.hive.metastore.hbase.TestHBaseImport
-			private copyFunctions() : void	private copyOneFunction(dbName String, funcName String) : void	org.apache.hadoop.hive.metastore.hbase.HBaseImport
-					
-https://github.com/JetBrains/intellij-plugins.git	5c424f1ca02ac0693fd19f56a87a325ffa6e12a8	83b3092c1ee11b70489732f9e69b8e01c2a966f0			
-			private logError(methodName String, filePath String, error RequestError) : void	private getShortErrorMessage(methodName String, filePath String, error RequestError) : String	com.jetbrains.lang.dart.analyzer.DartAnalysisServerService
-					
-https://github.com/gwtproject/gwt.git	631b34975a124dd1f5536de3894299c466936f87	892d1760c8e4c76c369cd5ec1eaed215d3a22c8a			
-			public startRow() : TableRowBuilder	public startRow(rowValue T) : TableRowBuilder	com.google.gwt.user.cellview.client.AbstractCellTableBuilder
-					
-https://github.com/VoltDB/voltdb.git		d47e58f9bbce9a816378e8a7930c1de67a864c29			
-			public callProcedure(ic ImportContext, proc String, fieldList Object) : boolean	public callProcedure(ic ImportContext, procCallback ProcedureCallback, proc String, fieldList Object) : boolean	org.voltdb.ImportHandler
-					
-https://github.com/raphw/byte-buddy.git	ee127167a55559cc10965984b16fe03496fd4dea	fd000ca2e78fce2f8aa11e6a81e4f23c2f1348e6			
-			public invokeSuper(methodToken Token) : SpecialMethodInvocation	private invokeMethod(methodToken Token) : SpecialMethodInvocation	net.bytebuddy.dynamic.scaffold.subclass.SubclassImplementationTarget
-					
-https://github.com/processing/processing.git	3e6fdf7bdec7488e42c6b1c53b7a5bc54bdb79df	f36b736cf1206dd1af794d6fb4cee967a3553b1f			
-			private createFBOLayer() : void	private createDepthAndStencilBuffer(multisample boolean, depthBits int, stencilBits int, packed boolean) : void	processing.opengl.PGL
-					
-https://github.com/infinispan/infinispan.git	02671cb5a351dcd9f78007418cb9f44f3953124d	043030723632627b0908dca6b24dae91d3dfd938			
-			package remoteIterator() : Iterator&lt;R&gt;	private rehashAwareIteration(complete AtomicBoolean, consumer Consumer&lt;R&gt;, supplier IteratorSupplier&lt;R&gt;, iteratorParallelDistribute boolean) : void	org.infinispan.stream.impl.DistributedCacheStream
-			package remoteIterator() : Iterator&lt;R&gt;	private ignoreRehashIteration(consumer Consumer&lt;R&gt;, supplier IteratorSupplier&lt;R&gt;, iteratorParallelDistribute boolean) : void	org.infinispan.stream.impl.DistributedCacheStream
-					
-https://github.com/MovingBlocks/Terasology.git	d35882aef96da148b56ab42ef6a4d8f8ac45f305	8f63cc5c8edb8e740026447bc4827f8e8e6c34b1			
-			public onClosed() : void	private ensurePreviewUnloaded() : boolean	org.terasology.rendering.nui.layers.mainMenu.PreviewWorldScreen
-					
-https://github.com/dropwizard/metrics.git		2331fe19ea88a22de32f15375de8118226eaa1e6			
-			public onEvent(event ApplicationEvent) : void	private registerMetricsForModel(resourceModel ResourceModel) : void	io.dropwizard.metrics.jersey2.InstrumentedResourceMethodApplicationListener
-					
-https://github.com/JoanZapata/android-iconify.git	e24abeae85a00017603dfa75c1dd1bd8c34538a6	eb500cca282e39d01a9882e1d0a83186da6d1a26			
-			package resourceToFile(context Context, resourceName String) : File	private copy(inputStream InputStream, outputFile File) : void	com.joanzapata.android.iconify.Utils
-					
-https://github.com/apache/cassandra.git	fcece2dc2b57ddc456af848293b9fd3cdb34710c	e37d577b6cfc2d3e11252cef87ab9ebba72e1d52			
-			public create(name FunctionName, argNames List&lt;ColumnIdentifier&gt;, argTypes List&lt;AbstractType&lt;?&gt;&gt;, returnType AbstractType&lt;?&gt;, calledOnNullInput boolean, language String, body String) : UDFunction	public assertUdfsEnabled(language String) : void	org.apache.cassandra.cql3.functions.UDFunction
-					
-https://github.com/apache/pig.git	efe1dc1c1091d543e9a1487834ffef91b6bff4af	92dce401344a28ff966ad4cf3dd969a676852315			
-			public depthFirstSearchForFile(statusArray FileStatus[], fileSystem FileSystem) : Path	public depthFirstSearchForFile(statusArray FileStatus[], fileSystem FileSystem, filter PathFilter) : Path	org.apache.pig.impl.util.Utils
-					
-https://github.com/apache/cassandra.git	9acf58801382cf1d3b4223c6191d729b58440564	1a2c1bcdc7267abec9b19d77726aedbb045d79a8			
-			public testTriggerMinorCompaction() : void	public minorWasTriggered(keyspace String, cf String) : boolean	org.apache.cassandra.db.compaction.CompactionsCQLTest
-					
-https://github.com/spring-projects/spring-hateoas.git	ab613f85acdc7e548dfb183f1ace968593aab187	8bdc57ba8975d851fe91edc908761aacea624766			
-			public canWriteTypeIfAssignableToConfiguredType() : void	private assertCanWrite(converter GenericHttpMessageConverter&lt;Object&gt;, type Class&lt;?&gt;, expected boolean) : void	org.springframework.hateoas.mvc.TypeConstrainedMappingJackson2HttpMessageConverterUnitTest
-			public canReadTypeIfAssignableToConfiguredType() : void	private assertCanRead(converter GenericHttpMessageConverter&lt;Object&gt;, type Class&lt;?&gt;, expected boolean) : void	org.springframework.hateoas.mvc.TypeConstrainedMappingJackson2HttpMessageConverterUnitTest
-					
-https://github.com/addthis/hydra.git		664923815b5aeeba2025bfe1dc5a0cd1a02a80e2			
-			public updateChildData(state DataTreeNodeUpdater, path TreeDataParent) : void	public updateHits(state DataTreeNodeUpdater, path TreeDataParent) : boolean	com.addthis.hydra.data.tree.concurrent.ConcurrentTreeNode
-					
-https://github.com/HdrHistogram/HdrHistogram.git	d27b4192a98e5f7692a42fc250daa3bec5067dcf	0e65ac4da70c6ca5c67bb8418e67db914218042f			
-			public run() : void	private getIntervalHistogram() : EncodableHistogram	org.HdrHistogram.HistogramLogProcessor
-					
-https://github.com/neo4j/neo4j.git	87d9e037d9ccd518fbb59c53ef0aebab1cdd93be	e0072aac53b3b88de787e7ca653c7e17f9499018			
-			public unpackBytes() : byte[]	private unpackBytesHeader() : int	org.neo4j.packstream.PackStream.Unpacker
-					
-https://github.com/CyanogenMod/android_frameworks_base.git		153611deab149accd8aeaf03fd102c0b069bd322			
-			public of(row int, column int, size byte) : Cell	public of(cells Cell[][], row int, column int, size byte) : Cell	com.android.internal.widget.LockPatternView.Cell
-			public stringToPattern(string String) : List&lt;LockPatternView.Cell&gt;	public stringToPattern(string String, size byte) : List&lt;LockPatternView.Cell&gt;	com.android.internal.widget.LockPatternUtils
-					
-https://github.com/JetBrains/MPS.git	b09b397c786be9cd0fd835686a296a0d75e1ccf5	61b5decd4a4e5e6bbdea99eb76f136ca10915b73			
-			public insertNewChild(editorContext EditorContext, anchorCell EditorCell, insertBefore boolean) : void	public startInsertMode(editorContext EditorContext, anchorCell EditorCell, insertBefore boolean) : void	jetbrains.mps.nodeEditor.cellProviders.AbstractCellListHandler
-					
-https://github.com/ignatov/intellij-erlang.git	21a58e4f0ecce89c53a1da17d52b3be974a31eb8	e3b84c8753a21b1b15cfc9aa90b5e0c56d290f41			
-			private addErlangModules(module Module, onlyTestModules boolean, erlangModules Collection&lt;ErlangFile&gt;) : Collection&lt;ErlangFile&gt;	private collectFiles(module Module, onlyTestModules boolean, filesCollector Processor&lt;VirtualFile&gt;) : void	org.intellij.erlang.utils.ErlangModulesUtil
-			private addSourceRoot(module Module, sourceRootName String, isTestSourceRoot boolean) : VirtualFile	private addSourceRoot(module Module, sourceRootName String, rootType JpsModuleSourceRootType&lt;?&gt;) : VirtualFile	org.intellij.erlang.compilation.ErlangCompilationTestBase
-					
-https://github.com/apache/hive.git	f69d20f52a663c8f770074e35d840bfceb919bdb	8398fbf3dd0937a0a4a3d540977a95f97425f566			
-			public close() : void	public closeSparkSession() : void	org.apache.hadoop.hive.ql.session.SessionState
-					
-https://github.com/spotify/helios.git	c1336870d80c45baf7397d875ce175e1d401f1a7	cc02c00b8a92ef34d1a8bcdf44a45fb01a8dea6c			
-			protected createJob(job Job) : JobId	protected createJobRawOutput(job Job) : String	com.spotify.helios.system.SystemTestBase
-					
-https://github.com/CyanogenMod/android_frameworks_base.git		f1b8ae1c44e6ba46118c2f66eae1725259acdccc			
-			public of(row int, column int, size byte) : Cell	public of(cells Cell[][], row int, column int, size byte) : Cell	com.android.internal.widget.LockPatternView.Cell
-			public stringToPattern(string String) : List&lt;LockPatternView.Cell&gt;	public stringToPattern(string String, size byte) : List&lt;LockPatternView.Cell&gt;	com.android.internal.widget.LockPatternUtils
-					
-https://github.com/spring-projects/spring-framework.git	48b965ad333da1b4b8fb67dd5a08ad985b5ad135	fffdd1e9e9dc887c3e8973147904d47d9fffbb47			
-			public exists(content String) : void	private assertExistsAndReturn(content String) : Object	org.springframework.test.util.JsonPathExpectationsHelper
-					
-https://github.com/liferay/liferay-plugins.git		720b0d2064ecc4403809e794075e9fe8cfa857f1			
-			protected validate(titleMap Map&lt;Locale,String&gt;, startTimeJCalendar Calendar, endTimeJCalendar Calendar) : void	protected validate(titleMap Map&lt;Locale,String&gt;, startTimeJCalendar Calendar, endTimeJCalendar Calendar, untilJCalendar Calendar) : void	com.liferay.calendar.service.impl.CalendarBookingLocalServiceImpl
-					
-https://github.com/facebook/buck.git	6117d2dadc8ec1b606d9eb633fe6ea8011e495b5	8d14e557e01cc607dd2db66c29d106ef01aa81f7			
-			public get(buildTarget BuildTarget) : TargetNode&lt;?&gt;	public get(buildTarget BuildTarget, eventBus Optional&lt;BuckEventBus&gt;) : TargetNode&lt;?&gt;	com.facebook.buck.parser.Parser.CachedState
-					
-https://github.com/facebook/buck.git	47be784bcb3c0c44a6a062c14c2d12ddeed6d420	89973a5e4f188040c5fcf87fb5a3e9167329d175			
-			private installAppleBundle(params CommandRunnerParams, appleBundle AppleBundle, projectFilesystem ProjectFilesystem, processExecutor ProcessExecutor) : InstallResult	private installAppleBundleForSimulator(params CommandRunnerParams, appleBundle AppleBundle, projectFilesystem ProjectFilesystem, processExecutor ProcessExecutor) : InstallResult	com.facebook.buck.cli.InstallCommand
-					
-https://github.com/VoltDB/voltdb.git		cfc54e8afa7ee7d5376525a84559e90b21487ccf			
-			public getLastOffset(whichTime long) : long	private resetLeader() : void	org.voltdb.importclient.kafka.KafkaStreamImporter.TopicPartitionFetcher
-			public run() : void	private resetLeader() : void	org.voltdb.importclient.kafka.KafkaStreamImporter.TopicPartitionFetcher
 https://github.com/liferay/liferay-portal	47ecaacee200fda183c6adf195e6891b898c9edf	59fd9e696cec5f2ed44c27422bbc426b11647321			
 			public addDependency(project Project, configurationName String, group String, name String, version String, transitive boolean) : Dependency	public addDependency(project Project, configurationName String, group String, name String, version String, classifier String, transitive boolean) : Dependency	com.liferay.gradle.util.GradleUtil
 					

@@ -1,0 +1,101 @@
+Repo	Before	After	Extracted From Method Name	Extracted To Method Name	FQ Class Name
+https://github.com/liferay/liferay-portal	47ecaacee200fda183c6adf195e6891b898c9edf	59fd9e696cec5f2ed44c27422bbc426b11647321			
+			public addDependency(project Project, configurationName String, group String, name String, version String, transitive boolean) : Dependency	public addDependency(project Project, configurationName String, group String, name String, version String, classifier String, transitive boolean) : Dependency	com.liferay.gradle.util.GradleUtil
+					
+https://github.com/JetBrains/intellij-community.git	5668313966f6057ab89ddf56f8a5bc8c61261cbb	7655200f58293e5a30bf8b3cbb29ebadae374564	public getLine() : int	private checkRemap() : void	com.intellij.debugger.engine.RemappedSourcePosition
+	5668313966f6057ab89ddf56f8a5bc8c61261cbb	7655200f58293e5a30bf8b3cbb29ebadae374564	public getOffset() : int	private checkRemap() : void	com.intellij.debugger.engine.RemappedSourcePosition
+					
+https://github.com/JetBrains/intellij-community.git		7a4dab88185553bd09e827839fdf52e870ef7088	private getJarFile(name String) : VirtualFile	private getDataFile(name String) : File	com.intellij.codeInsight.JavaExternalDocumentationTest
+					
+https://github.com/JetBrains/intellij-community.git	5bbef7e136eccf408bbbd3330a40ba2ec468e912	7ed3f273ab0caf0337c22f0b721d51829bb0c877	public getCourses() : List&lt;CourseInfo&gt;	private addCoursesFromStepic(result List&lt;CourseInfo&gt;, pageNumber int) : boolean	com.jetbrains.edu.stepic.EduStepicConnector
+					
+https://github.com/JetBrains/intellij-community.git	9c3a8ee7fd52c9bd52a8676e854b00878ff51874	cc0eaf7faa408a04b68e2b5820f3ebcc75420b5b	private canBeUnboxed(expression PsiExpression) : boolean	private canBinaryExpressionBeUnboxed(lhs PsiExpression, rhs PsiExpression) : boolean	com.siyeh.ig.migration.UnnecessaryBoxingInspection.UnnecessaryBoxingVisitor
+					
+https://github.com/JetBrains/intellij-community.git	a4bcd91256b6940872c76a0cdad3bc0dbd8c7d1d	138911ce88b05039242b8d1b2bb5b7a59008f5ee	public getHTMLEditorKit() : HTMLEditorKit	public getHTMLEditorKit(noGapsBetweenParagraphs boolean) : HTMLEditorKit	com.intellij.util.ui.UIUtil
+					
+					
+https://github.com/JetBrains/intellij-community.git	bdabf14d5d6cb693a0972e84fa1101ca83ce87d2	484038e916dc40bf87eca10c77889d79eca96c4d	public removeNode(nodePath TreePath) : void	public removeNodes(paths Collection&lt;TreePath&gt;) : void	com.intellij.compiler.options.AnnotationProcessorsPanel.MyTreeModel
+					
+					
+https://github.com/JetBrains/intellij-community.git	84a4da0797bc600d49a4123c632abcec6109faba	219d6ddfd1db62c11efb57e0216436874e087834	public addAdditionalLog(presentableName String) : LoggingHandler	private addAdditionalLoggingHandler(loggingHandler LoggingHandlerBase) : void	com.intellij.remoteServer.impl.runtime.log.DeploymentLogManagerImpl
+					
+https://github.com/JetBrains/intellij-community.git	0ce2b45350676ac0a84c66c741b7ee1fa3d47e33	a97341973c3b683d62d1422e5404ed5c7ccf45f8	public bindToElement(element PsiElement) : PsiElement	private setNewName(newText String) : PsiElement	org.jetbrains.plugins.javaFX.fxml.refs.FxmlReferencesContributor.MyJavaClassReferenceProvider.JavaClassReferenceWrapper
+	0ce2b45350676ac0a84c66c741b7ee1fa3d47e33	a97341973c3b683d62d1422e5404ed5c7ccf45f8	public handleElementRename(newElementName String) : PsiElement	private setNewName(newText String) : PsiElement	org.jetbrains.plugins.javaFX.fxml.refs.FxmlReferencesContributor.MyJavaClassReferenceProvider.JavaClassReferenceWrapper
+					
+https://github.com/JetBrains/intellij-community.git	1b80086594213412b4155932f28ee61157337774	d71154ed21e2d5c65bb0ddb000bcb04ca5735048	protected canonicalizeUrl(url String, baseUrl Url, trimFileScheme boolean, sourceIndex int, baseUrlIsFile boolean) : Url	public canonicalizePath(url String, baseUrl Url, baseUrlIsFile boolean) : String	org.jetbrains.debugger.sourcemap.SourceResolver
+					
+					
+https://github.com/JetBrains/intellij-community.git	1e8055dea6565225dfed517d749d8fd6ade7cea4	e1625136ba12907696ef4c6e922ce073293f3a2c	private getAnnotationProcessorOptionsFromCompilerConfig(compilerConfig Element) : Map&lt;String,String&gt;	private addAnnotationProcessorOption(compilerArg String, optionsMap Map&lt;String,String&gt;) : void	org.jetbrains.idea.maven.project.MavenProject
+					
+					
+https://github.com/JetBrains/intellij-community.git	7d4b728fb36531a7da076372becd03eb9b593448	af618666043f21b3db7e6a1be2aa225ae0f432b4	public mouseReleased(e MouseEvent) : void	private isNavigationBlocked(renderer GutterIconRenderer, project Project) : boolean	com.intellij.openapi.editor.impl.EditorGutterComponentImpl
+					
+https://github.com/JetBrains/intellij-community.git	d8d68ceb8a4346ab1b5e9647531a4440172d9168	106d1d51754f454fa673976665e41f463316e084	public parseTypeParameter(builder PsiBuilder) : Marker	private dummy(builder PsiBuilder) : void	com.intellij.lang.java.parser.ReferenceParser
+					
+https://github.com/JetBrains/intellij-community.git		9f7de200c9aef900596b09327a52d33241a68d9c	public parseTypeParameter(builder PsiBuilder) : Marker	private dummy(builder PsiBuilder) : void	com.intellij.lang.java.parser.ReferenceParser
+					
+https://github.com/JetBrains/intellij-community.git		a9379ee529ed87e28c0736c3c6657dcd6a0680e4	private toCanonicalPath(path String, separatorChar char, removeLastSlash boolean) : String	private toCanonicalPath(path String, separatorChar char, removeLastSlash boolean, resolveSymlinksIfNecessary boolean) : String	com.intellij.openapi.util.io.FileUtil
+					
+https://github.com/JetBrains/intellij-community.git	22554874b9c2163750ecc316d566081cab2fbcc2	7c59f2a4f9b03a9e48ca15554291a03477aa19c1	public addJarToRoots(libPath String, module Module, location PsiElement) : void	public addJarsToRoots(jarPaths List&lt;String&gt;, libraryName String, module Module, location PsiElement) : void	com.intellij.codeInsight.daemon.impl.quickfix.OrderEntryFix
+					
+https://github.com/JetBrains/intellij-community.git	b0abd2def515aef98903e5c9669b1da0cd310267	10f769a60c7c7b73982e978959d381df487bbe2d	public getLibraryPath() : String	public getLibraryPaths() : List&lt;String&gt;	com.intellij.execution.junit.JUnit4Framework
+					
+https://github.com/JetBrains/intellij-community.git	09bc37d31d6c96cce66044a7d9797a035e2afc1b	619a6012da868d0d42d9628460f2264effe9bdba	public computeInReadAction(indicator ProgressIndicator) : void	private fillWithScopeExpansion(elements Set&lt;Object&gt;, pattern String) : boolean	com.intellij.ide.util.gotoByName.ChooseByNameBase.CalcElementsThread
+					
+https://github.com/JetBrains/intellij-community.git	5b88d84aa4d7fc3aef39c674eff500ac73fbf6ba	e1f0dbc2f09541fc64ce88ee22d8f8f4648004fe	public resolveAndDownload(project Project, coord String, attachJavaDoc boolean, attachSources boolean, copyTo String, repositories List&lt;MavenRepositoryInfo&gt;) : NewLibraryConfiguration	public resolveAndDownloadImpl(project Project, coord String, attachJavaDoc boolean, attachSources boolean, copyTo String, repositories List&lt;MavenRepositoryInfo&gt;) : List&lt;OrderRoot&gt;	org.jetbrains.idea.maven.utils.library.RepositoryAttachHandler
+					
+https://github.com/JetBrains/intellij-community.git	14be56ee7c927173bceca3fc637b5bcbf7e63148	1b70adbfd49e00194c4c1170ef65e8114d7a2e46	private calcInherentNullability() : Nullness	private getFieldInitializerNullness(expression PsiExpression) : Nullness	com.intellij.codeInspection.dataFlow.value.DfaVariableValue
+					
+https://github.com/JetBrains/intellij-community.git	a6c2ac64c7ca8de7b7fc6d277336c2b497835a08	6ff3fe00d7ffe04dbe0904b8bad98285b6988d6d	public customize(workspaceMap MavenWorkspaceMap, failOnUnresolvedDependency boolean, console MavenServerConsole, indicator MavenServerProgressIndicator, alwaysUpdateSnapshots boolean) : void	public customizeComponents() : void	org.jetbrains.idea.maven.server.Maven32ServerEmbedderImpl
+			public customize(workspaceMap MavenWorkspaceMap, failOnUnresolvedDependency boolean, console MavenServerConsole, indicator MavenServerProgressIndicator, alwaysUpdateSnapshots boolean) : void	public customizeComponents() : void	org.jetbrains.idea.maven.server.Maven30ServerEmbedderImpl
+					
+https://github.com/JetBrains/intellij-community.git	872f822b32471134a1a49fd637ffab12603a08cf	9fbf6b852bd9766060307aff960fb597d55e24d3	public close() : void	public clear() : void	com.intellij.util.io.CachingEnumerator
+					
+https://github.com/JetBrains/intellij-community.git	4981a2997c533f21927d49cb58403ee36296eff4	7dd55014f9840ce03867bb175cf37a4c151dc806	public wrapConfigurable(ep ConfigurableEP&lt;T&gt;) : T	private createConfigurable(ep ConfigurableEP&lt;T&gt;, log boolean) : T	com.intellij.openapi.options.ex.ConfigurableWrapper
+					
+https://github.com/JetBrains/intellij-community.git	4939751c9daf47fb06df4d233e1c8da2de1f3612	98ecc4cfd927f388645f6a6bc492c80868b1a11d	private createPropertiesFiles() : List&lt;PsiFile&gt;	private getFileNamesToCreate() : Set&lt;String&gt;	com.intellij.lang.properties.create.CreateResourceBundleDialogComponent
+					
+https://github.com/JetBrains/intellij-community.git		61215911ef28ca783c5106d7c01e74cf3000a866	public put(parameters List&lt;String&gt;, path String, pegRevision SVNRevision) : void	public format(path String, pegRevision SVNRevision) : String	org.jetbrains.idea.svn.commandLine.CommandUtil
+					
+					
+					
+https://github.com/eclipse/jetty.project.git	ecdcc2e7c0fa1d30b747c6efa765423e6447c88e	1f3be625e62f44d929c01f6574678eea05754474	public configureScanner() : void	public gatherScannables() : void	org.eclipse.jetty.maven.plugin.JettyRunMojo
+					
+https://github.com/eclipse/jetty.project.git	aa75bcf078d36ca7d03777b749ccbc2e42ef0175	837d1a74bb7d694220644a2539c4440ce55462cf	public testTransparentProxyWithQuery() : void	private testTransparentProxyWithQuery(proxyToContext String, prefix String, target String) : void	org.eclipse.jetty.proxy.ProxyServletTest
+					
+					
+https://github.com/eclipse/jetty.project.git	54f7378064d7e3c786a46ab84b7a53e1efcf034a	85a690e3cdbbb8447342eefdf690e22ad1b33e02	private defaultValue(field WireField) : CodeBlock	private fieldInitializer(type ProtoTypeName, value Object) : CodeBlock	com.squareup.wire.java.TypeWriter
+					
+					
+https://github.com/linkedin/rest.li.git	854608fdd9bf565409ca60febba49636d27afd14	bd0d3bf75d31a8b5db34b8b66dfb28e5e1f492de	protected generateRecord(templateClass JDefinedClass, recordSpec RecordTemplateSpec) : void	protected extendRecordBaseClass(templateClass JDefinedClass) : void	com.linkedin.pegasus.generator.JavaDataTemplateGenerator
+			protected generateMap(mapClass JDefinedClass, mapSpec MapTemplateSpec) : void	protected extendWrappingMapBaseClass(valueJClass JClass, mapClass JDefinedClass) : void	com.linkedin.pegasus.generator.JavaDataTemplateGenerator
+			protected generateUnion(unionClass JDefinedClass, unionSpec UnionTemplateSpec) : void	protected extendUnionBaseClass(unionClass JDefinedClass) : void	com.linkedin.pegasus.generator.JavaDataTemplateGenerator
+			protected generateArray(arrayClass JDefinedClass, arrayDataTemplateSpec ArrayTemplateSpec) : void	protected extendWrappingArrayBaseClass(itemJClass JClass, arrayClass JDefinedClass) : void	com.linkedin.pegasus.generator.JavaDataTemplateGenerator
+					
+https://github.com/linkedin/rest.li.git	eafd84a57cafee0583dd3be04239ba980907ac1d	ec5ea36faa3dd74585bb339beabdba6149ed63be	public buildErrorResponse(result RestLiServiceException) : ErrorResponse	private buildErrorResponse(result RestLiServiceException, errorResponseFormat ErrorResponseFormat) : ErrorResponse	com.linkedin.restli.internal.server.methods.response.ErrorResponseBuilder
+					
+					
+https://github.com/linkedin/rest.li.git	c33faae26ce8eec42e59249a2c4ba8dc271fda02	54fa890a6af4ccf564fb481d3e1b6ad4d084de9e	public onRestRequest(req RestRequest, requestContext RequestContext, wireAttrs Map&lt;String,String&gt;, nextFilter NextFilter&lt;RestRequest,RestResponse&gt;) : void	public addResponseCompressionHeaders(responseCompressionOverride CompressionOption, req RestRequest) : RestRequest	com.linkedin.r2.filter.compression.ClientCompressionFilter
+					
+					
+https://github.com/eclipse/vert.x.git	5368c547476e1be6612a87ec84f21ed680c7d353	0ef66582ffaba9a8df1cad846880df2074d34505	public TCPSSLOptions()	private init() : void	io.vertx.core.net.TCPSSLOptions
+			public NetClientOptions()	private init() : void	io.vertx.core.net.NetClientOptions
+			public HttpClientOptions()	private init() : void	io.vertx.core.http.HttpClientOptions
+			public NetServerOptions()	private init() : void	io.vertx.core.net.NetServerOptions
+			public HttpServerOptions()	private init() : void	io.vertx.core.http.HttpServerOptions
+			public ClientOptionsBase()	private init() : void	io.vertx.core.net.ClientOptionsBase
+					
+					
+https://github.com/deeplearning4j/deeplearning4j.git	f8c36aa0551293c2e59ccde784f66be0cff5cf45	d4992887291cc0a7eeda87ad547fa9e1e7fda41c	public output(x INDArray) : INDArray	public output(x INDArray, test boolean) : INDArray	org.deeplearning4j.nn.layers.OutputLayer
+					
+https://github.com/deeplearning4j/deeplearning4j.git	4ceab7f07f8d7e2a5e0f552fa3d7aaf99d2350e9	3325f5ccd23f8016fa28a24f878b54f1918546ed	public loadGoogleModel(modelFile File, binary boolean) : Word2Vec	public loadGoogleModel(modelFile File, binary boolean, lineBreaks boolean) : Word2Vec	org.deeplearning4j.models.embeddings.loader.WordVectorSerializer
+					
+https://github.com/deeplearning4j/deeplearning4j.git	5c9b36574e3f4cf25ba0cb0e7d5dd561c4909d21	91cdfa1ffd937a4cb01cdc0052874ef7831955e2	public optimize(initialStep double, parameters INDArray, gradients INDArray) : double	private getNewScore(oldParameters INDArray) : double	org.deeplearning4j.optimize.solvers.BackTrackLineSearch
+					
+					
+https://github.com/deeplearning4j/deeplearning4j.git	7f5be42b78a6cd0909df6f5fa04aaf5e818ad201	3d080545362794ac5ab63a6cf1bdfb523a0d92a5	public readCaffeModel(caffeModelPath String, sizeLimitMb int) : NetParameter	public readCaffeModel(is InputStream, sizeLimitMb int) : NetParameter	org.deeplearning4j.translate.CaffeModelToJavaClass
+					
+https://github.com/deeplearning4j/deeplearning4j.git	a44a073c712e765872cd6bcae9480bc7139131a3	c50064efb325b0c94cc62788b4c8935b7c39ac40	public testSphereFnOptHelper(oa OptimizationAlgorithm, numLineSearchIter int, nDimensions int) : void	private getOptimizer(oa OptimizationAlgorithm, conf NeuralNetConfiguration, m Model) : ConvexOptimizer	org.deeplearning4j.optimize.solver.TestOptimizers
+					
+https://github.com/open-keychain/open-keychain.git	f978aca8e587e4b9cd0574cac6f4bc7cc3d9fef9	c11fef6e7c80681ce69e5fdc7f4796b0b7a18e2b	private handleActions(savedInstanceState Bundle, intent Intent) : void	public displayInputFragment(showOpenDialog boolean) : void	org.sufficientlysecure.keychain.ui.DecryptFilesActivity
+			protected cryptoOperation(cryptoInput CryptoInputParcel) : void	protected cryptoOperation(cryptoInput CryptoInputParcel, showProgress boolean) : void	org.sufficientlysecure.keychain.ui.base.CryptoOperationFragment

@@ -13,8 +13,10 @@ https://github.com/CyanogenMod/android_frameworks_base.git		4587c32ab8a1c8e2169e
 			public start() : void	private startAsync() : void	com.android.systemui.usb.StorageNotification
 					
 https://github.com/apache/drill.git	0a27a033a349ba164e29d818a6ae73c41c0cd4bb	b2bbd9941be6b132a83d27c0ae02c935e1dec5dd			
-			public allocateNew(valueCount int) : void	private allocateBytes(size long) : void	public allocateNewSafe() : boolean
-			public allocateNew(valueCount int) : void	private allocateBytes(size long) : void	public allocateNewSafe() : boolean
+			public allocateNew(valueCount int) : void	private allocateBytes(size long) : void	org.apache.drill.exec.vector.$
+			public allocateNewSafe() : boolean	private allocateBytes(size long) : void	org.apache.drill.exec.vector.$
+			public allocateNew(valueCount int) : void	private allocateBytes(size long) : void	org.apache.drill.exec.vector.BitVector
+			public allocateNewSafe() : boolean	private allocateBytes(size long) : void	org.apache.drill.exec.vector.BitVector
 					
 https://github.com/google/j2objc.git	106fede36fce8d4f121448d5e67027f9d80594d3	fa3e6fa02dadc675f0d487a15cd842b3ac4a0c11			
 			private rewriteBoxedPrefixOrPostfix(node TreeNode, operand Expression, funcName String) : void	private getOperatorFunctionModifier(expr Expression) : String	com.google.devtools.j2objc.translate.Autoboxer
@@ -23,13 +25,15 @@ https://github.com/spring-projects/spring-framework.git	3c2efeece40951f0775252a6
 			protected checkAndPrepare(request HttpServletRequest, response HttpServletResponse, cacheControl CacheControl) : void	protected checkRequest(request HttpServletRequest) : void	org.springframework.web.servlet.support.WebContentGenerator
 					
 https://github.com/apache/hive.git		b8d2140fe4faccadcf1a6343ec8cd0cc58c315f9			
-			private joinFinalLeftData() : void	private doFirstFetchIfNeeded() : void	public process(row Object, tag int) : void
+			private joinFinalLeftData() : void	private doFirstFetchIfNeeded() : void	org.apache.hadoop.hive.ql.exec.CommonMergeJoinOperator
+			public process(row Object, tag int) : void	private doFirstFetchIfNeeded() : void	org.apache.hadoop.hive.ql.exec.CommonMergeJoinOperator
 					
 https://github.com/nutzam/nutz.git	82bd112bbebcc6f3333747cbfcc3248bba0dc38a	de7efe40dad0f4bb900c4fffa80ed377745532b3			
 			public migration(dao Dao, klass Class&lt;?&gt;, add boolean, del boolean) : void	public migration(dao Dao, klass Class&lt;?&gt;, add boolean, del boolean, tableName Object) : void	org.nutz.dao.util.Daos
 					
 https://github.com/amplab/tachyon.git	ac647aa2dce36ea65c546cd4e661e2bb3ba7dc2e	b0938501f1014cf663e33b44ed5bb9b24d19a358			
-			public disableLocalWriteTest() : void	private getBlockOutStream(filename String, isLocalWrite boolean) : BlockOutStream	public enableLocalWriteTest() : void
+			public disableLocalWriteTest() : void	private getBlockOutStream(filename String, isLocalWrite boolean) : BlockOutStream	tachyon.client.BlockOutStreamIntegrationTest
+			public enableLocalWriteTest() : void	private getBlockOutStream(filename String, isLocalWrite boolean) : BlockOutStream	tachyon.client.BlockOutStreamIntegrationTest
 					
 https://github.com/orfjackal/retrolambda.git	6f49e176cdd98e3e372219a5a659590fff0048a0	46b0d84de9c309bca48a99e572e6611693ed5236			
 			public save(bytecode byte[]) : void	public saveResource(relativePath Path, content byte[]) : void	net.orfjackal.retrolambda.files.ClassSaver
@@ -71,7 +75,7 @@ https://github.com/openhab/openhab.git	32f4a9840d921a3a2a75548c8306b8bcff393432	
 https://github.com/spotify/helios.git		da39bfeb9c370abe2d86e6e327fade252434090d			
 			package run(options Namespace, client HeliosClient, out PrintStream, json boolean, stdin BufferedReader) : int	package run0(client HeliosClient, out PrintStream, json boolean, name String, full boolean) : int	com.spotify.helios.cli.command.DeploymentGroupStatusCommand
 					
-https://github.com/CyanogenMod/android_frameworks_base.git		910397f2390d6821a006991ed6035c76cbc74897			
+		910397f2390d6821a006991ed6035c76cbc74897			
 			private queryProperty(id int) : long	private queryProperty(id int, fromDock boolean) : long	android.os.BatteryManager
 			private loadBoltPoints(res Resources) : float[]	protected getBoltPointsArrayResource() : int	com.android.systemui.BatteryMeterView.NormalBatteryMeterDrawable
 			public storeStatsHistoryInFile(fname String) : void	public internalStoreStatsHistoryInFile(stats BatteryStats, fname String) : void	com.android.internal.os.BatteryStatsHelper
@@ -145,7 +149,8 @@ https://github.com/spring-projects/spring-security.git	3db01bd9d652dfc2580e1a29f
 					
 https://github.com/plutext/docx4j.git	4b4b0babb11891427a8123771350d46417bb5dd4	e29924b33ec0c0298ba4fc3f7a8c218c8e6cfa0c			
 			public save(outStream OutputStream, flags int) : void	public save(outStream OutputStream, flags int, password String) : void	org.docx4j.openpackaging.packages.OpcPackage
-			public save(outFile File, flags int) : void	public save(outFile File, flags int, password String) : void	public save(outStream OutputStream, flags int) : void
+			public save(outFile File, flags int) : void	public save(outFile File, flags int, password String) : void	org.docx4j.openpackaging.packages.OpcPackage
+			public save(outStream OutputStream, flags int) : void	public save(outFile File, flags int, password String) : void	org.docx4j.openpackaging.packages.OpcPackage
 					
 https://github.com/wordpress-mobile/WordPress-Android.git	d399bdbc99fd88ae40c5349d37b638ea87aef384	1b21ba4bcea986988d4bbd578e3bb9a20ec69606			
 			public onPreferenceChange(preference Preference, newValue Object) : boolean	private privacyStringForValue(value int) : String	org.wordpress.android.ui.prefs.SiteSettingsFragment
@@ -215,7 +220,8 @@ https://github.com/Graylog2/graylog2-server.git	ff8e537040cd113cc69ac185355f3cd0
 			public onEvent(event MessageEvent) : void	private dispatchMessage(msg Message) : void	org.graylog2.shared.buffers.processors.ProcessBufferProcessor
 					
 https://github.com/cgeo/cgeo.git	96dd88caab8c6797026596245cbd6ac10b0342dc	c142b8ca3e9f9467931987ee16805cf53e6bc5d2			
-			public testCanHandle() : void	private getWaymarkingConnector() : IConnector	public testGetGeocodeFromUrl() : void
+			public testCanHandle() : void	private getWaymarkingConnector() : IConnector	cgeo.geocaching.connector.WaymarkingConnectorTest
+			public testGetGeocodeFromUrl() : void	private getWaymarkingConnector() : IConnector	cgeo.geocaching.connector.WaymarkingConnectorTest
 					
 https://github.com/netty/netty.git		9f422ed0f44516bea8116ed7730203e4eb316252			
 			public windowUpdateAndFlushShouldTriggerWrite() : void	private resetCtx() : void	io.netty.handler.codec.http2.DefaultHttp2RemoteFlowControllerTest
@@ -295,7 +301,8 @@ https://github.com/checkstyle/checkstyle.git	eb6de977b5ae1d23f975ea4739f4c67d5f7
 			public visitToken(ast DetailAST) : void	private checkInterfaceModifiers(ast DetailAST) : void	com.puppycrawl.tools.checkstyle.checks.modifier.RedundantModifierCheck
 					
 https://github.com/neo4j/neo4j.git	5d73d6f87a7e5df53447a26c515ca5632466d374	021d17c8234904dcb1d54596662352395927fe7b			
-			private deleteNode1(node long, prop1 DefinedProperty, prop2 DefinedProperty, prop3 DefinedProperty) : void	private assertHasRelationships(node long) : void	private deleteNode2(node long, prop1 DefinedProperty, prop2 DefinedProperty, prop3 DefinedProperty) : void
+			private deleteNode1(node long, prop1 DefinedProperty, prop2 DefinedProperty, prop3 DefinedProperty) : void	private assertHasRelationships(node long) : void	org.neo4j.kernel.impl.store.TestNeoStore
+			private deleteNode2(node long, prop1 DefinedProperty, prop2 DefinedProperty, prop3 DefinedProperty) : void	private assertHasRelationships(node long) : void	org.neo4j.kernel.impl.store.TestNeoStore
 					
 https://github.com/skylot/jadx.git	f549a0691e6c7e74d23e376b80075128f4b0c32a	2d8d4164830631d3125575f055b417c5addaa22f			
 			public getDefinitionPosition(line int, offset int) : CodePosition	public getJavaNodeAtPosition(line int, offset int) : JavaNode	jadx.api.JavaClass
@@ -322,11 +329,13 @@ https://github.com/jOOQ/jOOQ.git	d8c44c7f579fbc393cb88acf7ea18a6ac52d66ed	227254
 			public formatCSV(writer Writer, delimiter char, nullString String) : void	public formatCSV(writer Writer, header boolean, delimiter char, nullString String) : void	org.jooq.impl.ResultImpl
 					
 https://github.com/apache/hive.git		4ccc0c37aabbd90ecaa36fcc491e2270e7e9bea6			
-			package setTableInfo(thatTableInfo HCatTableInfo) : void	private restoreLocalInfoFromTableInfo() : void	private writeObject(oos ObjectOutputStream) : void
+			package setTableInfo(thatTableInfo HCatTableInfo) : void	private restoreLocalInfoFromTableInfo() : void	org.apache.hive.hcatalog.mapreduce.PartInfo
+			private writeObject(oos ObjectOutputStream) : void	private restoreLocalInfoFromTableInfo() : void	org.apache.hive.hcatalog.mapreduce.PartInfo
 			private writeObject(oos ObjectOutputStream) : void	private dedupWithTableInfo() : void	org.apache.hive.hcatalog.mapreduce.PartInfo
 					
 https://github.com/VoltDB/voltdb.git		c1359c843bd03a694f846c8140e24ed646bbb913			
-			public testBasicCreateIndex() : void	private createSchema(config Configuration, ddl String, sitesPerHost int, hostCount int, replication int) : void	public testCreateDropIndexonView() : void
+			public testBasicCreateIndex() : void	private createSchema(config Configuration, ddl String, sitesPerHost int, hostCount int, replication int) : void	org.voltdb.TestAdhocCreateDropIndex
+			public testCreateDropIndexonView() : void	private createSchema(config Configuration, ddl String, sitesPerHost int, hostCount int, replication int) : void	org.voltdb.TestAdhocCreateDropIndex
 					
 https://github.com/google/closure-compiler.git	fda7ab0b014acca69c4b921ae31fe32c2d3f89a2	545a7d027b4c55c116dc52d9cd8121fbb09777f0			
 			public isSubtype(that JSType) : boolean	protected isSubtype(that JSType, implicitImplCache ImplCache) : boolean	com.google.javascript.rhino.jstype.NoResolvedType
@@ -345,7 +354,8 @@ https://github.com/google/closure-compiler.git	fda7ab0b014acca69c4b921ae31fe32c2
 			public isSubtype(other JSType) : boolean	protected isSubtype(other JSType, implicitImplCache ImplCache) : boolean	com.google.javascript.rhino.jstype.ArrowType
 					
 https://github.com/hazelcast/hazelcast.git	bef95d303c1a0eb13a4eef30ebe1511724c1d4b2	204bf49cba03fe5d581a35ff82dd22587a681f46			
-			private testWaitNotifyService_whenNodeSplitFromCluster(action SplitAction) : void	private createConfig() : Config	private testWaitingInvocations_whenNodeSplitFromCluster(splitAction SplitAction) : void
+			private testWaitNotifyService_whenNodeSplitFromCluster(action SplitAction) : void	private createConfig() : Config	com.hazelcast.spi.impl.operationservice.impl.InvocationNetworkSplitTest
+			private testWaitingInvocations_whenNodeSplitFromCluster(splitAction SplitAction) : void	private createConfig() : Config	com.hazelcast.spi.impl.operationservice.impl.InvocationNetworkSplitTest
 					
 https://github.com/hazelcast/hazelcast.git	e7806dd017f3c56b4970f86c06b8ef5f90f3fd50	e84e96ff5c2bdc48cea7f75fd794506159c4e1f7			
 			public generateCodec(methodElement ExecutableElement, lang Lang) : void	private createCodecModel(methodElement ExecutableElement, lang Lang) : CodecModel	com.hazelcast.client.protocol.generator.CodecCodeGenerator
