@@ -51,16 +51,6 @@ string getMethodName(string field) {
             
         } else {
             string access_(access_type.begin(), access_type.end());
-            /*
-            if (access_ == "public") {
-                cout<<"public method: ";
-            } else if (access_ == "private") {
-                cout<<"private method: ";
-            } else if (access_ == "protected") {
-                cout<<"protected method: ";
-            } else {
-                cout<<"Wrong access type: "<<access_<<endl;
-            }*/
             flag = true;
         }
     }
@@ -103,10 +93,11 @@ string convert(string field) {
 void readLine(char* homepath) {
     ofstream outfile;
     string home_path(homepath);
-    outfile.open("run.sh"); //run.sh是要写的脚本
+    outfile.open("run_newfeatures.sh"); //run.sh是要写的脚本
     if(outfile.is_open())
     {
         outfile<<"#!bash"<<endl;    //message是程序中处理的数据
+        outfile<<"cd "<<home_path<<endl;
         string line, field;    //line为每行内容，field为每个字段
         string repo_url, repo_name, src_name, new_name, first_path, second_path, before_hash, after_hash;
         repo_name = "";
@@ -150,8 +141,9 @@ void readLine(char* homepath) {
                                 if (!field.empty()) {
                                     if (repo_name != "") {
                                         if (has_before == true && has_after == true) {
-                                            outfile<<"rm -rf "<<repo_name<<"_before"<<endl;
-                                            outfile<<"rm -rf "<<repo_name<<"_after"<<endl;
+                                            //outfile<<"rm -rf "<<repo_name<<"_before"<<endl;
+                                            //outfile<<"rm -rf "<<repo_name<<"_after"<<endl;
+                                            outfile<<endl;
                                         }
                                     }
                                     is_url = true;//读repository
@@ -186,17 +178,8 @@ void readLine(char* homepath) {
                                     if(!field.empty()) {
                                         has_after = true;
                                         after_hash = field;
-                                        repo_number++;
-                                        outfile<<"git clone "<<repo_url<<endl;
                                         repo_name = getRepoName(repo_url);
-                                        outfile<<"mv "<<repo_name<<" "<<repo_name<<"_before"<<endl;
-                                        outfile<<"cp -R "<<repo_name<<"_before "<<repo_name<<"_after"<<endl;
-                                        outfile<<"cd "<<repo_name<<"_before"<<endl;
-                                        outfile<<"git checkout "<<before_hash<<endl;
-                                        outfile<<"cd .."<<endl;
-                                        outfile<<"cd "<<repo_name<<"_after"<<endl;
-                                        outfile<<"git checkout "<<after_hash<<endl;
-                                        outfile<<"cd .."<<endl;
+                                        repo_number++;
                                     } else {
                                         has_after = false;
                                         cout<<"line "<<line_number<<" has no after hash!"<<endl;
@@ -226,6 +209,18 @@ void readLine(char* homepath) {
                             case 6:
                             {
                                 if (has_before == true && has_after == true && field.length()>1 && src_name != new_name) {
+                                    outfile<<"if [ ! -d "<<repo_name<<"_before ]"<<endl;
+                                    outfile<<"then"<<endl;
+                                    outfile<<"  git clone "<<repo_url<<endl;
+                                    outfile<<"  mv "<<repo_name<<" "<<repo_name<<"_before"<<endl;
+                                    outfile<<"  cp -R "<<repo_name<<"_before "<<repo_name<<"_after"<<endl;
+                                    outfile<<"fi"<<endl;
+                                    outfile<<"cd "<<repo_name<<"_before"<<endl;
+                                    outfile<<"git checkout "<<before_hash<<endl;
+                                    outfile<<"cd .."<<endl;
+                                    outfile<<"cd "<<repo_name<<"_after"<<endl;
+                                    outfile<<"git checkout "<<after_hash<<endl;
+                                    outfile<<"cd .."<<endl;
                                     getFilePath(field, first_path, second_path);
                                     case_number++;
                                     outfile<<"cd "<<repo_name<<"_before"<<endl;
@@ -234,15 +229,16 @@ void readLine(char* homepath) {
                                     outfile<<"if [ \"$result\" != \"\" ]"<<endl;
                                     outfile<<"then"<<endl;
                                     outfile<<"    echo \"True\""<<endl;
-                                    outfile<<"file_path_before= $(find "<<home_path<<repo_name<<"_before -print | grep \""<<convert(field)<<".java\")"<<endl;
-                                    outfile<<"file_path_after= $(find "<<home_path<<repo_name<<"_after -print | grep \""<<convert(field)<<".java\")"<<endl;
+                                    outfile<<"file_path_before=$(find "<<home_path<<repo_name<<"_before -print | grep \""<<convert(field)<<".java\")"<<endl;
+                                    outfile<<"file_path_after=$(find "<<home_path<<repo_name<<"_after -print | grep \""<<convert(field)<<".java\")"<<endl;
                                     outfile<<"else"<<endl;
                                     outfile<<"    echo \"False\""<<endl;
                                     outfile<<"    file_path_before=$(find "<<home_path<<repo_name<<"_before -print | grep \""<<first_path<<".java\")"<<endl;
                                     outfile<<"    file_path_after=$(find "<<home_path<<repo_name<<"_after -print | grep \""<<first_path<<".java\")"<<endl;
                                     outfile<<"fi"<<endl;
                                     outfile<<"cd .."<<endl;
-                                    outfile<<"java -cp "<<home_path<<"gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator " <<"$file_path_before" << " $file_path_after " + new_name + " " + src_name <<endl;
+                                    outfile<<"java -cp "<<"/home/sihan/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator " <<"$file_path_before" << " $file_path_after " + new_name + " " + src_name <<endl;
+                                    outfile<<endl;
                                 } else if (has_before == false && field.length()>1) {
                                     no_before_case++;
                                 } else if (has_after == false && field.length()>1) {
