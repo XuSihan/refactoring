@@ -1,0 +1,41 @@
+#!bash
+cd aws-sdk-java_before
+file_path=$(find /home/sihan/refactoring/src/aws-sdk-java_before -print | grep "com/amazonaws/services/dynamodbv2/datamodeling/DynamoDBMapper.java")
+result=$(echo $file_path | grep "com/amazonaws/services/dynamodbv2/datamodeling/DynamoDBMapper.java")
+if [ "$result" != "" ]
+then
+    echo "True"
+file_path_before=$(find /home/sihan/refactoring/src/aws-sdk-java_before -print | grep "com/amazonaws/services/dynamodbv2/datamodeling/DynamoDBMapper.java")
+file_path_after=$(find /home/sihan/refactoring/src/aws-sdk-java_after -print | grep "com/amazonaws/services/dynamodbv2/datamodeling/DynamoDBMapper.java")
+else
+    echo "False"
+    file_path_before=$(find /home/sihan/refactoring/src/aws-sdk-java_before -print | grep "datamodeling.java")
+    file_path_after=$(find /home/sihan/refactoring/src/aws-sdk-java_after -print | grep "datamodeling.java")
+fi
+cd ..
+java -cp /home/sihan/refactoring/src/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after pause pauseExponentially
+
+git clone https://github.com/apache/hive.git
+mv hive hive_before
+cp -R hive_before hive_after
+cd hive_before
+git checkout 56cffb2d1edc97825ee1d093e3d8e46dab6cdf4b
+cd ..
+cd hive_after
+git checkout e2dd54ab180b577b08cf6b0e69310ac81fc99fd3
+cd ..
+cd hive_before
+file_path=$(find /home/sihan/refactoring/src/hive_before -print | grep "org/apache/hadoop/hive/ql/optimizer/ConstantPropagateProcFactory.java")
+result=$(echo $file_path | grep "org/apache/hadoop/hive/ql/optimizer/ConstantPropagateProcFactory.java")
+if [ "$result" != "" ]
+then
+    echo "True"
+file_path_before=$(find /home/sihan/refactoring/src/hive_before -print | grep "org/apache/hadoop/hive/ql/optimizer/ConstantPropagateProcFactory.java")
+file_path_after=$(find /home/sihan/refactoring/src/hive_after -print | grep "org/apache/hadoop/hive/ql/optimizer/ConstantPropagateProcFactory.java")
+else
+    echo "False"
+    file_path_before=$(find /home/sihan/refactoring/src/hive_before -print | grep "optimizer.java")
+    file_path_after=$(find /home/sihan/refactoring/src/hive_after -print | grep "optimizer.java")
+fi
+cd ..
+java -cp /home/sihan/refactoring/src/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after foldExprFull foldExpr

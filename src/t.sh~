@@ -1,0 +1,29 @@
+#!bash
+cd /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/
+if [ ! -d jodd_before ]
+then
+  git clone https://github.com/oblac/jodd.git
+  mv jodd jodd_before
+  cp -R jodd_before jodd_after
+fi
+cd jodd_before
+git checkout 0cea98ced0330c8bdea8d22c1a21b8322ef1c5db
+cd ..
+cd jodd_after
+git checkout 722ef9156896248ef3fbe83adde0f6ff8f46856a
+cd ..
+cd jodd_before
+file_path=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/jodd_before -print | grep "jodd/http/HttpBase.java")
+result=$(echo $file_path | grep "jodd/http/HttpBase.java")
+if [ "$result" != "" ]
+then
+    echo "True"
+file_path_before=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/jodd_before -print | grep "jodd/http/HttpBase.java")
+file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/jodd_after -print | grep "jodd/http/HttpBase.java")
+else
+    echo "False"
+    file_path_before=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/jodd_before -print | grep "http.java")
+    file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/jodd_after -print | grep "http.java")
+fi
+cd ..
+java -cp /home/sihan/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after resolveFormEncoding formBuffer

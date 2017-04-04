@@ -26,7 +26,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/Android-IMSI-Catcher-Detector_after -print | grep "AIMSICDDbAdapter.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after createCellSignalTable onCreate
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after createCellSignalTable onCreate
 
 if [ ! -d Android-IMSI-Catcher-Detector_before ]
 then
@@ -54,7 +54,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/Android-IMSI-Catcher-Detector_after -print | grep "AIMSICDDbAdapter.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after createOpenCellIDTable onCreate
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after createOpenCellIDTable onCreate
 
 if [ ! -d Android-IMSI-Catcher-Detector_before ]
 then
@@ -82,7 +82,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/Android-IMSI-Catcher-Detector_after -print | grep "AIMSICDDbAdapter.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after createDefaultMCCTable onCreate
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after createDefaultMCCTable onCreate
 
 if [ ! -d Android-IMSI-Catcher-Detector_before ]
 then
@@ -110,7 +110,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/Android-IMSI-Catcher-Detector_after -print | grep "AIMSICDDbAdapter.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after createLocationTable onCreate
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after createLocationTable onCreate
 
 if [ ! -d Android-IMSI-Catcher-Detector_before ]
 then
@@ -138,7 +138,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/Android-IMSI-Catcher-Detector_after -print | grep "AIMSICDDbAdapter.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after createSilentSmsTable onCreate
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after createSilentSmsTable onCreate
 
 if [ ! -d Android-IMSI-Catcher-Detector_before ]
 then
@@ -166,7 +166,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/Android-IMSI-Catcher-Detector_after -print | grep "AIMSICDDbAdapter.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after createCellTable onCreate
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after createCellTable onCreate
 
 if [ ! -d Android-IMSI-Catcher-Detector_before ]
 then
@@ -194,7 +194,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/Android-IMSI-Catcher-Detector_after -print | grep "AIMSICDDbAdapter.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after createEventLogTable onCreate
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after createEventLogTable onCreate
 
 
 if [ ! -d crash_before ]
@@ -223,7 +223,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/crash_after -print | grep "auth.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after convertPemKeyPair loadKeys
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after convertPemKeyPair loadKeys
 
 
 if [ ! -d jodd_before ]
@@ -252,7 +252,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/jodd_after -print | grep "http.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after resolveFormEncoding formBuffer
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after resolveFormEncoding formBuffer
 
 
 
@@ -282,7 +282,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/fabric8_after -print | grep "maven.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after getProbe getLivenessProbe
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after getProbe getLivenessProbe
 
 
 if [ ! -d quasar_before ]
@@ -311,7 +311,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/quasar_after -print | grep "reactivestreams.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after failedSubscribe onSubscribe
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after failedSubscribe onSubscribe
 
 
 if [ ! -d rstudio_before ]
@@ -340,7 +340,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/rstudio_after -print | grep "widget.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after setMaxHeight wrapMenuBar
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after setMaxHeight wrapMenuBar
 
 
 
@@ -370,7 +370,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/hibernate-orm_after -print | grep "annotations.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after categorizeAnnotatedClass AnnotationMetadataSourceProcessorImpl
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after categorizeAnnotatedClass AnnotationMetadataSourceProcessorImpl
 
 
 if [ ! -d elasticsearch_before ]
@@ -399,7 +399,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/elasticsearch_after -print | grep "query.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after buildFQuery doXContent
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after buildFQuery doXContent
 
 
 if [ ! -d checkstyle_before ]
@@ -428,7 +428,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/checkstyle_after -print | grep "coding.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after processField processIDENT
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after processField processIDENT
 
 
 
@@ -459,7 +459,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/eureka_after -print | grep "discovery.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after onRemoteStatusChanged updateInstanceRemoteStatus
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after onRemoteStatusChanged updateInstanceRemoteStatus
 
 
 if [ ! -d orientdb_before ]
@@ -488,7 +488,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/orientdb_after -print | grep "remote.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after readSynchResult command
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after readSynchResult command
 
 if [ ! -d orientdb_before ]
 then
@@ -516,7 +516,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/orientdb_after -print | grep "binary.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after serializeValue indexGet
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after serializeValue indexGet
 
 if [ ! -d orientdb_before ]
 then
@@ -544,7 +544,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/orientdb_after -print | grep "binary.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after serializeValue command
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after serializeValue command
 
 
 if [ ! -d drools_before ]
@@ -573,7 +573,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/drools_after -print | grep "common.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after initPriorityQueue AgendaGroupQueueImpl
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after initPriorityQueue AgendaGroupQueueImpl
 
 if [ ! -d drools_before ]
 then
@@ -601,7 +601,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/drools_after -print | grep "phreak.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after internalAddEntry addEntry
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after internalAddEntry addEntry
 
 
 if [ ! -d voltdb_before ]
@@ -630,7 +630,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/voltdb_after -print | grep "voltdb.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after runPausedMode testPausedMode
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after runPausedMode testPausedMode
 
 
 if [ ! -d YCSB_before ]
@@ -659,7 +659,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/YCSB_after -print | grep "ycsb.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after throttle run
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after throttle run
 
 
 
@@ -689,7 +689,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/spring-boot_after -print | grep "web.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after load overrideDateFormat
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after load overrideDateFormat
 
 
 if [ ! -d async-http-client_before ]
@@ -718,7 +718,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/async-http-client_after -print | grep "oauth.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after signatureBaseString calculateSignature
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after signatureBaseString calculateSignature
 
 
 if [ ! -d rstudio_before ]
@@ -747,7 +747,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/rstudio_after -print | grep "text.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after getBoolean init
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after getBoolean init
 
 if [ ! -d rstudio_before ]
 then
@@ -775,7 +775,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/rstudio_after -print | grep "text.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after has init
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after has init
 
 
 if [ ! -d spring-integration_before ]
@@ -804,7 +804,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/spring-integration_after -print | grep "file.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after handleInputStreamMessage handleFileMessage
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after handleInputStreamMessage handleFileMessage
 
 
 if [ ! -d open-keychain_before ]
@@ -833,7 +833,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/open-keychain_after -print | grep "ui.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after displayInputFragment handleActions
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after displayInputFragment handleActions
 
 
 if [ ! -d infinispan_before ]
@@ -862,7 +862,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/infinispan_after -print | grep "interceptors.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after replayRemoteTransactionIfNeeded visitCommitCommand
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after replayRemoteTransactionIfNeeded visitCommitCommand
 
 if [ ! -d infinispan_before ]
 then
@@ -890,7 +890,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/infinispan_after -print | grep "tm.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after throwRollbackExceptionIfAny commit
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after throwRollbackExceptionIfAny commit
 
 if [ ! -d infinispan_before ]
 then
@@ -918,7 +918,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/infinispan_after -print | grep "interceptors.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after verifyRemoteTransaction invokeNextInterceptorAndVerifyTransaction
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after verifyRemoteTransaction invokeNextInterceptorAndVerifyTransaction
 
 if [ ! -d infinispan_before ]
 then
@@ -946,7 +946,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/infinispan_after -print | grep "distribution.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after createRollbackRpcOptions visitRollbackCommand
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after createRollbackRpcOptions visitRollbackCommand
 
 
 
@@ -976,7 +976,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/jfinal_after -print | grep "validate.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after validateLongValue validateLong
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after validateLongValue validateLong
 
 if [ ! -d jfinal_before ]
 then
@@ -1004,7 +1004,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/jfinal_after -print | grep "validate.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after validateIntegerValue validateInteger
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after validateIntegerValue validateInteger
 
 if [ ! -d jfinal_before ]
 then
@@ -1032,7 +1032,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/jfinal_after -print | grep "validate.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after validateLongValue validateLong
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after validateLongValue validateLong
 
 
 if [ ! -d sonarqube_before ]
@@ -1061,7 +1061,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/sonarqube_after -print | grep "startup.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after getPluginMetrics start
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after getPluginMetrics start
 
 
 if [ ! -d neo4j_before ]
@@ -1090,7 +1090,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/neo4j_after -print | grep "index.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after query lookup
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after query lookup
 
 if [ ! -d neo4j_before ]
 then
@@ -1118,7 +1118,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/neo4j_after -print | grep "index.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after query scan
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after query scan
 
 
 
@@ -1149,7 +1149,65 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/sms-backup-plus_after -print | grep "auth.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after getTokenForLogging toString
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after getTokenForLogging toString
+
+
+if [ ! -d antlr4_before ]
+then
+  git clone https://github.com/antlr/antlr4.git
+  mv antlr4 antlr4_before
+  cp -R antlr4_before antlr4_after
+fi
+cd antlr4_before
+git checkout 0faea5ee1d2e0021530fbe2869154005908616f2
+cd ..
+cd antlr4_after
+git checkout a9ca2efae56815dc464189b055ffe9da23766f7f
+cd ..
+cd antlr4_before
+file_path=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/antlr4_before -print | grep "org/antlr/v4/runtime/tree/Trees.java")
+result=$(echo $file_path | grep "org/antlr/v4/runtime/tree/Trees.java")
+if [ "$result" != "" ]
+then
+    echo "True"
+file_path_before=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/antlr4_before -print | grep "org/antlr/v4/runtime/tree/Trees.java")
+file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/antlr4_after -print | grep "org/antlr/v4/runtime/tree/Trees.java")
+else
+    echo "False"
+    file_path_before=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/antlr4_before -print | grep "tree.java")
+    file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/antlr4_after -print | grep "tree.java")
+fi
+cd ..
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after getDescendants descendants
+
+if [ ! -d antlr4_before ]
+then
+  git clone https://github.com/antlr/antlr4.git
+  mv antlr4 antlr4_before
+  cp -R antlr4_before antlr4_after
+fi
+cd antlr4_before
+git checkout 0faea5ee1d2e0021530fbe2869154005908616f2
+cd ..
+cd antlr4_after
+git checkout a9ca2efae56815dc464189b055ffe9da23766f7f
+cd ..
+cd antlr4_before
+file_path=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/antlr4_before -print | grep "org/antlr/v4/tool/GrammarParserInterpreter.java")
+result=$(echo $file_path | grep "org/antlr/v4/tool/GrammarParserInterpreter.java")
+if [ "$result" != "" ]
+then
+    echo "True"
+file_path_before=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/antlr4_before -print | grep "org/antlr/v4/tool/GrammarParserInterpreter.java")
+file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/antlr4_after -print | grep "org/antlr/v4/tool/GrammarParserInterpreter.java")
+else
+    echo "False"
+    file_path_before=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/antlr4_before -print | grep "tool.java")
+    file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/antlr4_after -print | grep "tool.java")
+fi
+cd ..
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after getAmbuityParserInterpreter getAllPossibleParseTrees
+
 
 if [ ! -d spring-framework_before ]
 then
@@ -1177,7 +1235,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/spring-framework_after -print | grep "annotation.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after assertMissingTextAttribute synthesizeAnnotationFromMapWithMissingAttributeValue
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after assertMissingTextAttribute synthesizeAnnotationFromMapWithMissingAttributeValue
 
 if [ ! -d spring-framework_before ]
 then
@@ -1205,7 +1263,8 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/spring-framework_after -print | grep "annotation.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after assertMissingTextAttribute synthesizeAnnotationFromMapWithNullAttributeValue
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after assertMissingTextAttribute synthesizeAnnotationFromMapWithNullAttributeValue
+
 
 if [ ! -d WordPress-Android_before ]
 then
@@ -1233,7 +1292,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/WordPress-Android_after -print | grep "main.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after trackLastVisibleTab onResume
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after trackLastVisibleTab onResume
 
 
 if [ ! -d camel_before ]
@@ -1262,7 +1321,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/camel_after -print | grep "impl.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after copyAttachments copyFrom
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after copyAttachments copyFrom
 
 
 
@@ -1292,7 +1351,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/mockito_after -print | grep "bytebuddy.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after allMockedTypes generateMockClass
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after allMockedTypes generateMockClass
 
 
 if [ ! -d buck_before ]
@@ -1321,7 +1380,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/buck_after -print | grep "maven.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after downloadArtifact resolve
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after downloadArtifact resolve
 
 if [ ! -d buck_before ]
 then
@@ -1349,7 +1408,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/buck_after -print | grep "maven.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after createBuckFiles resolve
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after createBuckFiles resolve
 
 
 if [ ! -d hive_before ]
@@ -1378,7 +1437,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/hive_after -print | grep "optimizer.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after foldExprFull foldExpr
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after foldExprFull foldExpr
 
 
 
@@ -1408,7 +1467,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/seyren_after -print | grep "velocity.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after evaluateTemplate createBody
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after evaluateTemplate createBody
 
 
 if [ ! -d drill_before ]
@@ -1437,7 +1496,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/drill_after -print | grep "handlers.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after validateAndConvert getPlan
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after validateAndConvert getPlan
 
 
 if [ ! -d Lealone_before ]
@@ -1466,7 +1525,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/Lealone_after -print | grep "ddl.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after setPassword update
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after setPassword update
 
 if [ ! -d Lealone_before ]
 then
@@ -1494,7 +1553,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/Lealone_after -print | grep "ddl.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after setSaltAndHash update
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after setSaltAndHash update
 
 
 if [ ! -d java-algorithms-implementation_before ]
@@ -1523,7 +1582,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/java-algorithms-implementation_after -print | grep "timing.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after collectGarbage main
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after collectGarbage main
 
 
 if [ ! -d java-algorithms-implementation_before ]
@@ -1552,7 +1611,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/java-algorithms-implementation_after -print | grep "timing.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after putOutTheGarbage main
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after putOutTheGarbage main
 
 
 if [ ! -d drools_before ]
@@ -1581,7 +1640,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/drools_after -print | grep "util.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after loadClass instantiateObject
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after loadClass instantiateObject
 
 
 if [ ! -d k-9_before ]
@@ -1610,7 +1669,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/k-9_after -print | grep "controller.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after handleSendFailure sendPendingMessagesSynchronous
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after handleSendFailure sendPendingMessagesSynchronous
 
 
 if [ ! -d languagetool_before ]
@@ -1639,7 +1698,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/languagetool_after -print | grep "gui.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after getMouseAdapter show
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after getMouseAdapter show
 
 if [ ! -d languagetool_before ]
 then
@@ -1667,7 +1726,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/languagetool_after -print | grep "gui.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after createNonOfficeElements show
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after createNonOfficeElements show
 
 if [ ! -d languagetool_before ]
 then
@@ -1695,7 +1754,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/languagetool_after -print | grep "gui.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after getMotherTonguePanel show
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after getMotherTonguePanel show
 
 if [ ! -d languagetool_before ]
 then
@@ -1723,7 +1782,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/languagetool_after -print | grep "gui.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after getTreeModel show
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after getTreeModel show
 
 if [ ! -d languagetool_before ]
 then
@@ -1751,7 +1810,38 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/languagetool_after -print | grep "gui.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after getTreeButtonPanel show
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after getTreeButtonPanel show
+
+
+
+if [ ! -d core_before ]
+then
+  git clone https://github.com/wicketstuff/core.git
+  mv core core_before
+  cp -R core_before core_after
+fi
+cd core_before
+git checkout c7fb3b363c3ae5900ca3a65d7996d7ffe825fce7
+cd ..
+cd core_after
+git checkout 8ea46f48063c38473c12ca7c114106ca910b6e74
+cd ..
+cd core_before
+file_path=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/core_before -print | grep "org/wicketstuff/foundation/tab/FoundationTabTest.java")
+result=$(echo $file_path | grep "org/wicketstuff/foundation/tab/FoundationTabTest.java")
+if [ "$result" != "" ]
+then
+    echo "True"
+file_path_before=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/core_before -print | grep "org/wicketstuff/foundation/tab/FoundationTabTest.java")
+file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/core_after -print | grep "org/wicketstuff/foundation/tab/FoundationTabTest.java")
+else
+    echo "False"
+    file_path_before=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/core_before -print | grep "tab.java")
+    file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/core_after -print | grep "tab.java")
+fi
+cd ..
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after testRenderedTab renderSimpleTab
+
 
 if [ ! -d spring-framework_before ]
 then
@@ -1779,7 +1869,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/spring-framework_after -print | grep "converter.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after addDefaultHeaders write
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after addDefaultHeaders write
 
 
 if [ ! -d WordPress-Android_before ]
@@ -1808,7 +1898,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/WordPress-Android_after -print | grep "SitePickerAdapter.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after getBlogsForCurrentView doInBackground
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after getBlogsForCurrentView doInBackground
 
 
 
@@ -1838,7 +1928,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/openhab_after -print | grep "message.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after bail processData
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after bail processData
 
 if [ ! -d openhab_before ]
 then
@@ -1866,7 +1956,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/openhab_after -print | grep "insteonplm.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after processBindingConfiguration updated
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after processBindingConfiguration updated
 
 
 if [ ! -d drill_before ]
@@ -1895,7 +1985,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/drill_after -print | grep "impl.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after nextRowInternally next
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after nextRowInternally next
 
 
 if [ ! -d presto_before ]
@@ -1924,7 +2014,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/presto_after -print | grep "operator.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after tryGetLookupSource getOutput
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after tryGetLookupSource getOutput
 
 if [ ! -d presto_before ]
 then
@@ -1952,7 +2042,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/presto_after -print | grep "operator.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after tryGetLookupSource needsInput
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after tryGetLookupSource needsInput
 
 
 if [ ! -d spring-boot_before ]
@@ -1981,7 +2071,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/spring-boot_after -print | grep "system.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after createPreparedEvent overridePidFileWithSpring
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after createPreparedEvent overridePidFileWithSpring
 
 if [ ! -d spring-boot_before ]
 then
@@ -2009,7 +2099,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/spring-boot_after -print | grep "system.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after createEnvironmentPreparedEvent differentEventTypes
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after createEnvironmentPreparedEvent differentEventTypes
 
 
 
@@ -2039,7 +2129,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/cassandra_after -print | grep "dht.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after getSpecifiedTokens getBootstrapTokens
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after getSpecifiedTokens getBootstrapTokens
 
 
 if [ ! -d morphia_before ]
@@ -2068,7 +2158,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/morphia_after -print | grep "morphia.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after performBasicMappingTest testBasicMapping
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after performBasicMappingTest testBasicMapping
 
 
 if [ ! -d go-lang-idea-plugin_before ]
@@ -2097,7 +2187,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/go-lang-idea-plugin_after -print | grep "testing.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after isAvailableInModule setupConfigurationFromContext
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after isAvailableInModule setupConfigurationFromContext
 
 
 if [ ! -d neo4j_before ]
@@ -2126,7 +2216,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/neo4j_after -print | grep "util.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after createNewThread schedule
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after createNewThread schedule
 
 
 if [ ! -d go-lang-idea-plugin_before ]
@@ -2155,7 +2245,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/go-lang-idea-plugin_after -print | grep "impl.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after processResolveVariants resolveInner
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after processResolveVariants resolveInner
 
 
 
@@ -2186,7 +2276,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/jersey_after -print | grep "scanning.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after close hasNext
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after close hasNext
 
 if [ ! -d jersey_before ]
 then
@@ -2214,7 +2304,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/jersey_after -print | grep "scanning.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after init FilesScanner
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after init FilesScanner
 
 if [ ! -d jersey_before ]
 then
@@ -2242,7 +2332,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/jersey_after -print | grep "scanning.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after init reset
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after init reset
 
 
 if [ ! -d MapDB_before ]
@@ -2271,7 +2361,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/MapDB_after -print | grep "mapdb.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after insertOrUpdate update2
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after insertOrUpdate update2
 
 
 if [ ! -d bitcoinj_before ]
@@ -2300,7 +2390,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/bitcoinj_after -print | grep "core.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after newSha256Digest sha256hash160
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after newSha256Digest sha256hash160
 
 
 if [ ! -d bitcoinj_before ]
@@ -2329,7 +2419,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/bitcoinj_after -print | grep "channels.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after updatedChannel closeChannel
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after updatedChannel closeChannel
 
 if [ ! -d bitcoinj_before ]
 then
@@ -2357,7 +2447,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/bitcoinj_after -print | grep "channels.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after updatedChannel removeChannel
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after updatedChannel removeChannel
 
 if [ ! -d bitcoinj_before ]
 then
@@ -2385,7 +2475,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/bitcoinj_after -print | grep "channels.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after updatedChannel putChannel
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after updatedChannel putChannel
 
 
 if [ ! -d structr_before ]
@@ -2414,7 +2504,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/structr_after -print | grep "resource.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after getSchemaProperties getPropertiesForView
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after getSchemaProperties getPropertiesForView
 
 
 if [ ! -d buck_before ]
@@ -2443,7 +2533,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/buck_after -print | grep "js.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after getPathToJSBundleDir ReactNativeBundle
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after getPathToJSBundleDir ReactNativeBundle
 
 
 if [ ! -d cassandra_before ]
@@ -2472,7 +2562,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/cassandra_after -print | grep "cql3.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after createTableName createTable
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after createTableName createTable
 
 if [ ! -d cassandra_before ]
 then
@@ -2500,7 +2590,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/cassandra_after -print | grep "statements.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after makeCasRequest executeWithCondition
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after makeCasRequest executeWithCondition
 
 if [ ! -d cassandra_before ]
 then
@@ -2528,7 +2618,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/cassandra_after -print | grep "statements.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after executeInternalWithoutCondition executeInternal
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after executeInternalWithoutCondition executeInternal
 
 if [ ! -d cassandra_before ]
 then
@@ -2556,7 +2646,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/cassandra_after -print | grep "statements.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after makeCasRequest executeWithConditions
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after makeCasRequest executeWithConditions
 
 if [ ! -d cassandra_before ]
 then
@@ -2584,7 +2674,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/cassandra_after -print | grep "cql3.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after assertInvalidThrowMessage assertInvalidMessage
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after assertInvalidThrowMessage assertInvalidMessage
 
 if [ ! -d cassandra_before ]
 then
@@ -2612,7 +2702,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/cassandra_after -print | grep "statements.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after executeInternalWithoutCondition executeInternal
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after executeInternalWithoutCondition executeInternal
 
 
 if [ ! -d buck_before ]
@@ -2641,7 +2731,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/buck_after -print | grep "android.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after getTestPathPredicate testFilterLocales
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after getTestPathPredicate testFilterLocales
 
 if [ ! -d buck_before ]
 then
@@ -2669,7 +2759,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/buck_after -print | grep "android.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after getTestPathPredicate testFilterStrings
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after getTestPathPredicate testFilterStrings
 
 
 if [ ! -d giraph_before ]
@@ -2698,7 +2788,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/giraph_after -print | grep "kryo.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after registerSerializer createKryo
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after registerSerializer createKryo
 
 
 if [ ! -d java-algorithms-implementation_before ]
@@ -2727,7 +2817,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/java-algorithms-implementation_after -print | grep "timing.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after runTest main
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after runTest main
 
 
 if [ ! -d gwt_before ]
@@ -2756,7 +2846,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/gwt_after -print | grep "ControlFlowAnalyzer.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after rescueMembersAndInstantiateSuperInterfaces visit
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after rescueMembersAndInstantiateSuperInterfaces visit
 
 
 if [ ! -d drill_before ]
@@ -2785,7 +2875,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/drill_after -print | grep "testing.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after setSessionOption setControls
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after setSessionOption setControls
 
 
 if [ ! -d aws-sdk-java_before ]
@@ -2814,7 +2904,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/aws-sdk-java_after -print | grep "datamodeling.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after pause pauseExponentially
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after pause pauseExponentially
 
 
 
@@ -2844,7 +2934,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/sonarqube_after -print | grep "bootstrapper.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after doStop stop
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after doStop stop
 
 
 if [ ! -d drill_before ]
@@ -2873,7 +2963,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/drill_after -print | grep "impersonation.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after createTestData addMiniDfsBasedStorageAndGenerateTestData
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after createTestData addMiniDfsBasedStorageAndGenerateTestData
 
 
 if [ ! -d facebook-android-sdk_before ]
@@ -2902,7 +2992,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/facebook-android-sdk_after -print | grep "internal.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after getAndroidIdViaReflection getAndroidId
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after getAndroidIdViaReflection getAndroidId
 
 
 if [ ! -d fabric8_before ]
@@ -2931,7 +3021,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/fabric8_after -print | grep "maven.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after getHTTPGetAction getProbe
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after getHTTPGetAction getProbe
 
 
 if [ ! -d killbill_before ]
@@ -2960,7 +3050,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/killbill_after -print | grep "janitor.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after updatePaymentAndTransactionIfNeeded doIteration
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after updatePaymentAndTransactionIfNeeded doIteration
 
 
 
@@ -2992,7 +3082,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/AndroidAsync_after -print | grep "http.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after terminate report
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after terminate report
 
 
 if [ ! -d hive_before ]
@@ -3021,7 +3111,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/hive_after -print | grep "beeline.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after executeInternal execute
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after executeInternal execute
 
 if [ ! -d hive_before ]
 then
@@ -3049,7 +3139,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/hive_after -print | grep "beeline.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after handleMultiLineCmd execute
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after handleMultiLineCmd execute
 
 
 if [ ! -d jbpm_before ]
@@ -3078,7 +3168,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/jbpm_after -print | grep "task.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after createUser testActivateFromIncorrectStatus
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after createUser testActivateFromIncorrectStatus
 
 
 if [ ! -d jbpm_before ]
@@ -3107,7 +3197,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/jbpm_after -print | grep "wih.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after prepareWorkItemWithTaskVariables testTaskWithVariables
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after prepareWorkItemWithTaskVariables testTaskWithVariables
 
 if [ ! -d jbpm_before ]
 then
@@ -3135,7 +3225,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/jbpm_after -print | grep "wih.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after testTaskWithExpectedDescription testTaskWithVariables
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after testTaskWithExpectedDescription testTaskWithVariables
 
 
 if [ ! -d cassandra_before ]
@@ -3164,7 +3254,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/cassandra_after -print | grep "QueryProcessor.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after onCreateFunctionInternal onCreateAggregate
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after onCreateFunctionInternal onCreateAggregate
 
 if [ ! -d cassandra_before ]
 then
@@ -3192,7 +3282,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/cassandra_after -print | grep "QueryProcessor.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after onCreateFunctionInternal onCreateFunction
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after onCreateFunctionInternal onCreateFunction
 
 if [ ! -d cassandra_before ]
 then
@@ -3220,7 +3310,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/cassandra_after -print | grep "QueryProcessor.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after onDropFunctionInternal onDropAggregate
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after onDropFunctionInternal onDropAggregate
 
 if [ ! -d cassandra_before ]
 then
@@ -3248,7 +3338,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/cassandra_after -print | grep "QueryProcessor.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after onDropFunctionInternal onDropFunction
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after onDropFunctionInternal onDropFunction
 
 
 if [ ! -d jackson-databind_before ]
@@ -3277,7 +3367,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/jackson-databind_after -print | grep "type.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after classForName findClass
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after classForName findClass
 
 if [ ! -d jackson-databind_before ]
 then
@@ -3305,7 +3395,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/jackson-databind_after -print | grep "type.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after classForName findClass
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after classForName findClass
 
 
 if [ ! -d rstudio_before ]
@@ -3334,7 +3424,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/rstudio_after -print | grep "ui.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after isUpdate getResult
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after isUpdate getResult
 
 
 if [ ! -d neo4j_before ]
@@ -3363,7 +3453,38 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/neo4j_after -print | grep "ui.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after fileSelection actionPerformed
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after fileSelection actionPerformed
+
+
+if [ ! -d glide_before ]
+then
+  git clone https://github.com/bumptech/glide.git
+  mv glide glide_before
+  cp -R glide_before glide_after
+fi
+cd glide_before
+git checkout e5f2fc25807dfcd41e1d65403820384e037b2d04
+cd ..
+cd glide_after
+git checkout 0d4b27952751de0caab01774048c3e0ec74824ce
+cd ..
+cd glide_before
+file_path=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/glide_before -print | grep "com/bumptech/glide/request/target/ViewTarget/SizeDeterminer.java")
+result=$(echo $file_path | grep "com/bumptech/glide/request/target/ViewTarget/SizeDeterminer.java")
+if [ "$result" != "" ]
+then
+    echo "True"
+file_path_before=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/glide_before -print | grep "com/bumptech/glide/request/target/ViewTarget/SizeDeterminer.java")
+file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/glide_after -print | grep "com/bumptech/glide/request/target/ViewTarget/SizeDeterminer.java")
+else
+    echo "False"
+    file_path_before=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/glide_before -print | grep "ViewTarget.java")
+    file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/glide_after -print | grep "ViewTarget.java")
+fi
+cd ..
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after clearCallbacksAndListener checkCurrentDimens
+
+
 
 if [ ! -d JGroups_before ]
 then
@@ -3391,7 +3512,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/JGroups_after -print | grep "auth.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after isInMembersList authenticate
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after isInMembersList authenticate
 
 
 if [ ! -d goclipse_before ]
@@ -3420,7 +3541,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/goclipse_after -print | grep "ast.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after contains inclusiveContains
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after contains inclusiveContains
 
 if [ ! -d goclipse_before ]
 then
@@ -3448,7 +3569,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/goclipse_after -print | grep "ast.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after contains inclusiveContains
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after contains inclusiveContains
 
 
 if [ ! -d gh4a_before ]
@@ -3477,7 +3598,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/gh4a_after -print | grep "utils.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after isExtensionIn isImage
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after isExtensionIn isImage
 
 
 if [ ! -d wire_before ]
@@ -3506,7 +3627,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/wire_after -print | grep "java.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after fieldInitializer defaultValue
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after fieldInitializer defaultValue
 
 
 if [ ! -d clojure_before ]
@@ -3535,7 +3656,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/clojure_after -print | grep "Compiler.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after sigTag InvokeExpr
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after sigTag InvokeExpr
 
 
 if [ ! -d Osmand_before ]
@@ -3564,7 +3685,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/Osmand_after -print | grep "activities.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after showItemPopupOptionsMenu onListItemClick
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after showItemPopupOptionsMenu onListItemClick
 
 if [ ! -d Osmand_before ]
 then
@@ -3592,7 +3713,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/Osmand_after -print | grep "activities.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after showItemPopupOptionsMenu onChildClick
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after showItemPopupOptionsMenu onChildClick
 
 
 if [ ! -d buck_before ]
@@ -3621,7 +3742,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/buck_after -print | grep "cxx.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after computeRuleFlags createPreprocessBuildRule
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after computeRuleFlags createPreprocessBuildRule
 
 if [ ! -d buck_before ]
 then
@@ -3649,7 +3770,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/buck_after -print | grep "cxx.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after computePlatformCompilerFlags createPreprocessAndCompileBuildRule
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after computePlatformCompilerFlags createPreprocessAndCompileBuildRule
 
 if [ ! -d buck_before ]
 then
@@ -3677,7 +3798,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/buck_after -print | grep "cxx.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after computePlatformFlags createPreprocessBuildRule
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after computePlatformFlags createPreprocessBuildRule
 
 if [ ! -d buck_before ]
 then
@@ -3705,7 +3826,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/buck_after -print | grep "cxx.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after computeRuleCompilerFlags createPreprocessAndCompileBuildRule
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after computeRuleCompilerFlags createPreprocessAndCompileBuildRule
 
 
 if [ ! -d RxJava_before ]
@@ -3734,7 +3855,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/RxJava_after -print | grep "observables.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after awaitForComplete blockForSingle
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after awaitForComplete blockForSingle
 
 if [ ! -d RxJava_before ]
 then
@@ -3762,7 +3883,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/RxJava_after -print | grep "observables.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after awaitForComplete forEach
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after awaitForComplete forEach
 
 
 if [ ! -d cassandra_before ]
@@ -3791,7 +3912,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/cassandra_after -print | grep "db.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after dumpMemtable truncateBlocking
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after dumpMemtable truncateBlocking
 
 if [ ! -d HikariCP_before ]
 then
@@ -3819,7 +3940,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/HikariCP_after -print | grep "proxy.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after closeOpenStatements close
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after closeOpenStatements close
 
 
 if [ ! -d jOOQ_before ]
@@ -3848,7 +3969,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/jOOQ_after -print | grep "Convert.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after millis from
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after millis from
 
 
 if [ ! -d buck_before ]
@@ -3877,7 +3998,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/buck_after -print | grep "aapt.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after getEnumerator addIntResourceIfNotPresent
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after getEnumerator addIntResourceIfNotPresent
 
 
 if [ ! -d hive_before ]
@@ -3906,7 +4027,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/hive_after -print | grep "hbase.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after setupObjectStore doImport
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after setupObjectStore doImport
 
 if [ ! -d hive_before ]
 then
@@ -3934,7 +4055,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/hive_after -print | grep "hbase.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after copyOneFunction copyFunctions
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after copyOneFunction copyFunctions
 
 
 if [ ! -d intellij-plugins_before ]
@@ -3963,7 +4084,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/intellij-plugins_after -print | grep "analyzer.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after getShortErrorMessage logError
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after getShortErrorMessage logError
 
 
 
@@ -3993,7 +4114,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/byte-buddy_after -print | grep "subclass.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after invokeMethod invokeSuper
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after invokeMethod invokeSuper
 
 
 if [ ! -d processing_before ]
@@ -4022,7 +4143,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/processing_after -print | grep "opengl.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after createDepthAndStencilBuffer createFBOLayer
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after createDepthAndStencilBuffer createFBOLayer
 
 
 if [ ! -d infinispan_before ]
@@ -4051,7 +4172,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/infinispan_after -print | grep "impl.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after rehashAwareIteration remoteIterator
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after rehashAwareIteration remoteIterator
 
 if [ ! -d infinispan_before ]
 then
@@ -4079,7 +4200,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/infinispan_after -print | grep "impl.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after ignoreRehashIteration remoteIterator
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after ignoreRehashIteration remoteIterator
 
 
 if [ ! -d Terasology_before ]
@@ -4108,7 +4229,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/Terasology_after -print | grep "mainMenu.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after ensurePreviewUnloaded onClosed
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after ensurePreviewUnloaded onClosed
 
 
 if [ ! -d android-iconify_before ]
@@ -4137,7 +4258,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/android-iconify_after -print | grep "iconify.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after copy resourceToFile
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after copy resourceToFile
 
 
 if [ ! -d cassandra_before ]
@@ -4166,7 +4287,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/cassandra_after -print | grep "functions.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after assertUdfsEnabled create
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after assertUdfsEnabled create
 
 
 
@@ -4196,7 +4317,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/cassandra_after -print | grep "compaction.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after minorWasTriggered testTriggerMinorCompaction
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after minorWasTriggered testTriggerMinorCompaction
 
 
 if [ ! -d spring-hateoas_before ]
@@ -4225,7 +4346,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/spring-hateoas_after -print | grep "mvc.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after assertCanWrite canWriteTypeIfAssignableToConfiguredType
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after assertCanWrite canWriteTypeIfAssignableToConfiguredType
 
 if [ ! -d spring-hateoas_before ]
 then
@@ -4253,7 +4374,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/spring-hateoas_after -print | grep "mvc.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after assertCanRead canReadTypeIfAssignableToConfiguredType
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after assertCanRead canReadTypeIfAssignableToConfiguredType
 
 
 if [ ! -d HdrHistogram_before ]
@@ -4282,7 +4403,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/HdrHistogram_after -print | grep "HdrHistogram.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after getIntervalHistogram run
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after getIntervalHistogram run
 
 
 if [ ! -d neo4j_before ]
@@ -4311,7 +4432,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/neo4j_after -print | grep "PackStream.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after unpackBytesHeader unpackBytes
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after unpackBytesHeader unpackBytes
 
 if [ ! -d intellij-erlang_before ]
 then
@@ -4339,7 +4460,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/intellij-erlang_after -print | grep "utils.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after collectFiles addErlangModules
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after collectFiles addErlangModules
 
 
 if [ ! -d hive_before ]
@@ -4368,7 +4489,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/hive_after -print | grep "session.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after closeSparkSession close
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after closeSparkSession close
 
 
 if [ ! -d helios_before ]
@@ -4397,7 +4518,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/helios_after -print | grep "system.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after createJobRawOutput createJob
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after createJobRawOutput createJob
 
 
 if [ ! -d spring-framework_before ]
@@ -4426,7 +4547,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/spring-framework_after -print | grep "util.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after assertExistsAndReturn exists
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after assertExistsAndReturn exists
 
 
 
@@ -4456,7 +4577,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/buck_after -print | grep "cli.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after installAppleBundleForSimulator installAppleBundle
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after installAppleBundleForSimulator installAppleBundle
 
 
 if [ ! -d truth_before ]
@@ -4485,7 +4606,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/truth_after -print | grep "truth.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after isOrdered isPartiallyOrdered
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after isOrdered isPartiallyOrdered
 
 if [ ! -d truth_before ]
 then
@@ -4513,7 +4634,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/truth_after -print | grep "truth.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after isOrdered isPartiallyOrdered
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after isOrdered isPartiallyOrdered
 
 
 if [ ! -d drill_before ]
@@ -4542,7 +4663,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/drill_after -print | grep "vector.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after allocateBytes allocateNew
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after allocateBytes allocateNew
 
 if [ ! -d drill_before ]
 then
@@ -4570,7 +4691,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/drill_after -print | grep "vector.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after allocateBytes allocateNewSafe
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after allocateBytes allocateNewSafe
 
 if [ ! -d drill_before ]
 then
@@ -4598,7 +4719,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/drill_after -print | grep "vector.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after allocateBytes allocateNew
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after allocateBytes allocateNew
 
 if [ ! -d drill_before ]
 then
@@ -4626,7 +4747,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/drill_after -print | grep "vector.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after allocateBytes allocateNewSafe
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after allocateBytes allocateNewSafe
 
 
 if [ ! -d j2objc_before ]
@@ -4655,7 +4776,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/j2objc_after -print | grep "translate.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after getOperatorFunctionModifier rewriteBoxedPrefixOrPostfix
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after getOperatorFunctionModifier rewriteBoxedPrefixOrPostfix
 
 
 if [ ! -d spring-framework_before ]
@@ -4684,7 +4805,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/spring-framework_after -print | grep "support.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after checkRequest checkAndPrepare
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after checkRequest checkAndPrepare
 
 
 
@@ -4714,7 +4835,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/tachyon_after -print | grep "client.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after getBlockOutStream disableLocalWriteTest
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after getBlockOutStream disableLocalWriteTest
 
 if [ ! -d tachyon_before ]
 then
@@ -4742,7 +4863,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/tachyon_after -print | grep "client.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after getBlockOutStream enableLocalWriteTest
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after getBlockOutStream enableLocalWriteTest
 
 
 if [ ! -d retrolambda_before ]
@@ -4771,7 +4892,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/retrolambda_after -print | grep "files.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after saveResource save
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after saveResource save
 
 if [ ! -d facebook-android-sdk_before ]
 then
@@ -4799,7 +4920,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/facebook-android-sdk_after -print | grep "login.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after getErrorMessage handleResultOk
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after getErrorMessage handleResultOk
 
 if [ ! -d facebook-android-sdk_before ]
 then
@@ -4827,7 +4948,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/facebook-android-sdk_after -print | grep "login.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after getError handleResultOk
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after getError handleResultOk
 
 
 if [ ! -d TextSecure_before ]
@@ -4856,7 +4977,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/TextSecure_after -print | grep "notifications.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after craftIntent getMarkAsReadIntent
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after craftIntent getMarkAsReadIntent
 
 
 
@@ -4887,7 +5008,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/hive_after -print | grep "templeton.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after dumpConfig dumpEnvironent
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after dumpConfig dumpEnvironent
 
 
 if [ ! -d tachyon_before ]
@@ -4916,7 +5037,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/tachyon_after -print | grep "allocator.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after getCandidateDirInTier allocateBlock
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after getCandidateDirInTier allocateBlock
 
 
 if [ ! -d openhab_before ]
@@ -4945,7 +5066,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/openhab_after -print | grep "scriptmanager.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after initializeGeneralGlobals initializeSciptGlobals
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after initializeGeneralGlobals initializeSciptGlobals
 
 if [ ! -d openhab_before ]
 then
@@ -4973,7 +5094,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/openhab_after -print | grep "scriptmanager.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after initializeNashornGlobals initializeSciptGlobals
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after initializeNashornGlobals initializeSciptGlobals
 
 
 if [ ! -d thymeleaf_before ]
@@ -5002,7 +5123,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/thymeleaf_after -print | grep "markup.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after fillUpOverflow read
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after fillUpOverflow read
 
 if [ ! -d thymeleaf_before ]
 then
@@ -5030,7 +5151,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/thymeleaf_after -print | grep "markup.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after processReadBuffer read
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after processReadBuffer read
 
 
 
@@ -5060,7 +5181,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/thymeleaf_after -print | grep "reader.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after matchOverflow read
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after matchOverflow read
 
 
 if [ ! -d android_before ]
@@ -5089,7 +5210,37 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/android_after -print | grep "accounts.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after onUserLoggedIn onNewIntent
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after onUserLoggedIn onNewIntent
+
+
+if [ ! -d hazelcast_before ]
+then
+  git clone https://github.com/hazelcast/hazelcast.git
+  mv hazelcast hazelcast_before
+  cp -R hazelcast_before hazelcast_after
+fi
+cd hazelcast_before
+git checkout 3654f17a7c6409b885d445a5affc15c99380d3c8
+cd ..
+cd hazelcast_after
+git checkout 679d38d4316c16ccba4982d7f3ba13c147a451cb
+cd ..
+cd hazelcast_before
+file_path=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/hazelcast_before -print | grep "com/hazelcast/client/cache/impl/AbstractClientCacheProxy.java")
+result=$(echo $file_path | grep "com/hazelcast/client/cache/impl/AbstractClientCacheProxy.java")
+if [ "$result" != "" ]
+then
+    echo "True"
+file_path_before=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/hazelcast_before -print | grep "com/hazelcast/client/cache/impl/AbstractClientCacheProxy.java")
+file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/hazelcast_after -print | grep "com/hazelcast/client/cache/impl/AbstractClientCacheProxy.java")
+else
+    echo "False"
+    file_path_before=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/hazelcast_before -print | grep "impl.java")
+    file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/hazelcast_after -print | grep "impl.java")
+fi
+cd ..
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after getFromNearCache getInternal
+
 
 if [ ! -d schematic_before ]
 then
@@ -5117,7 +5268,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/schematic_after -print | grep "compiler.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after printNotifyInsert write
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after printNotifyInsert write
 
 
 if [ ! -d neo4j_before ]
@@ -5146,7 +5297,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/neo4j_after -print | grep "counts.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after createCountsTracker shouldCreateEmptyCountsTrackerStoreWhenCreatingDatabase
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after createCountsTracker shouldCreateEmptyCountsTrackerStoreWhenCreatingDatabase
 
 if [ ! -d neo4j_before ]
 then
@@ -5174,7 +5325,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/neo4j_after -print | grep "counts.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after createCountsTracker shouldCreateACountStoreWhenDBContainsDenseNodes
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after createCountsTracker shouldCreateACountStoreWhenDBContainsDenseNodes
 
 
 
@@ -5204,7 +5355,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/BroadleafCommerce_after -print | grep "controller.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after getEntityForm getBlankDynamicFieldTemplateForm
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after getEntityForm getBlankDynamicFieldTemplateForm
 
 
 if [ ! -d structr_before ]
@@ -5233,7 +5384,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/structr_after -print | grep "graph.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after handleObject execute
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after handleObject execute
 
 
 if [ ! -d hazelcast_before ]
@@ -5262,7 +5413,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/hazelcast_after -print | grep "test.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after createAddress createAddresses
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after createAddress createAddresses
 
 if [ ! -d hazelcast_before ]
 then
@@ -5290,7 +5441,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/hazelcast_after -print | grep "nio.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after startSelectors start
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after startSelectors start
 
 if [ ! -d hazelcast_before ]
 then
@@ -5318,7 +5469,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/hazelcast_after -print | grep "nio.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after initializeSelectors ClientConnectionManagerImpl
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after initializeSelectors ClientConnectionManagerImpl
 
 if [ ! -d hazelcast_before ]
 then
@@ -5346,7 +5497,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/hazelcast_after -print | grep "nio.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after shutdownSelectors shutdown
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after shutdownSelectors shutdown
 
 
 
@@ -5377,7 +5528,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/WordPress-Android_after -print | grep "prefs.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after privacyStringForValue onPreferenceChange
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after privacyStringForValue onPreferenceChange
 
 
 if [ ! -d robovm_before ]
@@ -5406,7 +5557,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/robovm_after -print | grep "ios.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after signFrameworks prepareLaunch
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after signFrameworks prepareLaunch
 
 
 
@@ -5436,7 +5587,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/Activiti_after -print | grep "db.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after flushPersistentObjects flushInserts
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after flushPersistentObjects flushInserts
 
 
 if [ ! -d buck_before ]
@@ -5465,7 +5616,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/buck_after -print | grep "apple.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after generateSingleCopyFilesBuildPhase generateCopyFilesBuildPhases
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after generateSingleCopyFilesBuildPhase generateCopyFilesBuildPhases
 
 
 
@@ -5495,7 +5646,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/jitwatch_after -print | grep "bytecode.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after visitTagParse visitTag
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after visitTagParse visitTag
 
 if [ ! -d jitwatch_before ]
 then
@@ -5523,7 +5674,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/jitwatch_after -print | grep "bytecode.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after visitTagEliminateAllocation visitTag
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after visitTagEliminateAllocation visitTag
 
 
 if [ ! -d buck_before ]
@@ -5552,7 +5703,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/buck_after -print | grep "apple.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after createSymLinkSdks createSymLinkIosSdks
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after createSymLinkSdks createSymLinkIosSdks
 
 
 if [ ! -d vaadin_before ]
@@ -5581,7 +5732,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/vaadin_after -print | grep "widgets.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after getVisibleFrozenColumnCount updateFrozenColumns
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after getVisibleFrozenColumnCount updateFrozenColumns
 
 if [ ! -d vaadin_before ]
 then
@@ -5609,7 +5760,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/vaadin_after -print | grep "grid.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after createGrid setup
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after createGrid setup
 
 
 if [ ! -d jmonkeyengine_before ]
@@ -5638,7 +5789,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/jmonkeyengine_after -print | grep "editor.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after movePanel mouseDragged
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after movePanel mouseDragged
 
 if [ ! -d jmonkeyengine_before ]
 then
@@ -5666,7 +5817,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/jmonkeyengine_after -print | grep "editor.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after saveLocation mousePressed
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after saveLocation mousePressed
 
 
 if [ ! -d presto_before ]
@@ -5695,7 +5846,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/presto_after -print | grep "scalar.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after checkArrayIndex readBlockAndCheckIndex
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after checkArrayIndex readBlockAndCheckIndex
 
 
 if [ ! -d hazelcast_before ]
@@ -5724,7 +5875,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/hazelcast_after -print | grep "HealthMonitor.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after renderConnection toString
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after renderConnection toString
 
 if [ ! -d hazelcast_before ]
 then
@@ -5752,7 +5903,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/hazelcast_after -print | grep "HealthMonitor.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after renderThread toString
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after renderThread toString
 
 if [ ! -d hazelcast_before ]
 then
@@ -5780,7 +5931,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/hazelcast_after -print | grep "HealthMonitor.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after renderOperationService toString
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after renderOperationService toString
 
 if [ ! -d hazelcast_before ]
 then
@@ -5808,7 +5959,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/hazelcast_after -print | grep "HealthMonitor.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after renderEvents toString
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after renderEvents toString
 
 if [ ! -d hazelcast_before ]
 then
@@ -5836,7 +5987,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/hazelcast_after -print | grep "HealthMonitor.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after renderNativeMemory toString
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after renderNativeMemory toString
 
 if [ ! -d hazelcast_before ]
 then
@@ -5864,7 +6015,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/hazelcast_after -print | grep "HealthMonitor.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after renderHeap toString
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after renderHeap toString
 
 if [ ! -d hazelcast_before ]
 then
@@ -5892,7 +6043,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/hazelcast_after -print | grep "HealthMonitor.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after renderClient toString
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after renderClient toString
 
 if [ ! -d hazelcast_before ]
 then
@@ -5920,7 +6071,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/hazelcast_after -print | grep "HealthMonitor.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after renderPhysicalMemory toString
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after renderPhysicalMemory toString
 
 if [ ! -d hazelcast_before ]
 then
@@ -5948,7 +6099,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/hazelcast_after -print | grep "HealthMonitor.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after renderProcessors toString
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after renderProcessors toString
 
 if [ ! -d hazelcast_before ]
 then
@@ -5976,7 +6127,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/hazelcast_after -print | grep "tcp.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after getConnectionAddress close
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after getConnectionAddress close
 
 if [ ! -d hazelcast_before ]
 then
@@ -6004,7 +6155,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/hazelcast_after -print | grep "HealthMonitor.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after renderSwap toString
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after renderSwap toString
 
 if [ ! -d hazelcast_before ]
 then
@@ -6032,7 +6183,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/hazelcast_after -print | grep "HealthMonitor.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after renderCluster toString
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after renderCluster toString
 
 if [ ! -d hazelcast_before ]
 then
@@ -6060,7 +6211,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/hazelcast_after -print | grep "HealthMonitor.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after renderExecutors toString
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after renderExecutors toString
 
 if [ ! -d hazelcast_before ]
 then
@@ -6088,7 +6239,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/hazelcast_after -print | grep "HealthMonitor.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after renderProxy toString
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after renderProxy toString
 
 if [ ! -d hazelcast_before ]
 then
@@ -6116,7 +6267,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/hazelcast_after -print | grep "HealthMonitor.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after renderGc toString
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after renderGc toString
 
 
 if [ ! -d jersey_before ]
@@ -6145,7 +6296,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/jersey_after -print | grep "bv.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after _testParamValidatedResourceNoParam testParamValidatedResourceNoParam
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after _testParamValidatedResourceNoParam testParamValidatedResourceNoParam
 
 if [ ! -d jersey_before ]
 then
@@ -6173,7 +6324,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/jersey_after -print | grep "bv.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after _testParamValidatedResourceParamProvided testParamValidatedResourceParamProvided
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after _testParamValidatedResourceParamProvided testParamValidatedResourceParamProvided
 
 if [ ! -d jersey_before ]
 then
@@ -6201,7 +6352,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/jersey_after -print | grep "bv.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after _testPropertyValidatedResourceParamProvided testPropertyValidatedResourceParamProvided
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after _testPropertyValidatedResourceParamProvided testPropertyValidatedResourceParamProvided
 
 if [ ! -d jersey_before ]
 then
@@ -6229,7 +6380,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/jersey_after -print | grep "bv.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after _testOldFashionedResourceNoParam testOldFashionedResourceNoParam
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after _testOldFashionedResourceNoParam testOldFashionedResourceNoParam
 
 if [ ! -d jersey_before ]
 then
@@ -6257,7 +6408,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/jersey_after -print | grep "bv.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after _testPropertyValidatedResourceNoParam testPropertyValidatedResourceNoParam
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after _testPropertyValidatedResourceNoParam testPropertyValidatedResourceNoParam
 
 if [ ! -d jersey_before ]
 then
@@ -6285,7 +6436,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/jersey_after -print | grep "bv.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after _testFieldValidatedResourceNoParam testFieldValidatedResourceNoParam
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after _testFieldValidatedResourceNoParam testFieldValidatedResourceNoParam
 
 if [ ! -d jersey_before ]
 then
@@ -6313,7 +6464,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/jersey_after -print | grep "bv.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after _testOldFashionedResourceParamProvided testOldFashionedResourceParamProvided
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after _testOldFashionedResourceParamProvided testOldFashionedResourceParamProvided
 
 if [ ! -d jersey_before ]
 then
@@ -6341,7 +6492,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/jersey_after -print | grep "bv.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after _testFieldValidatedResourceParamProvided testFieldValidatedResourceParamProvided
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after _testFieldValidatedResourceParamProvided testFieldValidatedResourceParamProvided
 
 
 if [ ! -d graylog2-server_before ]
@@ -6370,7 +6521,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/graylog2-server_after -print | grep "processors.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after postProcessMessage processMessage
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after postProcessMessage processMessage
 
 if [ ! -d graylog2-server_before ]
 then
@@ -6398,7 +6549,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/graylog2-server_after -print | grep "processors.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after dispatchMessage onEvent
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after dispatchMessage onEvent
 
 
 if [ ! -d cgeo_before ]
@@ -6427,7 +6578,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/cgeo_after -print | grep "connector.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after getWaymarkingConnector testCanHandle
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after getWaymarkingConnector testCanHandle
 
 if [ ! -d cgeo_before ]
 then
@@ -6455,7 +6606,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/cgeo_after -print | grep "connector.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after getWaymarkingConnector testGetGeocodeFromUrl
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after getWaymarkingConnector testGetGeocodeFromUrl
 
 
 if [ ! -d docx4j_before ]
@@ -6484,7 +6635,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/docx4j_after -print | grep "WordprocessingML.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after setProtectionPassword setEnforcementEditValue
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after setProtectionPassword setEnforcementEditValue
 
 
 if [ ! -d BuildCraft_before ]
@@ -6513,7 +6664,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/BuildCraft_after -print | grep "ai.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after getAvailableRequests getOrderFromRequestingStation
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after getAvailableRequests getOrderFromRequestingStation
 
 
 
@@ -6543,7 +6694,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/neo4j_after -print | grep "state.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after getSortedIndexUpdates getIndexUpdatesForPrefix
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after getSortedIndexUpdates getIndexUpdatesForPrefix
 
 
 if [ ! -d camel_before ]
@@ -6572,7 +6723,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/camel_after -print | grep "packaging.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after readClassFromCamelResource prepareDataFormat
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after readClassFromCamelResource prepareDataFormat
 
 if [ ! -d camel_before ]
 then
@@ -6600,7 +6751,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/camel_after -print | grep "packaging.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after readClassFromCamelResource prepareLanguage
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after readClassFromCamelResource prepareLanguage
 
 
 
@@ -6630,7 +6781,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/cassandra_after -print | grep "db.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after listSnapshots getSnapshotDetails
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after listSnapshots getSnapshotDetails
 
 
 if [ ! -d hive_before ]
@@ -6659,7 +6810,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/hive_after -print | grep "hbase.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after statsForOneColumnFromProtoBuf deserializeStatsForOneColumn
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after statsForOneColumnFromProtoBuf deserializeStatsForOneColumn
 
 if [ ! -d hive_before ]
 then
@@ -6687,7 +6838,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/hive_after -print | grep "hbase.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after protoBufStatsForOneColumn serializeStatsForOneColumn
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after protoBufStatsForOneColumn serializeStatsForOneColumn
 
 
 if [ ! -d cassandra_before ]
@@ -6716,7 +6867,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/cassandra_after -print | grep "db.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after deleteRowAt deleteRow
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after deleteRowAt deleteRow
 
 
 if [ ! -d gradle_before ]
@@ -6745,7 +6896,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/gradle_after -print | grep "gcc.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after createPlatformToolProvider select
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after createPlatformToolProvider select
 
 
 
@@ -6775,7 +6926,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/buck_after -print | grep "cxx.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after getAllPathsWork getAllPaths
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after getAllPathsWork getAllPaths
 
 
 if [ ! -d buck_before ]
@@ -6804,7 +6955,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/buck_after -print | grep "cli.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after getTargetsAndDependencies runWithoutHelp
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after getTargetsAndDependencies runWithoutHelp
 
 
 if [ ! -d intellij-plugins_before ]
@@ -6833,7 +6984,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/intellij-plugins_after -print | grep "resolve.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after findPsiFile getElementForNavigationTarget
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after findPsiFile getElementForNavigationTarget
 
 
 
@@ -6864,7 +7015,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/cassandra_after -print | grep "net.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after getDroppedMessagesLogs logDroppedMessages
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after getDroppedMessagesLogs logDroppedMessages
 
 
 if [ ! -d checkstyle_before ]
@@ -6893,7 +7044,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/checkstyle_after -print | grep "modifier.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after checkInterfaceModifiers visitToken
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after checkInterfaceModifiers visitToken
 
 
 if [ ! -d neo4j_before ]
@@ -6922,7 +7073,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/neo4j_after -print | grep "store.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after assertHasRelationships deleteNode1
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after assertHasRelationships deleteNode1
 
 if [ ! -d neo4j_before ]
 then
@@ -6950,7 +7101,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/neo4j_after -print | grep "store.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after assertHasRelationships deleteNode2
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after assertHasRelationships deleteNode2
 
 
 if [ ! -d jadx_before ]
@@ -6979,7 +7130,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/jadx_after -print | grep "api.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after getJavaNodeAtPosition getDefinitionPosition
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after getJavaNodeAtPosition getDefinitionPosition
 
 
 if [ ! -d wildfly_before ]
@@ -7008,7 +7159,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/wildfly_after -print | grep "merging.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after handleExcludeMethods handleDeploymentDescriptor
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after handleExcludeMethods handleDeploymentDescriptor
 
 if [ ! -d wildfly_before ]
 then
@@ -7036,7 +7187,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/wildfly_after -print | grep "merging.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after handleMethodPermissions handleDeploymentDescriptor
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after handleMethodPermissions handleDeploymentDescriptor
 
 
 if [ ! -d openhab_before ]
@@ -7065,7 +7216,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/openhab_after -print | grep "types.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after initTimeMap parameters
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after initTimeMap parameters
 
 
 if [ ! -d selendroid_before ]
@@ -7094,7 +7245,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/selendroid_after -print | grep "impl.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after toByteArray takeScreenshot
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after toByteArray takeScreenshot
 
 
 
@@ -7125,7 +7276,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/hazelcast_after -print | grep "impl.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after createConfig testWaitNotifyService_whenNodeSplitFromCluster
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after createConfig testWaitNotifyService_whenNodeSplitFromCluster
 
 if [ ! -d hazelcast_before ]
 then
@@ -7153,7 +7304,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/hazelcast_after -print | grep "impl.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after createConfig testWaitingInvocations_whenNodeSplitFromCluster
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after createConfig testWaitingInvocations_whenNodeSplitFromCluster
 
 
 if [ ! -d hazelcast_before ]
@@ -7182,7 +7333,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/hazelcast_after -print | grep "generator.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after createCodecModel generateCodec
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after createCodecModel generateCodec
 
 
 if [ ! -d bitcoinj_before ]
@@ -7211,7 +7362,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/bitcoinj_after -print | grep "core.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after makeInventoryMessage makeMessage
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after makeInventoryMessage makeMessage
 
 if [ ! -d bitcoinj_before ]
 then
@@ -7239,7 +7390,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/bitcoinj_after -print | grep "core.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after makeAddressMessage makeMessage
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after makeAddressMessage makeMessage
 
 if [ ! -d bitcoinj_before ]
 then
@@ -7267,7 +7418,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/bitcoinj_after -print | grep "core.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after makeTransaction makeMessage
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after makeTransaction makeMessage
 
 if [ ! -d bitcoinj_before ]
 then
@@ -7295,7 +7446,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/bitcoinj_after -print | grep "core.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after makeBlock makeMessage
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after makeBlock makeMessage
 
 
 if [ ! -d druid_before ]
@@ -7324,7 +7475,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/druid_after -print | grep "visitor.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after printJoinType visit
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after printJoinType visit
 
 
 
@@ -7354,7 +7505,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/intellij-community_after -print | grep "engine.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after checkRemap getLine
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after checkRemap getLine
 
 if [ ! -d intellij-community_before ]
 then
@@ -7382,7 +7533,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/intellij-community_after -print | grep "stepic.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after addCoursesFromStepic getCourses
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after addCoursesFromStepic getCourses
 
 
 if [ ! -d intellij-community_before ]
@@ -7411,7 +7562,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/intellij-community_after -print | grep "UnnecessaryBoxingInspection.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after canBinaryExpressionBeUnboxed canBeUnboxed
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after canBinaryExpressionBeUnboxed canBeUnboxed
 
 
 
@@ -7441,7 +7592,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/intellij-community_after -print | grep "AnnotationProcessorsPanel.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after removeNodes removeNode
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after removeNodes removeNode
 
 
 if [ ! -d intellij-community_before ]
@@ -7470,7 +7621,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/intellij-community_after -print | grep "log.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after addAdditionalLoggingHandler addAdditionalLog
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after addAdditionalLoggingHandler addAdditionalLog
 
 
 if [ ! -d intellij-community_before ]
@@ -7499,7 +7650,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/intellij-community_after -print | grep "MyJavaClassReferenceProvider.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after setNewName bindToElement
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after setNewName bindToElement
 
 if [ ! -d intellij-community_before ]
 then
@@ -7527,7 +7678,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/intellij-community_after -print | grep "sourcemap.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after canonicalizePath canonicalizeUrl
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after canonicalizePath canonicalizeUrl
 
 
 if [ ! -d intellij-community_before ]
@@ -7556,7 +7707,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/intellij-community_after -print | grep "project.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after addAnnotationProcessorOption getAnnotationProcessorOptionsFromCompilerConfig
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after addAnnotationProcessorOption getAnnotationProcessorOptionsFromCompilerConfig
 
 
 if [ ! -d intellij-community_before ]
@@ -7585,7 +7736,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/intellij-community_after -print | grep "impl.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after isNavigationBlocked mouseReleased
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after isNavigationBlocked mouseReleased
 
 
 if [ ! -d intellij-community_before ]
@@ -7614,7 +7765,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/intellij-community_after -print | grep "parser.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after dummy parseTypeParameter
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after dummy parseTypeParameter
 
 
 if [ ! -d intellij-community_before ]
@@ -7643,7 +7794,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/intellij-community_after -print | grep "quickfix.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after addJarsToRoots addJarToRoots
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after addJarsToRoots addJarToRoots
 
 
 if [ ! -d intellij-community_before ]
@@ -7672,7 +7823,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/intellij-community_after -print | grep "junit.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after getLibraryPaths getLibraryPath
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after getLibraryPaths getLibraryPath
 
 
 if [ ! -d intellij-community_before ]
@@ -7701,7 +7852,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/intellij-community_after -print | grep "ChooseByNameBase.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after fillWithScopeExpansion computeInReadAction
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after fillWithScopeExpansion computeInReadAction
 
 
 if [ ! -d intellij-community_before ]
@@ -7730,7 +7881,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/intellij-community_after -print | grep "library.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after resolveAndDownloadImpl resolveAndDownload
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after resolveAndDownloadImpl resolveAndDownload
 
 
 if [ ! -d intellij-community_before ]
@@ -7759,7 +7910,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/intellij-community_after -print | grep "value.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after getFieldInitializerNullness calcInherentNullability
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after getFieldInitializerNullness calcInherentNullability
 
 
 if [ ! -d intellij-community_before ]
@@ -7788,7 +7939,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/intellij-community_after -print | grep "server.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after customizeComponents customize
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after customizeComponents customize
 
 if [ ! -d intellij-community_before ]
 then
@@ -7816,7 +7967,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/intellij-community_after -print | grep "server.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after customizeComponents customize
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after customizeComponents customize
 
 
 if [ ! -d intellij-community_before ]
@@ -7845,7 +7996,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/intellij-community_after -print | grep "io.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after clear close
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after clear close
 
 
 if [ ! -d intellij-community_before ]
@@ -7874,7 +8025,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/intellij-community_after -print | grep "ex.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after createConfigurable wrapConfigurable
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after createConfigurable wrapConfigurable
 
 
 if [ ! -d intellij-community_before ]
@@ -7903,7 +8054,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/intellij-community_after -print | grep "create.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after getFileNamesToCreate createPropertiesFiles
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after getFileNamesToCreate createPropertiesFiles
 
 
 if [ ! -d jetty.project_before ]
@@ -7932,7 +8083,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/jetty.project_after -print | grep "plugin.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after gatherScannables configureScanner
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after gatherScannables configureScanner
 
 
 
@@ -7962,7 +8113,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/jetty.project_after -print | grep "java.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after fieldInitializer defaultValue
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after fieldInitializer defaultValue
 
 
 if [ ! -d rest.li_before ]
@@ -7991,7 +8142,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/rest.li_after -print | grep "generator.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after extendRecordBaseClass generateRecord
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after extendRecordBaseClass generateRecord
 
 if [ ! -d rest.li_before ]
 then
@@ -8019,7 +8170,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/rest.li_after -print | grep "generator.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after extendWrappingMapBaseClass generateMap
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after extendWrappingMapBaseClass generateMap
 
 if [ ! -d rest.li_before ]
 then
@@ -8047,7 +8198,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/rest.li_after -print | grep "generator.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after extendUnionBaseClass generateUnion
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after extendUnionBaseClass generateUnion
 
 if [ ! -d rest.li_before ]
 then
@@ -8075,7 +8226,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/rest.li_after -print | grep "generator.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after extendWrappingArrayBaseClass generateArray
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after extendWrappingArrayBaseClass generateArray
 
 
 
@@ -8105,7 +8256,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/rest.li_after -print | grep "compression.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after addResponseCompressionHeaders onRestRequest
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after addResponseCompressionHeaders onRestRequest
 
 
 if [ ! -d vert.x_before ]
@@ -8134,7 +8285,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/vert.x_after -print | grep "net.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after init TCPSSLOptions
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after init TCPSSLOptions
 
 if [ ! -d vert.x_before ]
 then
@@ -8162,7 +8313,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/vert.x_after -print | grep "net.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after init NetClientOptions
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after init NetClientOptions
 
 if [ ! -d vert.x_before ]
 then
@@ -8190,7 +8341,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/vert.x_after -print | grep "http.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after init HttpClientOptions
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after init HttpClientOptions
 
 if [ ! -d vert.x_before ]
 then
@@ -8218,7 +8369,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/vert.x_after -print | grep "net.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after init NetServerOptions
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after init NetServerOptions
 
 if [ ! -d vert.x_before ]
 then
@@ -8246,7 +8397,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/vert.x_after -print | grep "http.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after init HttpServerOptions
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after init HttpServerOptions
 
 if [ ! -d vert.x_before ]
 then
@@ -8274,7 +8425,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/vert.x_after -print | grep "net.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after init ClientOptionsBase
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after init ClientOptionsBase
 
 
 
@@ -8305,7 +8456,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/deeplearning4j_after -print | grep "solvers.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after getNewScore optimize
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after getNewScore optimize
 
 
 
@@ -8335,7 +8486,7 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/deeplearning4j_after -print | grep "solver.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after getOptimizer testSphereFnOptHelper
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after getOptimizer testSphereFnOptHelper
 
 
 if [ ! -d open-keychain_before ]
@@ -8364,5 +8515,5 @@ else
     file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/open-keychain_after -print | grep "ui.java")
 fi
 cd ..
-java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after displayInputFragment handleActions
+java -cp /home/sihan/文档/git/gumtree-spoon-ast-diff-src/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after displayInputFragment handleActions
 

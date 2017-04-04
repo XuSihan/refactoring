@@ -125,6 +125,26 @@ string convert(string field) {
   return result;
 }
 
+string getShort(string hash) {
+  char *cstr = new char[hash.length() + 1];
+  strcpy(cstr, hash.c_str());
+  vector<char> temp_result;
+  char temp;
+  for (int i = 0; i < 6; i++) {
+    temp = cstr[i];
+    temp_result.push_back(temp);
+  }
+  string result(temp_result.begin(), temp_result.end());
+  return result;
+}
+
+string getZip(string repo_url, string before_hash) {
+  string zip;
+  zip = repo_url.substr(0, repo_url.length() - 4) + "/archive/" + before_hash +
+        ".zip";
+  return zip;
+}
+
 void readLine(char *homepath) {
   ofstream outfile, outfile2;
   string home_path(homepath);
@@ -137,12 +157,12 @@ void readLine(char *homepath) {
     outfile2 << "cd " << home_path << endl;
     string line, field;  // line为每行内容，field为每个字段
     string repo_url, repo_name, src_name, new_name, first_path, second_path,
-        before_hash, after_hash, only_hash;
+        before_hash, after_hash, only_hash, short_before, short_after;
     int n_params_E, n_params_S;
     repo_name = "";
     //打开文件
     ifstream in;
-    in.open("data.tsv");  //以逗号隔开
+    in.open("Collated Refactoring Dataset - Data 31Marc.tsv");  //以逗号隔开
     int same = 0;
     int t = 0;   //没有url但是有before hash
     int t2 = 0;  //没有url但是有after hash
@@ -253,6 +273,8 @@ void readLine(char *homepath) {
                   if (has_before == false && has_after == false) {
                     case_number00++;
                   } else if (has_before == true && has_after == true) {
+                    short_before = getShort(before_hash);
+                    short_after = getShort(after_hash);
                     if (src_name == new_name) {
                       cout << "case " << line_number << " has the same!"
                            << endl;
@@ -263,24 +285,26 @@ void readLine(char *homepath) {
                             << "\"line_number: \"" << to_string(line_number)
                             << endl;
                     outfile << "cd " << home_path << endl;
-                    outfile << "if [ ! -d " << repo_name << "_before ]" << endl;
+                    outfile << "if [ ! -d " << short_before << " ]" << endl;
                     outfile << "then" << endl;
-                    outfile << "  git clone " << repo_url << endl;
-                    outfile << "  mv " << repo_name << " " << repo_name
-                            << "_before" << endl;
-                    outfile << "  cp -R " << repo_name << "_before "
-                            << repo_name << "_after" << endl;
+                    outfile << "  wget " << getZip(repo_url, before_hash)
+                            << endl;
+                    outfile << "  unzip " << before_hash << ".zip -d "
+                            << short_before << endl;
                     outfile << "fi" << endl;
-                    outfile << "cd " << repo_name << "_before" << endl;
-                    outfile << "git checkout " << before_hash << endl;
-                    outfile << "cd .." << endl;
-                    outfile << "cd " << repo_name << "_after" << endl;
-                    outfile << "git checkout " << after_hash << endl;
-                    outfile << "cd .." << endl;
+
+                    outfile << "if [ ! -d " << short_after << " ]" << endl;
+                    outfile << "then" << endl;
+                    outfile << "  wget " << getZip(repo_url, after_hash)
+                            << endl;
+                    outfile << "  unzip " << after_hash << ".zip -d "
+                            << short_after << endl;
+                    outfile << "fi" << endl;
+
                     getFilePath(field, first_path, second_path);
-                    outfile << "cd " << repo_name << "_before" << endl;
-                    outfile << "file_path=$(find " << home_path << repo_name
-                            << "_before -print | grep \"" << convert(field)
+                    outfile << "cd " << short_before << endl;
+                    outfile << "file_path=$(find " << home_path << short_before
+                            << " -print | grep \"" << convert(field)
                             << ".java\")" << endl;
                     outfile << "result=$(echo $file_path | grep \""
                             << convert(field) << ".java\")" << endl;
@@ -288,19 +312,19 @@ void readLine(char *homepath) {
                     outfile << "then" << endl;
                     outfile << "    echo \"True\"" << endl;
                     outfile << "file_path_before=$(find " << home_path
-                            << repo_name << "_before -print | grep \""
+                            << short_before << " -print | grep \""
                             << convert(field) << ".java\")" << endl;
                     outfile << "file_path_after=$(find " << home_path
-                            << repo_name << "_after -print | grep \""
+                            << short_after << " -print | grep \""
                             << convert(field) << ".java\")" << endl;
                     outfile << "else" << endl;
                     outfile << "    echo \"False\"" << endl;
                     outfile << "    file_path_before=$(find " << home_path
-                            << repo_name << "_before -print | grep \""
-                            << first_path << ".java\")" << endl;
+                            << short_before << " -print | grep \"" << first_path
+                            << ".java\")" << endl;
                     outfile << "    file_path_after=$(find " << home_path
-                            << repo_name << "_after -print | grep \""
-                            << first_path << ".java\")" << endl;
+                            << short_after << " -print | grep \"" << first_path
+                            << ".java\")" << endl;
                     outfile << "fi" << endl;
                     outfile << "cd .." << endl;
                     outfile
@@ -335,36 +359,33 @@ void readLine(char *homepath) {
                              << "\"line_number: \"" << to_string(line_number)
                              << endl;
                     outfile2 << "cd " << home_path << endl;
-                    outfile2 << "if [ ! -d " << repo_name << "_before ]"
-                             << endl;
+                    string only = getShort(only_hash);
+                    outfile2 << "if [ ! -d " << only << " ]" << endl;
                     outfile2 << "then" << endl;
-                    outfile2 << "  git clone " << repo_url << endl;
-                    outfile2 << "  mv " << repo_name << " " << repo_name
-                             << "_before" << endl;
-                    outfile2 << "  cp -R " << repo_name << "_before "
-                             << repo_name << "_after" << endl;
+                    outfile2 << "  wget " << getZip(repo_url, only_hash)
+                             << endl;
+                    outfile2 << "  unzip " << only_hash << ".zip -d " << only
+                             << endl;
                     outfile2 << "fi" << endl;
-                    outfile2 << "cd " << repo_name << "_after" << endl;
-                    outfile2 << "git checkout " << only_hash << endl;
-                    outfile2 << "cd .." << endl;
+
                     getFilePath(field, first_path, second_path);
-                    outfile2 << "cd " << repo_name << "_after" << endl;
-                    outfile2 << "file_path=$(find " << home_path << repo_name
-                             << "_after -print | grep \"" << convert(field)
+                    outfile2 << "cd " << only << endl;
+                    outfile2 << "file_path=$(find " << home_path << only
+                             << " -print | grep \"" << convert(field)
                              << ".java\")" << endl;
                     outfile2 << "result=$(echo $file_path | grep \""
                              << convert(field) << ".java\")" << endl;
                     outfile2 << "if [ \"$result\" != \"\" ]" << endl;
                     outfile2 << "then" << endl;
                     outfile2 << "    echo \"True\"" << endl;
-                    outfile2 << "file_path_after=$(find " << home_path
-                             << repo_name << "_after -print | grep \""
-                             << convert(field) << ".java\")" << endl;
+                    outfile2 << "file_path_after=$(find " << home_path << only
+                             << " -print | grep \"" << convert(field)
+                             << ".java\")" << endl;
                     outfile2 << "else" << endl;
                     outfile2 << "    echo \"False\"" << endl;
                     outfile2 << "    file_path_after=$(find " << home_path
-                             << repo_name << "_after -print | grep \""
-                             << first_path << ".java\")" << endl;
+                             << only << " -print | grep \"" << first_path
+                             << ".java\")" << endl;
                     outfile2 << "fi" << endl;
                     outfile2 << "cd .." << endl;
                     outfile2

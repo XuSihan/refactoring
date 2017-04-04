@@ -1,0 +1,19 @@
+error report:
+1. no java file in the before version, only in the after version: 
+	core.git, antlr4.git, glide.git, 
+	hive.git: 2240dbd6dfddf3f14fb1538bb765833b3fdea898 & c53c6f45988db869d56abe3b1d831ff775f4fa73
+	WordPress-Android.git: d399bdbc99fd88ae40c5349d37b638ea87aef384 & 1b21ba4bcea986988d4bbd578e3bb9a20ec69606
+
+2.the same name of src and extracted method: 
+	liferay-portal.git
+3.no AST change
+	f69d20f52a663c8f770074e35d840bfceb919bdb & 8398fbf3dd0937a0a4a3d540977a95f97425f566
+4.two java files
+	3654f17a7c6409b885d445a5affc15c99380d3c8 & 679d38d4316c16ccba4982d7f3ba13c147a451cb
+	should be: hazelcast-client-new/src/main/java/com/hazelcast/client/cache/impl/AbstractClientCacheProxy.java
+5.no src method in the after commit
+	hazelcast.git
+ok now:
+1.aws-sdk-java
+2.hive
+3.drill

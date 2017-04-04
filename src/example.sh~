@@ -1,0 +1,29 @@
+#!bash
+cd /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/
+if [ ! -d crash_before ]
+then
+  git clone https://github.com/crashub/crash.git
+  mv crash crash_before
+  cp -R crash_before crash_after
+fi
+cd crash_before
+git checkout 3224abedd01aaa85aae9ae3399efe92557f42e55
+cd ..
+cd crash_after
+git checkout 2801269c7e47bd6e243612654a74cee809d20959
+cd ..
+cd crash_before
+file_path=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/crash_before -print | grep "org/crsh/auth/FilePublicKeyProvider.java")
+result=$(echo $file_path | grep "org/crsh/auth/FilePublicKeyProvider.java")
+if [ "$result" != "" ]
+then
+    echo "True"
+file_path_before=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/crash_before -print | grep "org/crsh/auth/FilePublicKeyProvider.java")
+file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/crash_after -print | grep "org/crsh/auth/FilePublicKeyProvider.java")
+else
+    echo "False"
+    file_path_before=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/crash_before -print | grep "auth.java")
+    file_path_after=$(find /media/sihan/LokiGod/Refactoring_Experiment/refactoring/src/crash_after -print | grep "auth.java")
+fi
+cd ..
+java -cp /home/sihan/tools/gumtree-spoon-ast-diff-master/target/gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-dependencies.jar gumtree.spoon.AstComparator $file_path_before $file_path_after convertPemKeyPair loadKeys
