@@ -54,9 +54,45 @@ string getMethodName(string field) {
     }
   }
   string method_name(temp_name.begin(), temp_name.end());
-  // cout<<method_name<<endl;
   delete[] cstr;
   return method_name;
+}
+
+int getNoParams(string field) {
+  char temp;
+  char *cstr = new char[field.length() + 1];
+  int n_comma = 0;
+  bool flag = false;  // false是读参数之前，true是开始读参数后
+  bool has_param = false;
+  strcpy(cstr, field.c_str());
+  for (int i = 0; i < strlen(cstr); i++) {
+    temp = cstr[i];
+    if (temp != '(') {
+      if (flag == false) {
+        continue;
+      } else if (temp == ')') {
+        break;
+      } else {
+        if (temp != ' ') {
+          has_param = true;
+        }
+        if (temp == ',') {
+          n_comma++;
+        }
+      }
+    } else if (flag == false) {
+      flag = true;
+    }
+  }
+  int n_params;
+  if (n_comma > 0) {
+    n_params = n_comma + 1;
+  } else if (has_param == true) {
+    n_params = 1;
+  } else {
+    n_params = 0;
+  }
+  return n_params;
 }
 
 int getFilePath(string field, string &first, string &second) {
@@ -102,6 +138,7 @@ void readLine(char *homepath) {
     string line, field;  // line为每行内容，field为每个字段
     string repo_url, repo_name, src_name, new_name, first_path, second_path,
         before_hash, after_hash, only_hash;
+    int n_params_E, n_params_S;
     repo_name = "";
     //打开文件
     ifstream in;
@@ -127,6 +164,7 @@ void readLine(char *homepath) {
           continue;
         } else {
           line_number++;
+          cout << to_string(line_number) << ": " << line << endl;
           field_count = 0;
           istringstream stream(line);
           //以‘\t’读取每个字段
@@ -199,25 +237,32 @@ void readLine(char *homepath) {
               case 4: {
                 if (field.length() > 1) {
                   src_name = getMethodName(field);
+                  n_params_S = getNoParams(field);
                 }
                 break;
               }
               case 5: {
                 if (field.length() > 1) {
                   new_name = getMethodName(field);
+                  n_params_E = getNoParams(field);
                 }
                 break;
               }
               case 6: {
                 if (field.length() > 1) {
-                  if (src_name == new_name) {
-                    cout << "case " << line_number << " has the same!" << endl;
-                    same++;
-                    break;
-                  } else if (has_before == false && has_after == false) {
+                  if (has_before == false && has_after == false) {
                     case_number00++;
                   } else if (has_before == true && has_after == true) {
+                    if (src_name == new_name) {
+                      cout << "case " << line_number << " has the same!"
+                           << endl;
+                      same++;
+                    }
                     case_number11++;
+                    outfile << "echo "
+                            << "\"line_number: \"" << to_string(line_number)
+                            << endl;
+                    outfile << "cd " << home_path << endl;
                     outfile << "if [ ! -d " << repo_name << "_before ]" << endl;
                     outfile << "then" << endl;
                     outfile << "  git clone " << repo_url << endl;
@@ -264,10 +309,17 @@ void readLine(char *homepath) {
                            "gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-"
                            "dependencies.jar gumtree.spoon.AstComparator "
                         << "$file_path_before"
-                        << " $file_path_after " + new_name + " " + src_name
+                        << " $file_path_after " + new_name + " " + src_name +
+                               " " + to_string(n_params_E) + " " +
+                               to_string(n_params_S) + " "
                         << endl;
                     outfile << endl;
                   } else {
+                    if (src_name == new_name) {
+                      cout << "case " << line_number << " has the same!"
+                           << endl;
+                      same++;
+                    }
                     if (has_before == false && has_after == true) {
                       cout << "case " << line_number << " has no before hash!"
                            << endl;
@@ -279,6 +331,10 @@ void readLine(char *homepath) {
                       only_hash = before_hash;
                       case_number10++;
                     }
+                    outfile2 << "echo "
+                             << "\"line_number: \"" << to_string(line_number)
+                             << endl;
+                    outfile2 << "cd " << home_path << endl;
                     outfile2 << "if [ ! -d " << repo_name << "_before ]"
                              << endl;
                     outfile2 << "then" << endl;
@@ -316,8 +372,10 @@ void readLine(char *homepath) {
                         << "/home/sihan/文档/git/gumtree-spoon-ast-diff/target/"
                            "gumtree-spoon-ast-diff-1.1.0-SNAPSHOT-jar-with-"
                            "dependencies.jar gumtree.spoon.AstComparator "
-                        << "none"
-                        << " $file_path_after " + new_name + " " + src_name
+                        << "$file_path_after"
+                        << " $file_path_after " + new_name + " " + src_name +
+                               " " + to_string(n_params_E) + " " +
+                               to_string(n_params_S) + " "
                         << endl;
                     outfile2 << endl;
                   }
