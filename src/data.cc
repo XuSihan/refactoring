@@ -94,7 +94,7 @@ string convert(string field) {
 void readLine(char* homepath) {
   ofstream outfile;
   string home_path(homepath);
-  outfile.open("JHotDraw.sh");  // run.sh是要写的脚本
+  outfile.open("Junit.sh");  // run.sh是要写的脚本
   if (outfile.is_open()) {
     outfile << "#!bash" << endl;  // message是程序中处理的数据
     // outfile << "cd " << home_path << endl;
@@ -102,7 +102,7 @@ void readLine(char* homepath) {
     string src_name, new_name, java_file;
     //打开文件
     ifstream in;
-    in.open("Refactoring Validation Set - JHotDraw.tsv");  //以逗号隔开
+    in.open("Refactoring Validation Set - Junit.tsv");  //以逗号隔开
     int line_number = 0;
     int no = 0;
     int repo_number, case_number, field_count;
@@ -152,7 +152,8 @@ void readLine(char* homepath) {
                              "gumtree.spoon.AstComparator " +
                                  home_path + java_file + ".java " + home_path +
                                  java_file + ".java " + new_name + " " +
-                                 src_name
+                                 src_name + " " + java_file + " " +
+                                 to_string(line_number)
                           << endl;
                   outfile << endl;
                 } else {
